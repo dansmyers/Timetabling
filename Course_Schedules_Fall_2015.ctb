@@ -1,0 +1,3915 @@
+false
+
+0 : conflictPenaltyThreshold : 20.0
+1 : conflictSeverityThreshold : 150.0
+2 : proximityPenaltyThreshold : 140.0
+3 : overlapFactorThreshold : 6.0
+4 : switchPercent : 0.1
+5 : conflictProximityRatio : 0.5
+6 : heavyEdgeMultiplier : 6
+7 : mediumEdgeMultiplier : 3
+8 : linearComboThreshold : 50.0
+9 : numBacktracksAllowed : 0
+10 : BadValueOfColors (VS - BS) : 1
+11 : ConflictSeverityDegreeToUnc (VS - BS) : 0
+12 : RoomScarcity (VS - BS) : 0
+13 : BadValueOfEdgesToUncolored (VS - BS) : 0
+14 : VertexDegree (VS - BS) : 0
+15 : NumBadColors (VS - BS) : 0
+16 : WeightedDegree (VS - BS) : 0
+17 : BadValueOfColors (VS - AS) : 1
+18 : ConflictSeverityDegreeToUnc (VS - AS) : 0
+19 : RoomScarcity (VS - AS) : 0
+20 : BadValueOfEdgesToUncolored (VS - AS) : 0
+21 : VertexDegree (VS - AS) : 0
+22 : NumBadColors (VS - AS) : 0
+23 : WeightedDegree (VS - AS) : 0
+24 : ConflictPenalty (CS - BS) : 25
+25 : ProximityPenalty (CS - BS) : 1
+26 : RoomScarcity (CS - BS) : 10
+27 : GoodToBadSwitchValue (CS - BS) : 1
+28 : ConflictPenalty (CS - AS) : 25
+29 : ProximityPenalty (CS - AS) : 1
+30 : RoomScarcity (CS - AS) : 10
+31 : GoodToBadSwitchValue (CS - AS) : 1
+
+ORLAN_105 CSS_100 CSS_134 CSS_135 CSS_119 HAUCK_106 CFAC_116 REX_1 CFAC_110 CFAC_113 CFAC_101 CFAC_111 BUSH_102 BUSH_368 BUSH_302 BUSH_176 BUSH_105 BUSH_212 BUSH_210 BUSH_202 BUSH_101 BUSH_277 BUSH_364 BUSH_274 BUSH_268 BUSH_208 CSS_133 FAIRBK_112 ASC_243 CSS_121 FAIRBK_116 CSS_226 FAIRBK_114 FAIRBK_107 BUSH_301 BEAL_2 CSS_232 BUSH_201 BUSH_164 HAUCK_112 BUSH_308 BUSH_305 BUSH_205 BUSH_260 BUSH_264 BUSH_123 OLIN_VAN_HOUTEN HAUCK_110 HAUCK_111 KMC_1 SULLV_HSE OLIN_211 OLIN_220 LODGE_REEVES BUSH_228 BUSH_310 CSS_170 CSS_167 CSS_230 DANCE_1 CSS_118 CSS_229 OLIN_225 OLIN_210 CSS_221 CSS_231 CSS_222 ASC_109 ORLAN_205 ORLAN_213 ORLAN_115 ORLAN_113 ORLAN_215 BEAL_1 HAUCK_100 HAUCK_104 NO_ROOM_SPECIFIED_INB_372_1 NO_ROOM_SPECIFIED_INB_372_2 HAUCK_113 KEENE_103 KEENE_101 KEENE_104 KEENE_119 NO_ROOM_SPECIFIED_MUS_381_1X ASC_LOBBY_PEA_30_1 ASC_LOBBY_PEA_30_2 POOL_POOL ASC_139 ASC_LOBBY_PEA_37_1 ASC_LOBBY_PEA_37_2 TENNIS_TEN-BM ASC_LOBBY_PEA_44_1 ASC_LOBBY_PEA_44_2 ASC_LOBBY_PEA_46_1 ASC_150 ASC_138 ASC_230 BOAT_1 ASC_LOBBY_PEV_83_2 BUSH_180 BUSH_004 WAR_201 ANNIE_AUD COST_SHOP FRED_FRED ASC 
+
+0 TR 11:00 am - 12:15 pm
+1 MWF 10:00 am - 10:50 am
+2 MW 12:00 pm - 01:15 pm
+3 MW 03:00 pm - 04:15 pm
+4 M 04:00 pm - 06:30 pm
+5 W 06:45 pm - 09:15 pm
+6 MWF 11:00 am - 11:50 am
+7 TR 09:30 am - 10:45 am
+8 TR 08:00 am - 09:15 am
+9 TR 02:00 pm - 03:15 pm
+10 MW 01:30 pm - 02:45 pm
+11 M 06:45 pm - 09:15 pm
+12 TR 05:15 pm - 06:30 pm
+13 MTWR 10:00 am - 10:50 am
+14 MWF 01:00 pm - 01:50 pm
+15 T 06:45 pm - 09:15 pm
+16 TR 03:30 pm - 04:45 pm
+17 MW 04:00 pm - 05:15 pm
+18 TR 02:00 pm - 03:50 pm
+19 MW 02:00 pm - 03:50 pm
+20 MW 12:00 pm - 01:50 pm
+21 W 02:00 pm - 06:00 pm
+22 T 02:00 pm - 06:00 pm
+23 MWF 09:00 am - 09:50 am
+24 M 02:00 pm - 05:00 pm
+25 MWF 08:00 am - 08:50 am
+26 W 01:30 pm - 04:30 pm
+27 R 02:00 pm - 05:00 pm
+28 F 01:30 pm - 04:30 pm
+29 W 05:00 pm - 06:15 pm
+30 R 02:00 pm - 06:00 pm
+31 M 01:30 pm - 05:30 pm
+32 W 01:30 pm - 05:30 pm
+33 F 01:30 pm - 03:30 pm
+34 T 09:30 am - 10:45 am
+35 T 04:00 pm - 06:30 pm
+36 R 04:00 pm - 06:30 pm
+37 R 06:45 pm - 09:10 pm
+38 R 06:45 pm - 09:15 pm
+39 W 12:00 pm - 01:15 pm
+40 TR 04:00 pm - 05:15 pm
+41 MWF 12:00 pm - 12:50 pm
+42 MWRF 11:00 am - 11:50 am
+43 M 02:00 pm - 06:00 pm
+44 MWRF 10:00 am - 10:50 am
+45 T 08:00 am - 12:00 pm
+46 MWRF 08:00 am - 08:50 am
+47 F 02:00 pm - 06:00 pm
+48 MWRF 09:00 am - 09:50 am
+49 F 01:00 pm - 02:15 pm
+50 W 03:30 pm - 04:30 pm
+51 R 03:30 pm - 04:30 pm
+52 R 01:00 pm - 01:50 pm
+53 F 12:00 pm - 12:50 pm
+54 W 04:00 pm - 06:30 pm
+55 MW 05:30 pm - 06:40 pm
+56 R 11:00 am - 12:15 pm
+57 R 02:00 pm - 03:15 pm
+58 R 03:30 pm - 04:45 pm
+59 MW 06:45 pm - 07:15 pm
+60 MW 05:30 pm - 07:15 pm
+61 MW 07:30 pm - 08:45 pm
+62 T 05:30 pm - 08:00 pm
+63 R 05:30 pm - 08:00 pm
+64 T 06:45 pm - 09:25 pm
+65 M 04:45 pm - 06:45 pm
+66 M 07:00 pm - 09:00 pm
+67 M 03:30 pm - 05:00 pm
+68 F 12:00 pm - 01:15 pm
+69 F 01:30 pm - 02:45 pm
+70 M 05:00 pm - 07:20 pm
+71 TR 08:00 am - 09:50 am
+72 T 07:00 pm - 09:30 pm
+73 R 06:45 pm - 08:00 pm
+74 MW 06:45 pm - 09:15 pm
+75 F 02:00 pm - 05:00 pm
+76 T 03:30 pm - 05:30 pm
+77 MTWF 10:00 am - 10:50 am
+78 T 02:00 pm - 02:50 pm
+79 MWF 02:00 pm - 02:50 pm
+80 T 05:00 pm - 05:50 pm
+81 R 05:00 pm - 05:50 pm
+82 MW 06:45 pm - 08:30 pm
+83 MW 04:45 pm - 06:30 pm
+84 TR 06:45 pm - 08:30 pm
+85 TR 04:45 pm - 06:30 pm
+86 MW 02:00 pm - 03:15 pm
+87 F 01:00 pm - 03:30 pm
+88 T 04:00 pm - 04:50 pm
+89 W 06:15 pm - 07:45 pm
+90 W 04:30 pm - 05:45 pm
+91 T 04:15 pm - 05:30 pm
+92 W 01:30 pm - 02:45 pm
+93 F 03:45 pm - 05:15 pm
+94 TR 05:25 pm - 06:40 pm
+95 TR 06:45 pm - 08:00 pm
+96 MW 10:00 am - 10:50 am
+97 F 10:00 am - 10:50 am
+98 M 06:30 pm - 09:30 pm
+99 T 02:00 pm - 03:15 pm
+100 W 02:00 pm - 03:15 pm
+101 F 02:00 pm - 03:15 pm
+102 F 11:00 am - 11:50 am
+103 T 02:00 pm - 03:50 pm
+104 MF 11:00 am - 11:50 am
+105 MTWRF 11:00 am - 11:50 am
+106 MW 05:15 pm - 06:30 pm
+107 F 09:30 am - 10:45 am
+108 M 02:00 pm - 03:15 pm
+109 MW 03:30 pm - 04:45 pm
+110 TR 09:30 am - 10:20 am
+111 MW 11:00 am - 11:50 am
+112 M 06:30 pm - 08:30 pm
+113 W 06:30 pm - 08:30 pm
+114 TR 08:30 am - 09:20 am
+115 TR 03:00 pm - 03:50 pm
+116 W 12:00 pm - 01:50 pm
+117 W 02:00 pm - 03:50 pm
+118 MW 02:00 pm - 02:50 pm
+119 TR 02:00 pm - 02:50 pm
+120 M 12:00 pm - 01:50 pm
+121 TR 11:00 am - 11:50 am
+122 R 02:00 pm - 03:50 pm
+123 MW 03:00 pm - 03:50 pm
+124 MW 12:00 pm - 12:50 pm
+125 MW 01:00 pm - 01:50 pm
+126 MTWRF 04:00 pm - 06:00 pm
+127 W 02:00 pm - 05:00 pm
+128 T 02:00 pm - 05:00 pm
+129 MTRF 11:00 am - 11:50 am
+130 TR 08:00 am - 09:15 am ; MF 08:00 am - 08:50 am
+131 T 02:00 pm - 05:30 pm
+132 F 12:00 pm - 02:00 pm
+133 MW 02:00 pm - 04:00 pm
+134 R 03:30 pm - 04:45 pm ; T 03:30 pm - 05:30 pm ; TR 03:30 pm - 04:45 pm
+135 MW 09:00 am - 10:50 am
+136 M 09:00 am - 09:50 am
+137 W 09:00 am - 09:50 am
+138 F 09:00 am - 09:50 am
+139 F 12:00 pm - 01:50 pm
+140 MTWR 08:00 am - 08:50 am
+141 MTWR 02:00 pm - 02:50 pm
+142 MTWR 03:00 pm - 03:50 pm
+143 MTWR 11:00 am - 11:50 am
+144 MTWR 12:00 pm - 12:50 pm
+145 MW 06:45 pm - 08:00 pm
+146 F 01:30 pm - 02:30 pm ; MW 01:30 pm - 02:45 pm
+147 MW 11:00 am - 12:15 pm
+148 R 09:30 am - 12:15 pm ; T 09:30 am - 10:45 am
+149 R 02:00 pm - 04:45 pm ; T 02:00 pm - 03:15 pm
+150 W 04:00 pm - 06:15 pm
+151 MW 01:00 pm - 02:50 pm
+152 MW 05:25 pm - 06:40 pm
+153 MTWRF 07:00 pm - 09:50 pm
+154 R 04:00 pm - 05:30 pm
+155 W 05:30 pm - 06:30 pm
+156 MR 03:30 pm - 04:45 pm
+157 T 06:15 pm - 09:15 pm
+
+11
+
+
+
+
+AMST AMST AMST
+ANT ANT ANT
+ARA ARA ARA
+ARH ARH ARH
+ART ART ART
+BCH BCH BCH
+BIO BIO BIO
+BUS BUS BUS
+CHM CHM CHM
+CHN CHN CHN
+CLP CLP CLP
+CLS CLS CLS
+CMC CMC CMC
+CMS CMS CMS
+COM COM COM
+DAN DAN DAN
+ECO ECO ECO
+EDU EDU EDU
+EED EED EED
+ENG ENG ENG
+ENV ENV ENV
+FIL FIL FIL
+FRN FRN FRN
+GBH GBH GBH
+GMN GMN GMN
+HCM HCM HCM
+HIS HIS HIS
+HON HON HON
+HUM HUM HUM
+IFT IFT IFT
+INAF INAF INAF
+INB INB INB
+INT INT INT
+JPN JPN JPN
+LAT LAT LAT
+MAT MAT MAT
+MUS MUS MUS
+PEA PEA PEA
+PED PED PED
+PEV PEV PEV
+PHI PHI PHI
+PHY PHY PHY
+POL POL POL
+PPE PPE PPE
+PSY PSY PSY
+RED RED RED
+REL REL REL
+RFLA RFLA RFLA
+RSN RSN RSN
+SEB SEB SEB
+SOC SOC SOC
+SPN SPN SPN
+SWAG SWAG SWAG
+THE THE THE
+TPJ TPJ TPJ
+
+Reich_Paul : :
+Walz_Jonathan : :
+Noone-Kirkpatrick_Kenna : :
+Biery-Hamilton_Gay : :
+Zakari_Austin : :
+Maroon_Bahiyyih : :
+Newcomb_Rachel : :
+Kistler_Sarah : :
+Lauer_Carol : :
+Moore_Robert : :
+El_Hamouly_Arig : :
+Vander_Poppen_Robert : :
+Ryan_MacKenzie : :
+Boles_Leslie : :
+Libby_Susan : :
+Dennis_Kimberly : :
+Almond_Joshua : :
+Casterline_Rose : :
+Roe_Dawn : :
+Simmons_Rachel : :
+Hargrove_Dana : :
+Riley_Kasandra : :
+Kazmier_Kelli : :
+Hickman_Kathryn : :
+Pieczynski_Jay : :
+Yariz_Kemal : :
+Walsh_Susan : :
+Fokidis_Haralambos : :
+Harper_Fiona : :
+Stephenson_Paul : :
+Sutherland_Kathryn : :
+Knopick_John : :
+Hayner_Leon : :
+McDonald_Whitney : :
+McInnis-Bowers_Cecilia : :
+Schmook_Ines : :
+Delk_Mary : :
+Balzac_Josephine : :
+Duerden_Angela : :
+Chernet_Chad : :
+Warnecke_Tonia : :
+Houndonougbo_Ahiteme : :
+Jacobs_Bradley : :
+Agee_Sharon : :
+Schulz_Carrie : :
+Mayer_Adrian : :
+Heileman_Mark : :
+Rogers_Donald : :
+Arnold_Richard : :
+Mourino_Edwin : :
+West_Bill : :
+Murphy_Stephanie : :
+Parris_Denise : :
+Kegel_Paul : :
+Bell_Michael : :
+Pett_Timothy : :
+Arnold_Danny : :
+Wanderley_Marcela : :
+Norbutus_Amanda : :
+Gregor_Richard : :
+Patrone_James : :
+Bernal_Pedro : :
+Park_Ellane : :
+Habgood_Laurel : :
+Wei_Li : :
+Liu_Qiangong : :
+French_Todd : :
+Rubarth_Scott : :
+Schoen_Steven : :
+Cummings_Denise : :
+Tillmann_Lisa : :
+Coffman-Rosen_Stacey : :
+Anderson_Julie : :
+Carrington_Julie : :
+Myers_Daniel : :
+Hughes_Darin : :
+Cavenaugh_Gregory : :
+Hammonds_Joshua : :
+Mesbah_Hesham : :
+Painter_David : :
+Planck_Carolyn : :
+Stone_Anne : :
+Gardner_Greg : :
+Haggard-Belford_Misty : :
+Morrison_John : :
+Garcia_Mattea : :
+Bommelje_Richard : :
+Moniz_Michael : :
+Stevens_Kristina : :
+Barnes_Melissa : :
+Neubauer_Florence : :
+Salapa_Suzanne : :
+Rock_Charles : :
+Peng_Zhaochang : :
+Balak_Benjamin : :
+Kozel_Philip : :
+Kypraios_Harry : :
+Baranes_Avaraham : :
+Vidovic_Martina : :
+Galvez_Garcia_Jose : :
+Voicu_Anca : :
+McLaughlin_Harry : :
+Brandon_Wendy : :
+Staton_Britt : :
+Yu_Jie : :
+Kissinger_Jeffrey : :
+Griner_Angela : :
+Hewit_John : :
+Elliott_Christopher : :
+Swallow_Suzette : :
+White_Jane : :
+Scott_Jill : :
+Morris_Richard : :
+Bertino_Stefani : :
+Forsythe_Matthew : :
+Delis_Maria : :
+Pyle_Terri : :
+Zimmermann_Anne : :
+Fleming_Patrick : :
+Driggers_James : :
+Coffae_Lori : :
+Williams_Deyon : :
+Aufhammer_Charles : :
+Russell_Emily : :
+Nordstrom_E : :
+Huebner_Meribeth : :
+Frost_Carol : :
+Boles_William : :
+Deaver_Philip : :
+Pinsky_Mark : :
+Boyar_Jay : :
+McLeod_Michael : :
+Lilley_Susan : :
+Carpenter_Kenneth : :
+Jones_Jill : :
+Aggarwal_Vidhu : :
+Cheng_Martha : :
+Houck_Jason : :
+Poole_Leslie : :
+Landis_Andrew : :
+Nodine_Emily : :
+Siry_Joseph : :
+Allen_Barry : :
+Shephard_Kyle : :
+Hulbert_James : :
+Vargas_Alberto : :
+Williams_Brad : :
+Mesavage_Ruth : :
+Lima_Richard : :
+Johnson_James : :
+King-Polsinelli_Melissa : :
+NO_INSTRUCTOR_SPECIFIED_GMN_161_1 : :
+Decker_Nancy : :
+Robinson_Patricia : :
+Evans_Chester : :
+Hotchkiss_Renee : :
+Niles_Nancy : :
+Yao_Yusheng : :
+Norris_Jim : :
+Strom_Claire : :
+Ewing_Hannah : :
+Chambliss_Julian : :
+Cavenaugh_Jennifer : :
+Zimmerman_James : :
+Brooks_George : :
+Simmons_Patricia : :
+Watson_Linda : :
+Walters_Ian : :
+Sugar_Amy : :
+Vargas_Jessica : :
+Day_Stephen : :
+Reynolds_Ted : :
+Pritchard_Sebastian : :
+Bersia_John : :
+Perri_Alessandro : :
+Lairson_Thomas : :
+Buckley_Keith : :
+Pronobis_Paul : :
+Boulanger_Michele : :
+Kodzi_Emmanuel : :
+Fetscherin_Marc : :
+Aldea_Jose : :
+Lewin_Richard : :
+Kupetz_Allen : :
+Griffin_Tiffany : :
+DiGorio_Jeremy : :
+Musgrave_L. : :
+Kenyon_Erik : :
+Hein_Meredith : :
+Benso_Adrianne : :
+Patterson_Harue : :
+Boyd_Sheri : :
+Rejniak_Gabrielle : :
+Cristwell_Precious : :
+Yellen_Jay : :
+Anderson_Mark : :
+Teymuroglu_Zeynep : :
+Vitray_Richard : :
+Lecky_Karen : :
+Crozier_Daniel : :
+Ray_James : :
+Cook_Gloria : :
+Archard_Charles : :
+Foster_Julia : :
+Flick_Daniel : :
+Grau_John : :
+Linn_Teresa : :
+Roos_Joni : :
+Lackman_Susan : :
+Witmer_Ruth : :
+Vossler_Andrew : :
+Sweeney_Matthew : :
+VanKuren_Amber-Leigh : :
+Morse_Timothy : :
+Chatelain_Judith : :
+Rose_David : :
+Buckley_Beverly : :
+Bohrnstedt_Ronald : :
+Arrowsmith_Nathan : :
+Frakes_Owen : :
+Pistor_Shawn : :
+Hendriks_Jensen : :
+Bedsole_Marc : :
+Smith_Harry : :
+Nichols_Stuart : :
+Portoghese_Theresia : :
+Pistor_Dena : :
+Friscia_Brian : :
+Henderson_Merritt : :
+Melograno_Vincent : :
+Schwalb_Philip : :
+Lopez_Amy : :
+Schuck_Alicia : :
+Snow_Sindee : :
+Smaw_Eric : :
+Armstrong_James : :
+Mortimer_Elmarie : :
+Murdaugh_Anne : :
+Coyle_Whitney : :
+Fuse_Christopher : :
+Moore_Thomas : :
+Tatari_Eren : :
+Davison_Joan : :
+Gunter_Michael : :
+Chong_Daniel : :
+Davison_Donald : :
+Foglesong_Richard : :
+St._John_Steven : :
+Bennett_Dianne : :
+Carnahan_Sharon : :
+Harris_Paul : :
+Houston_John : :
+Luchner_Andrew : :
+Woodward_Suzanne : :
+Ruiz_Maria : :
+Davidson_Alice : :
+Rey_Catalina : :
+Migetz_Debrah : :
+Queen_Jennifer : :
+Rupp_Michael : :
+Miller_Leslie : :
+Daniels_Bradley : :
+Consalo_Marc : :
+Goldstein_Nancy : :
+Niemi_Robert : :
+Dunn_Stacey : :
+Williams_Angela : :
+Fadool_Margot : :
+Padilla_Aimee : :
+D'Amato_Mario : :
+Greenberg_Yudit : :
+Patrick_William : :
+Boguslawski_Alexander : :
+Stecker_Michelle : :
+McClure_Amy : :
+Nichter_Matthew : :
+Armenia_Amy : :
+Smith_Yona : :
+Campos_Maria : :
+Morales_Margareth : :
+Holguin-Intriago_Jose : :
+Paniagua-Tejo_Maria : :
+Mann-Grosso_Valerie : :
+Diaz-Zambrana_Rosana : :
+Tome_Patricia : :
+Prieto-Calixto_Alberto : :
+Edwards_Ruth : :
+Cooperman_Hilary : :
+Miller_Robert : :
+Cody-Rapport_Lisa : :
+Zivot_Eric : :
+Ouellette_Thomas : :
+Charles_David : :
+DiQuattro_Marianne : :
+Rodgers_Charles : :
+Cushman_Lauren : :
+Robertshaw_Suzanne : :
+Kistler_Sarah_Kistler_Sarah : :
+Lauer_Carol_Lauer_Carol : :
+Simmons_Rachel_Simmons_Rachel : :
+Wei_Li_Wei_Li : :
+Judy_Katrina_Judy_Katrina : :
+Wilson_Roberta_Wilson_Roberta : :
+Baranes_Avaraham_Baranes_Avaraham : :
+Walters_Ian_Walters_Ian : :
+Moore_Miriam_Moore_Miriam : :
+Holt_Constance_Holt_Constance : :
+Ash_Bradley_Buckley_Keith : :
+Davidson_Alice_Houston_John : :
+
+AMST_200_1 1 0
+1 : 01 : 0 7 8 9 : : ORLAN_105 ORLAN_113 ORLAN_115 ORLAN_215 ORLAN_213 : : 20 : Reich_Paul
+ANT_150_1 1 0
+1 : 01 : 1 41 25 14 6 : : CSS_100 CSS_226 CSS_232 CSS_230 CSS_135 : : 25 : Walz_Jonathan
+ANT_150_2 1 0
+1 : 01 : 2 3 10 86 147 : : CSS_100 CSS_221 CSS_226 CSS_222 CSS_230 : : 25 : Noone-Kirkpatrick_Kenna
+ANT_200_1 1 0
+1 : 01 : 3 86 10 152 109 : : CSS_100 CSS_222 CSS_232 CSS_229 CSS_230 : : 22 : Biery-Hamilton_Gay
+ANT_205G_H1 1 0
+1 : 01 : 4 11 : : CSS_134 CSS_232 CSS_221 CSS_135 CSS_230 : : 23 : Zakari_Austin
+ANT_205N_H2 1 0
+1 : 01 : 5 54 : : CSS_135 CSS_121 CSS_226 CSS_167 CSS_100 : : 22 : Maroon_Bahiyyih
+ANT_209_1 1 0
+1 : 01 : 6 41 14 25 1 : : CSS_100 CSS_133 CSS_221 CSS_119 CSS_226 : : 18 : Walz_Jonathan
+ANT_228_1 1 0
+1 : 01 : 0 7 8 : : CSS_100 CSS_221 CSS_222 CSS_226 CSS_230 : : 25 : Walz_Jonathan
+ANT_255_1 1 0
+1 : 01 : 0 7 8 : : CSS_134 CSS_232 CSS_100 CSS_222 CSS_226 : : 24 : Newcomb_Rachel
+ANT_300_1 1 0
+1 : 01 : 0 9 16 40 : : CSS_119 CSS_231 CSS_134 CSS_170 CSS_118 : : 18 : Kistler_Sarah
+ANT_301_1 1 0
+1 : 01 : 10 17 109 147 86 : : CSS_119 CSS_167 CSS_133 CSS_232 CSS_121 : : 18 : Lauer_Carol
+ANT_306_H1 1 0
+1 : 01 : 4 11 : : CSS_134 CSS_119 CSS_135 CSS_167 CSS_230 : : 18 : Zakari_Austin
+ANT_452_H1X 1 0
+1 : 01 : 12 16 40 94 95 : : CSS_100 CSS_133 CSS_134 CSS_229 CSS_231 : : 16 : Moore_Robert
+ARA_101_1 1 0
+1 : 01 : 13 140 143 144 : : HAUCK_106 HAUCK_113 HAUCK_104 HAUCK_111 HAUCK_110 : : 15 : El_Hamouly_Arig
+ARH_201_1 1 0
+1 : 01 : 1 6 14 41 79 : : CFAC_116 CFAC_110 CFAC_111 : : 18 : Vander_Poppen_Robert
+ARH_205_1 1 0
+1 : 01 : 6 25 41 79 23 : : REX_1 : : 18 : Ryan_MacKenzie
+ARH_218_1 1 0
+1 : 01 : 0 7 8 : : CFAC_116 CFAC_110 CFAC_111 : : 18 : Vander_Poppen_Robert
+ARH_250_H1 1 0
+1 : 01 : 15 35 62 72 : : CFAC_116 : : 24 : Boles_Leslie
+ARH_286_1 1 0
+1 : 01 : 9 12 16 40 94 : : REX_1 : : 18 : Libby_Susan
+ARH_304_1 1 0
+1 : 01 : 10 86 147 109 2 : : REX_1 : : 14 : Ryan_MacKenzie
+ARH_360_1 1 0
+1 : 01 : 2 3 10 86 147 : : REX_1 : : 14 : Dennis_Kimberly
+ARH_424_1 1 0
+1 : 01 : 17 106 86 109 145 : : REX_1 : : 15 : Almond_Joshua
+ART_110_1 1 0
+1 : 01 : 18 : : CFAC_116 CFAC_110 CFAC_111 : : 18 : Casterline_Rose
+ART_230_1 1 0
+1 : 01 : 0 7 8 9 : : CFAC_116 CFAC_110 CFAC_113 CFAC_111 : : 14 : Roe_Dawn
+ART_241_1 1 0
+1 : 01 : 19 20 151 : : CFAC_116 CFAC_110 CFAC_113 CFAC_101 CFAC_111 : : 10 : Almond_Joshua
+ART_272_1 1 0
+1 : 01 : 19 20 135 151 : : CFAC_116 CFAC_110 CFAC_113 CFAC_101 CFAC_111 : : 8 : Simmons_Rachel
+ART_295_1 1 0
+1 : 01 : 0 7 8 : : CFAC_116 CFAC_110 CFAC_113 CFAC_111 : : 14 : Roe_Dawn
+ART_295_2 1 0
+1 : 01 : 0 7 8 : : CFAC_116 CFAC_110 CFAC_113 CFAC_111 : : 14 : Roe_Dawn
+ART_440_1 1 0
+1 : 01 : 18 : : CFAC_116 CFAC_110 CFAC_111 : : 18 : Hargrove_Dana
+BCH_435_1 1 0
+1 : 01 : 0 7 8 9 : : BUSH_102 BUSH_210 BUSH_264 BUSH_176 BUSH_123 : : 9 : Riley_Kasandra
+BCH_435_1_LAB 1 0
+1 : 01 : 21 32 : : BUSH_368 : : 9 : Riley_Kasandra
+BCH_435_2 1 0
+1 : 01 : 0 7 8 : : BUSH_302 BUSH_277 BUSH_228 BUSH_176 BUSH_260 : : 9 : Kazmier_Kelli
+BCH_435_2_LAB 1 0
+1 : 01 : 22 : : BUSH_368 : : 9 : Kazmier_Kelli
+BIO_112_1 1 0
+1 : 01 : 1 6 23 25 41 : : BUSH_176 BUSH_228 BUSH_302 BUSH_308 BUSH_310 : : 19 : Hickman_Kathryn
+BIO_112_1_LAB 1 0
+1 : 01 : 24 : : BUSH_105 : : 19 : Hickman_Kathryn
+BIO_121_1 1 0
+1 : 01 : 1 6 23 25 : : BUSH_212 BUSH_176 BUSH_164 BUSH_302 BUSH_301 : : 22 : Pieczynski_Jay
+BIO_121_1_LAB 1 0
+1 : 01 : 26 127 : : BUSH_105 : : 22 : Pieczynski_Jay
+BIO_121_2 1 0
+1 : 01 : 1 6 25 41 14 : : BUSH_212 BUSH_210 BUSH_308 BUSH_228 BUSH_176 : : 23 : Yariz_Kemal
+BIO_121_2_LAB 1 0
+1 : 01 : 27 : : BUSH_105 : : 23 : Yariz_Kemal
+BIO_121_3 1 0
+1 : 01 : 6 23 1 79 14 : : BUSH_210 BUSH_208 BUSH_180 BUSH_302 BUSH_228 : : 23 : Walsh_Susan
+BIO_121_3_LAB 1 0
+1 : 01 : 28 75 : : BUSH_105 : : 23 : Walsh_Susan
+BIO_201_1 1 0
+1 : 01 : 29 90 100 : : BUSH_102 BUSH_180 BUSH_212 BUSH_260 BUSH_310 : : 12 : Fokidis_Haralambos
+BIO_236_1 1 0
+1 : 01 : 1 14 6 23 41 : : BUSH_202 BUSH_308 BUSH_176 BUSH_302 BUSH_301 : : 16 : Harper_Fiona
+BIO_236_1_LAB 1 0
+1 : 01 : 27 : : BUSH_101 : : 16 : Harper_Fiona
+BIO_308_1 1 0
+1 : 01 : 1 6 23 25 : : BUSH_277 BUSH_176 BUSH_202 BUSH_180 BUSH_274 : : 12 : Walsh_Susan
+BIO_308_1_LAB 1 0
+1 : 01 : 22 : : BUSH_364 : : 12 : Walsh_Susan
+BIO_311_1 1 0
+1 : 01 : 0 7 8 : : BUSH_202 BUSH_277 BUSH_274 BUSH_302 BUSH_260 : : 12 : Stephenson_Paul
+BIO_311_1_LAB 1 0
+1 : 01 : 30 : : BUSH_364 : : 12 : Stephenson_Paul
+BIO_312_1 1 0
+1 : 01 : 6 25 41 14 1 : : BUSH_274 BUSH_102 BUSH_202 BUSH_260 BUSH_208 : : 12 : Fokidis_Haralambos
+BIO_312_1_LAB 1 0
+1 : 01 : 31 43 : : BUSH_101 : : 12 : Fokidis_Haralambos
+BIO_316_1 1 0
+1 : 01 : 0 7 8 9 : : BUSH_277 BUSH_310 BUSH_164 BUSH_208 BUSH_264 : : 12 : Sutherland_Kathryn
+BIO_316_1_LAB 1 0
+1 : 01 : 21 32 : : BUSH_268 : : 12 : Sutherland_Kathryn
+BIO_341_1 1 0
+1 : 01 : 6 14 25 1 23 : : BUSH_202 BUSH_210 BUSH_164 BUSH_201 BUSH_123 : : 12 : Pieczynski_Jay
+BIO_341_1_LAB 1 0
+1 : 01 : 31 43 : : BUSH_364 : : 12 : Pieczynski_Jay
+BIO_342_1 1 0
+1 : 01 : 2 3 10 86 147 : : BUSH_208 BUSH_180 BUSH_164 BUSH_102 BUSH_210 : : 16 : Yariz_Kemal
+BIO_342_1_LAB 1 0
+1 : 01 : 33 132 : : CSS_133 : : 16 : Yariz_Kemal
+BIO_344_1 1 0
+1 : 01 : 34 : : BUSH_277 BUSH_180 BUSH_260 BUSH_212 BUSH_264 : : 12 : Sutherland_Kathryn
+BUS_101_1 1 0
+1 : 01 : 0 7 8 : : FAIRBK_112 FAIRBK_116 FAIRBK_114 FAIRBK_107 : : 18 : Knopick_John
+BUS_101_2 1 0
+1 : 01 : 2 3 10 86 147 : : ASC_243 ASC_230 ASC_139 ASC_138 ASC_109 : : 18 : Hayner_Leon
+BUS_101_3 1 0
+1 : 01 : 2 3 10 86 147 : : CSS_121 CSS_119 CSS_118 CSS_100 CSS_221 : : 18 : McDonald_Whitney
+BUS_101_4 1 0
+1 : 01 : 2 3 10 86 147 : : FAIRBK_112 FAIRBK_116 FAIRBK_114 FAIRBK_107 : : 18 : McInnis-Bowers_Cecilia
+BUS_101_5 1 0
+1 : 01 : 0 7 8 : : CSS_226 CSS_170 CSS_134 CSS_230 CSS_221 : : 18 : Schmook_Ines
+BUS_101_H1 1 0
+1 : 01 : 15 35 62 72 : : FAIRBK_114 FAIRBK_107 FAIRBK_116 FAIRBK_112 : : 21 : Schmook_Ines
+BUS_101_H1X 1 0
+1 : 01 : 15 35 62 72 : : FAIRBK_114 FAIRBK_107 FAIRBK_116 FAIRBK_112 : : 21 : McInnis-Bowers_Cecilia
+BUS_101_H2 1 0
+1 : 01 : 5 54 : : FAIRBK_114 FAIRBK_107 FAIRBK_116 FAIRBK_112 : : 20 : Delk_Mary
+BUS_135_1 1 0
+1 : 01 : 0 7 8 : : BUSH_301 BUSH_201 BUSH_302 BUSH_210 BUSH_180 : : 22 : Balzac_Josephine
+BUS_135_2 1 0
+1 : 01 : 0 7 8 9 : : BEAL_2 : : 22 : Balzac_Josephine
+BUS_135_3 1 0
+1 : 01 : 3 17 2 10 109 : : CSS_121 CSS_222 CSS_134 CSS_170 CSS_230 : : 22 : Duerden_Angela
+BUS_135_4 1 0
+1 : 01 : 10 147 3 2 86 : : CSS_121 CSS_167 CSS_221 CSS_222 CSS_100 : : 22 : Duerden_Angela
+BUS_135_H1 1 0
+1 : 01 : 4 11 : : FAIRBK_107 FAIRBK_116 : : 24 : Chernet_Chad
+BUS_135_H2 1 0
+1 : 01 : 15 35 62 72 : : FAIRBK_107 FAIRBK_116 : : 24 : Balzac_Josephine
+BUS_215_1 1 0
+1 : 01 : 2 3 10 86 147 : : FAIRBK_114 FAIRBK_107 FAIRBK_116 FAIRBK_112 : : 19 : Warnecke_Tonia
+BUS_215_2 1 0
+1 : 01 : 0 7 8 9 : : CSS_232 CSS_229 CSS_230 CSS_222 CSS_170 : : 22 : Houndonougbo_Ahiteme
+BUS_215_3 1 0
+1 : 01 : 10 3 86 2 109 : : BUSH_201 BUSH_228 BUSH_176 BUSH_212 BUSH_210 : : 22 : Jacobs_Bradley
+BUS_215_H1 1 0
+1 : 01 : 36 38 63 : : FAIRBK_107 FAIRBK_116 : : 24 : Houndonougbo_Ahiteme
+BUS_215_H2 1 0
+1 : 01 : 5 54 : : FAIRBK_107 FAIRBK_116 FAIRBK_112 : : 23 : Jacobs_Bradley
+BUS_230_1 1 0
+1 : 01 : 0 7 8 : : FAIRBK_107 FAIRBK_116 FAIRBK_112 : : 22 : Agee_Sharon
+BUS_230_2 1 0
+1 : 01 : 0 7 8 9 : : FAIRBK_107 FAIRBK_116 FAIRBK_112 : : 22 : Agee_Sharon
+BUS_230_H1 1 0
+1 : 01 : 37 : : FAIRBK_107 FAIRBK_116 : : 24 : Schulz_Carrie
+BUS_241_1 1 0
+1 : 01 : 10 147 17 3 2 : : FAIRBK_107 FAIRBK_116 FAIRBK_112 : : 22 : Mayer_Adrian
+BUS_241_2 1 0
+1 : 01 : 3 86 2 17 10 : : FAIRBK_107 FAIRBK_116 FAIRBK_112 : : 22 : Mayer_Adrian
+BUS_241_H1 1 0
+1 : 01 : 36 38 63 : : FAIRBK_107 FAIRBK_116 FAIRBK_112 : : 23 : Heileman_Mark
+BUS_310_1 1 0
+1 : 01 : 0 7 8 : : FAIRBK_107 FAIRBK_116 : : 24 : Rogers_Donald
+BUS_310_2 1 0
+1 : 01 : 0 7 8 9 : : FAIRBK_107 FAIRBK_116 : : 24 : Arnold_Richard
+BUS_310_H1 1 0
+1 : 01 : 5 54 : : FAIRBK_107 FAIRBK_116 : : 24 : Arnold_Richard
+BUS_310_H2 1 0
+1 : 01 : 4 11 : : FAIRBK_107 FAIRBK_116 FAIRBK_112 : : 23 : Arnold_Richard
+BUS_312_1 1 0
+1 : 01 : 0 7 8 : : FAIRBK_107 FAIRBK_116 FAIRBK_112 : : 22 : Mourino_Edwin
+BUS_312_2 1 0
+1 : 01 : 0 7 8 9 : : BUSH_164 BUSH_210 BUSH_180 BUSH_308 BUSH_302 : : 22 : Mourino_Edwin
+BUS_317_H1 1 0
+1 : 01 : 15 35 62 72 : : CSS_121 CSS_222 CSS_232 CSS_221 CSS_229 : : 24 : West_Bill
+BUS_320_1 1 0
+1 : 01 : 0 7 8 : : CSS_133 CSS_222 CSS_230 CSS_232 CSS_221 : : 22 : Houndonougbo_Ahiteme
+BUS_320_2 1 0
+1 : 01 : 0 9 16 40 : : FAIRBK_107 FAIRBK_116 FAIRBK_112 : : 22 : Murphy_Stephanie
+BUS_320_H1 1 0
+1 : 01 : 15 35 62 72 : : FAIRBK_107 FAIRBK_116 FAIRBK_112 : : 23 : Murphy_Stephanie
+BUS_330_1 1 0
+1 : 01 : 0 7 8 : : HAUCK_112 HAUCK_113 : : 22 : Parris_Denise
+BUS_330_2 1 0
+1 : 01 : 0 7 8 9 : : HAUCK_112 HAUCK_113 : : 21 : Parris_Denise
+BUS_330_H1 1 0
+1 : 01 : 36 38 63 : : FAIRBK_107 FAIRBK_116 : : 24 : Parris_Denise
+BUS_350_1 1 0
+1 : 01 : 0 7 8 : : REX_1 : : 22 : Heileman_Mark
+BUS_350_H1 1 0
+1 : 01 : 5 54 : : FAIRBK_107 FAIRBK_116 : : 24 : Heileman_Mark
+BUS_352_1 1 0
+1 : 01 : 2 3 10 86 147 : : CSS_232 CSS_230 CSS_100 CSS_134 CSS_229 : : 22 : Kegel_Paul
+BUS_352_H2 1 0
+1 : 01 : 36 38 63 : : BUSH_202 BUSH_212 BUSH_176 BUSH_308 BUSH_228 : : 20 : Bell_Michael
+BUS_354_1 1 0
+1 : 01 : 2 3 10 86 147 : : FAIRBK_114 FAIRBK_107 FAIRBK_116 FAIRBK_112 : : 21 : Pett_Timothy
+BUS_354_H1 1 0
+1 : 01 : 15 35 62 72 : : FAIRBK_107 FAIRBK_116 : : 24 : Pett_Timothy
+BUS_390C_1 1 0
+1 : 01 : 39 92 100 : : HAUCK_112 HAUCK_100 HAUCK_110 HAUCK_113 HAUCK_104 : : 12 : Arnold_Danny
+BUS_400_1 1 0
+1 : 01 : 10 17 2 147 86 : : FAIRBK_114 FAIRBK_107 FAIRBK_116 FAIRBK_112 : : 21 : Pett_Timothy
+BUS_400_H1 1 0
+1 : 01 : 36 38 63 : : FAIRBK_107 FAIRBK_116 : : 24 : Rogers_Donald
+CHM_103_1 1 0
+1 : 01 : 40 95 16 94 9 : : BUSH_308 BUSH_301 BUSH_201 BUSH_302 BUSH_176 : : 24 : Wanderley_Marcela
+CHM_103_1_LAB 1 0
+1 : 01 : 36 38 63 : : BUSH_305 : : 24 : Wanderley_Marcela
+CHM_105_1 1 0
+1 : 01 : 1 6 14 23 41 : : BUSH_308 BUSH_302 BUSH_176 BUSH_301 BUSH_228 : : 24 : Norbutus_Amanda
+CHM_105_1_LAB 1 0
+1 : 01 : 27 : : BUSH_305 : : 24 : Norbutus_Amanda
+CHM_105_2 1 0
+1 : 01 : 41 79 14 6 23 : : BUSH_308 BUSH_201 BUSH_210 BUSH_302 BUSH_180 : : 24 : Gregor_Richard
+CHM_106_1 1 0
+1 : 01 : 6 41 1 25 79 : : BUSH_176 BUSH_308 BUSH_201 BUSH_180 BUSH_210 : : 24 : Patrone_James
+CHM_120_1 1 0
+1 : 01 : 42 44 46 48 : : BUSH_201 BUSH_176 BUSH_228 BUSH_302 BUSH_164 : : 24 : Bernal_Pedro
+CHM_120_1_LAB 1 0
+1 : 01 : 31 43 : : BUSH_305 : : 24 : Bernal_Pedro
+CHM_120_2 1 0
+1 : 01 : 42 44 46 48 : : BUSH_210 BUSH_180 BUSH_164 BUSH_212 BUSH_228 : : 24 : Gregor_Richard
+CHM_120_2_LAB 1 0
+1 : 01 : 45 : : BUSH_305 : : 24 : Gregor_Richard
+CHM_120_3 1 0
+1 : 01 : 42 44 46 48 : : BUSH_201 BUSH_208 BUSH_302 BUSH_180 BUSH_164 : : 24 : Park_Ellane
+CHM_120_3_LAB 1 0
+1 : 01 : 21 32 : : BUSH_305 : : 24 : Park_Ellane
+CHM_120_4 1 0
+1 : 01 : 42 44 46 48 : : BUSH_308 BUSH_212 BUSH_180 BUSH_164 BUSH_208 : : 24 : Kazmier_Kelli
+CHM_120_4_LAB 1 0
+1 : 01 : 47 : : BUSH_305 : : 24 : Kazmier_Kelli
+CHM_120_5 1 0
+1 : 01 : 42 44 46 48 : : BUSH_210 BUSH_301 BUSH_212 BUSH_180 BUSH_208 : : 24 : Norbutus_Amanda
+CHM_120_5_LAB 1 0
+1 : 01 : 22 : : BUSH_305 : : 24 : Norbutus_Amanda
+CHM_220_1 1 0
+1 : 01 : 42 44 46 48 : : BUSH_201 BUSH_210 : : 29 : Habgood_Laurel
+CHM_220_2 1 0
+1 : 01 : 42 44 46 48 : : BUSH_201 BUSH_210 : : 29 : Patrone_James
+CHM_220L_1_LAB 1 0
+1 : 01 : 31 43 : : BUSH_205 : : 14 : Habgood_Laurel
+CHM_220L_2_LAB 1 0
+1 : 01 : 22 : : BUSH_205 : : 15 : Habgood_Laurel
+CHM_220L_3_LAB 1 0
+1 : 01 : 45 : : BUSH_205 : : 15 : Patrone_James
+CHM_220L_4_LAB 1 0
+1 : 01 : 30 : : BUSH_205 : : 14 : Patrone_James
+CHM_305_1 1 0
+1 : 01 : 0 7 8 : : BUSH_260 BUSH_176 BUSH_102 BUSH_201 BUSH_202 : : 12 : Bernal_Pedro
+CHM_305_1_LAB 1 0
+1 : 01 : 21 32 : : BUSH_264 : : 12 : Bernal_Pedro
+CHM_320_1 1 0
+1 : 01 : 2 3 10 86 147 : : BUSH_277 BUSH_212 BUSH_310 BUSH_302 BUSH_208 : : 12 : Park_Ellane
+CHM_320_1_LAB 1 0
+1 : 01 : 31 43 : : BUSH_264 : : 12 : Park_Ellane
+CHM_350_1 1 0
+1 : 01 : 0 7 8 9 : : BUSH_260 BUSH_228 BUSH_212 BUSH_210 BUSH_277 : : 12 : Park_Ellane
+CHM_460_1 1 0
+1 : 01 : 49 68 69 101 : : BUSH_264 BUSH_228 BUSH_212 BUSH_176 BUSH_208 : : 12 : Gregor_Richard
+CHN_101_2 1 0
+1 : 01 : 42 44 46 48 : : BUSH_123 BUSH_164 BUSH_302 BUSH_228 BUSH_210 : : 15 : Wei_Li
+CHN_102_1 1 0
+1 : 01 : 42 44 46 48 : : OLIN_VAN_HOUTEN OLIN_211 OLIN_225 OLIN_220 : : 15 : Liu_Qiangong
+CHN_151_1 1 0
+1 : 01 : 50 155 : : HAUCK_110 HAUCK_113 HAUCK_100 HAUCK_106 HAUCK_111 : : 15 : Liu_Qiangong
+CHN_152_1 1 0
+1 : 01 : 51 : : HAUCK_111 HAUCK_112 HAUCK_106 HAUCK_100 HAUCK_110 : : 15 : Liu_Qiangong
+CHN_201_1 1 0
+1 : 01 : 1 6 14 41 79 : : HAUCK_110 HAUCK_104 HAUCK_111 HAUCK_113 HAUCK_100 : : 15 : Wei_Li
+CHN_202_1 1 0
+1 : 01 : 6 23 25 14 1 : : HAUCK_110 HAUCK_100 HAUCK_104 HAUCK_106 HAUCK_113 : : 15 : Liu_Qiangong
+CHN_251_1 1 0
+1 : 01 : 52 : : HAUCK_110 HAUCK_104 HAUCK_113 HAUCK_100 HAUCK_111 : : 15 : Liu_Qiangong
+CLP_102_1 1 0
+1 : 01 : 0 7 8 9 : : REX_1 : : 18 : French_Todd
+CLP_102_2 1 0
+1 : 01 : 0 9 16 40 : : KMC_1 : : 18 : Vander_Poppen_Robert
+CLS_205A_H1X 1 0
+1 : 01 : 40 94 12 16 9 : : SULLV_HSE : : 20 : Rubarth_Scott
+CMC_100_1 1 0
+1 : 01 : 2 3 10 86 147 : : OLIN_211 OLIN_225 : : 18 : Schoen_Steven
+CMC_100_1_LAB 1 0
+1 : 01 : 53 97 102 138 : : OLIN_220 : : 18 : Schoen_Steven
+CMC_250D_H1X 1 0
+1 : 01 : 5 54 : : LODGE_REEVES : : 22 : Cummings_Denise
+CMC_300_1 1 0
+1 : 01 : 0 7 8 9 : : OLIN_VAN_HOUTEN OLIN_211 OLIN_225 OLIN_220 : : 15 : Cummings_Denise
+CMC_325_H1X 1 0
+1 : 01 : 36 38 63 : : BUSH_212 BUSH_302 BUSH_308 BUSH_180 BUSH_228 : : 22 : Tillmann_Lisa
+CMC_350A_1X 1 0
+1 : 01 : 0 7 8 : : BUSH_228 BUSH_176 BUSH_301 BUSH_210 BUSH_180 : : 22 : Coffman-Rosen_Stacey
+CMS_167_1 1 0
+1 : 01 : 2 3 10 86 147 : : BUSH_301 BUSH_180 BUSH_208 BUSH_228 BUSH_210 : : 24 : Anderson_Julie
+CMS_167_2 1 0
+1 : 01 : 10 2 17 147 109 : : BUSH_301 BUSH_208 BUSH_308 BUSH_228 BUSH_302 : : 24 : Anderson_Julie
+CMS_167_H1 1 0
+1 : 01 : 55 : : BUSH_301 BUSH_302 BUSH_228 BUSH_308 BUSH_210 : : 24 : Anderson_Julie
+CMS_167L_1_LAB 1 0
+1 : 01 : 56 57 : : BUSH_310 : : 24 : Anderson_Julie
+CMS_167L_2_LAB 1 0
+1 : 01 : 56 57 58 : : BUSH_301 : : 24 : Anderson_Julie
+CMS_167L_3_LAB 1 0
+1 : 01 : 57 58 : : BUSH_301 : : 24 : Anderson_Julie
+CMS_167L_H1_LAB 1 0
+1 : 01 : 59 : : BUSH_301 : : 24 : Anderson_Julie
+CMS_170_H1X 1 0
+1 : 01 : 60 82 83 : : BUSH_164 BUSH_308 BUSH_210 BUSH_302 BUSH_180 : : 24 : Carrington_Julie
+CMS_230_1 1 0
+1 : 01 : 2 3 10 86 147 : : BUSH_310 BUSH_212 BUSH_302 BUSH_301 BUSH_102 : : 18 : Myers_Daniel
+CMS_230_H1 1 0
+1 : 01 : 55 : : BUSH_212 BUSH_302 BUSH_176 BUSH_308 BUSH_301 : : 24 : Myers_Daniel
+CMS_270_1 1 0
+1 : 01 : 3 2 86 109 10 : : BUSH_301 BUSH_180 BUSH_210 BUSH_274 BUSH_277 : : 12 : Carrington_Julie
+CMS_270_H1 1 0
+1 : 01 : 61 106 145 152 : : BUSH_310 BUSH_123 BUSH_228 BUSH_301 BUSH_210 : : 20 : Carrington_Julie
+CMS_380_H1X 1 0
+1 : 01 : 17 106 10 152 145 : : BUSH_212 BUSH_210 BUSH_201 BUSH_208 BUSH_301 : : 24 : Hughes_Darin
+CMS_395A_H1X 1 0
+1 : 01 : 15 35 62 72 : : BUSH_301 BUSH_212 BUSH_210 BUSH_202 BUSH_176 : : 20 : Anderson_Julie
+CMS_450_H1X 1 0
+1 : 01 : 36 38 63 : : BUSH_301 BUSH_208 BUSH_176 BUSH_228 BUSH_308 : : 24 : Hughes_Darin
+COM_100_1 1 0
+1 : 01 : 1 14 41 25 6 : : FAIRBK_107 FAIRBK_116 FAIRBK_112 : : 22 : Cavenaugh_Gregory
+COM_100_2 1 0
+1 : 01 : 6 14 23 79 41 : : CSS_135 CSS_121 CSS_167 CSS_230 CSS_226 : : 22 : Hammonds_Joshua
+COM_100_H1X 1 0
+1 : 01 : 5 54 : : CSS_135 CSS_133 CSS_229 CSS_121 CSS_221 : : 22 : Mesbah_Hesham
+COM_100_H2X 1 0
+1 : 01 : 4 11 : : CSS_170 CSS_134 CSS_230 CSS_135 CSS_100 : : 22 : Painter_David
+COM_110_1 1 0
+1 : 01 : 0 7 8 : : FAIRBK_112 FAIRBK_116 FAIRBK_114 FAIRBK_107 : : 17 : Planck_Carolyn
+COM_110_2 1 0
+1 : 01 : 0 7 8 : : FAIRBK_112 FAIRBK_116 FAIRBK_114 FAIRBK_107 : : 17 : Planck_Carolyn
+COM_110_H1 1 0
+1 : 01 : 64 : : CSS_170 CSS_118 CSS_167 CSS_100 CSS_121 : : 17 : Painter_David
+COM_110_H1X 1 0
+1 : 01 : 4 11 : : CSS_135 CSS_229 CSS_230 CSS_170 CSS_118 : : 17 : Planck_Carolyn
+COM_220_1 1 0
+1 : 01 : 2 3 10 86 147 : : CSS_167 CSS_170 CSS_230 CSS_229 CSS_121 : : 22 : Hammonds_Joshua
+COM_220_2 1 0
+1 : 01 : 10 109 3 147 2 : : FAIRBK_107 FAIRBK_116 FAIRBK_112 : : 22 : Stone_Anne
+COM_220_H1X 1 0
+1 : 01 : 36 38 63 : : CSS_121 CSS_222 CSS_100 CSS_170 CSS_167 : : 22 : Gardner_Greg
+COM_220_H2X 1 0
+1 : 01 : 5 54 : : BUSH_210 BUSH_164 BUSH_301 BUSH_201 BUSH_208 : : 22 : Haggard-Belford_Misty
+COM_221_1 1 0
+1 : 01 : 10 147 86 2 109 : : ASC_243 ASC_109 ASC_150 ASC_139 : : 22 : Planck_Carolyn
+COM_295_1 1 0
+1 : 01 : 0 7 8 9 : : BUSH_302 BUSH_201 BUSH_164 BUSH_308 BUSH_301 : : 17 : Morrison_John
+COM_295_2 1 0
+1 : 01 : 0 9 16 40 : : CSS_226 CSS_231 CSS_135 CSS_232 CSS_121 : : 18 : Garcia_Mattea
+COM_295_H1 1 0
+1 : 01 : 5 54 : : CSS_170 CSS_167 CSS_230 CSS_232 CSS_229 : : 18 : Morrison_John
+COM_295_H1X 1 0
+1 : 01 : 15 35 62 72 : : CSS_135 CSS_229 CSS_121 CSS_226 CSS_230 : : 18 : Garcia_Mattea
+COM_305_1 1 0
+1 : 01 : 2 3 10 86 147 : : FAIRBK_107 FAIRBK_116 FAIRBK_112 : : 22 : Stone_Anne
+COM_305_H1X 1 0
+1 : 01 : 4 11 : : CSS_230 CSS_135 CSS_229 CSS_232 CSS_167 : : 22 : Bommelje_Richard
+COM_305_H2X 1 0
+1 : 01 : 4 11 : : CSS_230 CSS_134 CSS_232 CSS_170 CSS_133 : : 22 : Bommelje_Richard
+COM_306_1 1 0
+1 : 01 : 6 23 25 14 1 : : FAIRBK_107 FAIRBK_116 FAIRBK_112 : : 22 : Cavenaugh_Gregory
+COM_306_H1 1 0
+1 : 01 : 36 38 63 : : CSS_135 CSS_121 CSS_229 CSS_100 CSS_230 : : 22 : Morrison_John
+COM_306_H1X 1 0
+1 : 01 : 5 54 : : CSS_170 CSS_100 CSS_222 CSS_230 CSS_229 : : 22 : Morrison_John
+COM_312_H1X 1 0
+1 : 01 : 36 38 63 : : CSS_230 CSS_100 CSS_221 CSS_222 CSS_229 : : 22 : Painter_David
+COM_315A_H1X 1 0
+1 : 01 : 15 35 62 72 : : CSS_135 CSS_118 CSS_119 CSS_229 CSS_121 : : 16 : Moniz_Michael
+COM_315B_H2X 1 0
+1 : 01 : 36 38 63 : : CSS_135 CSS_134 CSS_133 CSS_232 CSS_222 : : 22 : Garcia_Mattea
+COM_315C_H3X 1 0
+1 : 01 : 36 38 63 : : CSS_230 CSS_133 CSS_229 CSS_170 CSS_134 : : 22 : Bommelje_Richard
+COM_318_1 1 0
+1 : 01 : 10 147 17 109 3 : : CSS_135 CSS_221 CSS_167 CSS_100 CSS_133 : : 22 : Mesbah_Hesham
+COM_325_H1X 1 0
+1 : 01 : 15 35 62 72 : : CSS_170 CSS_121 CSS_134 CSS_135 CSS_100 : : 22 : Painter_David
+COM_351_H1 1 0
+1 : 01 : 36 38 63 : : CSS_134 CSS_230 CSS_135 CSS_167 CSS_229 : : 22 : Mesbah_Hesham
+COM_480_1 1 0
+1 : 01 : 0 7 8 9 : : FAIRBK_112 FAIRBK_116 FAIRBK_114 FAIRBK_107 : : 18 : Cavenaugh_Gregory
+COM_480_H1X 1 0
+1 : 01 : 36 38 63 : : CSS_170 CSS_121 CSS_231 CSS_226 CSS_133 : : 18 : Gardner_Greg
+DAN_170_H1X 1 0
+1 : 01 : 15 35 62 72 : : DANCE_1 : : 15 : Stevens_Kristina
+DAN_200_1 1 0
+1 : 01 : 1 23 41 14 25 : : CSS_118 CSS_121 CSS_100 CSS_135 CSS_226 : : 20 : Barnes_Melissa
+DAN_203_1 1 0
+1 : 01 : 0 7 8 9 : : SULLV_HSE : : 20 : Neubauer_Florence
+DAN_210_1 1 0
+1 : 01 : 0 7 8 : : DANCE_1 : : 15 : Neubauer_Florence
+DAN_300_H1X 1 0
+1 : 01 : 65 66 112 : : DANCE_1 : : 15 : Salapa_Suzanne
+DAN_422_H1X 1 0
+1 : 01 : 65 66 112 : : DANCE_1 : : 20 : Salapa_Suzanne
+ECO_108_H1 1 0
+1 : 01 : 4 11 : : CSS_135 CSS_229 CSS_222 CSS_133 CSS_231 : : 20 : Rock_Charles
+ECO_135_1 1 0
+1 : 01 : 0 9 16 40 : : CSS_229 CSS_133 CSS_232 CSS_134 CSS_222 : : 22 : Peng_Zhaochang
+ECO_142_1 1 0
+1 : 01 : 10 109 17 2 3 : : CSS_229 CSS_170 CSS_135 CSS_230 CSS_232 : : 22 : Rock_Charles
+ECO_200_1 1 0
+1 : 01 : 67 : : LODGE_REEVES : : 22 : Rock_Charles
+ECO_202_1 1 0
+1 : 01 : 1 6 23 25 : : CSS_230 CSS_222 CSS_121 CSS_232 CSS_229 : : 22 : Balak_Benjamin
+ECO_202_2 1 0
+1 : 01 : 1 41 14 25 6 : : CSS_134 CSS_170 CSS_222 CSS_221 CSS_232 : : 22 : Balak_Benjamin
+ECO_202_3 1 0
+1 : 01 : 10 17 3 86 2 : : CSS_226 CSS_134 CSS_229 CSS_121 CSS_230 : : 22 : Kozel_Philip
+ECO_202_4 1 0
+1 : 01 : 0 7 8 : : CSS_226 CSS_229 CSS_170 CSS_222 CSS_134 : : 22 : Kypraios_Harry
+ECO_203_1 1 0
+1 : 01 : 6 25 1 41 14 : : CSS_226 CSS_230 CSS_229 CSS_135 CSS_121 : : 22 : Baranes_Avaraham
+ECO_203_2 1 0
+1 : 01 : 9 12 16 40 94 : : BUSH_201 BUSH_308 BUSH_228 BUSH_301 BUSH_176 : : 22 : Peng_Zhaochang
+ECO_221_1 1 0
+1 : 01 : 2 3 10 86 147 : : OLIN_211 OLIN_225 : : 18 : Vidovic_Martina
+ECO_221_1_LAB 1 0
+1 : 01 : 49 68 69 101 107 : : OLIN_210 : : 18 : Vidovic_Martina
+ECO_221_2 1 0
+1 : 01 : 10 3 109 17 86 : : BUSH_102 BUSH_176 BUSH_212 BUSH_164 BUSH_123 : : 18 : Galvez_Garcia_Jose
+ECO_221_2_LAB 1 0
+1 : 01 : 49 68 69 101 : : OLIN_210 : : 18 : Galvez_Garcia_Jose
+ECO_242_H1X 1 0
+1 : 01 : 4 11 : : BUSH_176 BUSH_164 BUSH_308 BUSH_208 BUSH_212 : : 24 : Balak_Benjamin
+ECO_242_H2X 1 0
+1 : 01 : 5 54 : : BUSH_176 BUSH_228 BUSH_201 BUSH_208 BUSH_210 : : 24 : Balak_Benjamin
+ECO_303_1 1 0
+1 : 01 : 2 3 10 86 147 : : CSS_226 CSS_230 CSS_118 CSS_231 CSS_134 : : 20 : Galvez_Garcia_Jose
+ECO_303_2 1 0
+1 : 01 : 0 7 8 : : CSS_118 CSS_221 CSS_167 CSS_133 CSS_170 : : 20 : Galvez_Garcia_Jose
+ECO_304_1 1 0
+1 : 01 : 0 7 8 9 : : CSS_221 CSS_100 CSS_121 CSS_118 CSS_167 : : 20 : Voicu_Anca
+ECO_304_2 1 0
+1 : 01 : 0 9 16 40 : : CSS_231 CSS_222 CSS_167 CSS_232 CSS_221 : : 20 : Voicu_Anca
+ECO_304_H1 1 0
+1 : 01 : 5 54 : : CSS_221 CSS_121 CSS_118 CSS_229 CSS_226 : : 20 : Voicu_Anca
+ECO_306_1 1 0
+1 : 01 : 0 7 8 9 : : CSS_230 CSS_133 CSS_100 CSS_229 CSS_222 : : 20 : Kypraios_Harry
+ECO_321_H1X 1 0
+1 : 01 : 15 35 62 72 : : CSS_134 CSS_133 CSS_170 CSS_229 CSS_118 : : 20 : Rock_Charles
+ECO_370_H1X 1 0
+1 : 01 : 4 11 : : BUSH_228 BUSH_201 BUSH_310 BUSH_164 BUSH_176 : : 20 : Kozel_Philip
+ECO_381_1 1 0
+1 : 01 : 10 109 3 2 86 : : OLIN_225 OLIN_211 : : 20 : Vidovic_Martina
+ECO_404_1 1 0
+1 : 01 : 2 3 10 86 147 : : CSS_134 CSS_100 CSS_119 CSS_230 CSS_222 : : 12 : Rock_Charles
+EDU_271_1 1 0
+1 : 01 : 10 147 3 17 109 : : CSS_222 CSS_232 CSS_226 CSS_230 CSS_135 : : 25 : McLaughlin_Harry
+EDU_271_2 1 0
+1 : 01 : 0 9 16 40 : : CSS_232 CSS_226 CSS_100 CSS_221 CSS_230 : : 25 : Brandon_Wendy
+EDU_272_1 1 0
+1 : 01 : 0 7 8 : : CSS_222 CSS_232 CSS_230 CSS_100 CSS_135 : : 25 : Staton_Britt
+EDU_272_H1 1 0
+1 : 01 : 15 35 62 72 : : CSS_222 CSS_135 CSS_134 CSS_231 CSS_167 : : 12 : Staton_Britt
+EDU_280_1X 1 0
+1 : 01 : 1 23 14 6 25 : : CSS_222 CSS_229 CSS_100 CSS_135 CSS_121 : : 24 : Yu_Jie
+EDU_310_H1X 1 0
+1 : 01 : 36 38 63 : : CSS_222 CSS_135 CSS_121 CSS_133 CSS_226 : : 20 : Kissinger_Jeffrey
+EDU_324_H1X 1 0
+1 : 01 : 70 : : CSS_121 CSS_232 CSS_133 CSS_231 CSS_170 : : 10 : Griner_Angela
+EDU_406_1 1 0
+1 : 01 : 71 : : CSS_232 CSS_222 CSS_226 CSS_230 CSS_121 : : 20 : Hewit_John
+EDU_417_H1X 1 0
+1 : 01 : 4 11 : : CSS_231 CSS_229 CSS_170 CSS_167 CSS_100 : : 20 : Elliott_Christopher
+EDU_470_H1X 1 0
+1 : 01 : 5 54 : : CSS_232 CSS_226 CSS_100 CSS_229 CSS_230 : : 20 : Hewit_John
+EED_319_H1X 1 0
+1 : 01 : 36 38 63 : : CSS_232 CSS_226 CSS_229 CSS_121 CSS_167 : : 20 : Swallow_Suzette
+EED_364_1 1 0
+1 : 01 : 5 54 : : CSS_167 CSS_133 CSS_222 CSS_121 CSS_230 : : 20 : White_Jane
+EED_364_H1 1 0
+1 : 01 : 15 35 62 72 : : CSS_232 CSS_226 CSS_222 CSS_231 CSS_167 : : 10 : Scott_Jill
+EED_367_H1 1 0
+1 : 01 : 73 : : ASC_109 ASC_138 ASC_139 ASC_230 ASC_243 : : 10 : Morris_Richard
+EED_368_1 1 0
+1 : 01 : 4 11 : : CSS_222 CSS_221 CSS_230 CSS_133 CSS_118 : : 20 : Bertino_Stefani
+EED_368_H1 1 0
+1 : 01 : 4 11 : : CSS_232 CSS_226 CSS_229 CSS_167 CSS_222 : : 10 : Yu_Jie
+ENG_140_10 1 0
+1 : 01 : 1 6 14 41 79 : : ORLAN_205 ORLAN_105 ORLAN_215 ORLAN_213 ORLAN_113 : : 16 : Forsythe_Matthew
+ENG_140_11 1 0
+1 : 01 : 0 7 8 : : ORLAN_105 ORLAN_113 ORLAN_205 ORLAN_115 ORLAN_213 : : 16 : Delis_Maria
+ENG_140_12 1 0
+1 : 01 : 0 7 8 9 : : ORLAN_205 ORLAN_215 ORLAN_115 ORLAN_105 ORLAN_113 : : 16 : Delis_Maria
+ENG_140_13 1 0
+1 : 01 : 1 6 23 25 : : ORLAN_105 ORLAN_115 ORLAN_113 ORLAN_205 ORLAN_213 : : 16 : Pyle_Terri
+ENG_140_14 1 0
+1 : 01 : 1 41 25 23 6 : : ORLAN_105 ORLAN_113 ORLAN_215 ORLAN_115 ORLAN_213 : : 16 : Pyle_Terri
+ENG_140_2 1 0
+1 : 01 : 41 79 23 14 6 : : ORLAN_105 ORLAN_115 ORLAN_215 ORLAN_113 ORLAN_213 : : 16 : Zimmermann_Anne
+ENG_140_3 1 0
+1 : 01 : 1 6 14 41 79 : : ORLAN_105 ORLAN_113 ORLAN_205 ORLAN_215 ORLAN_213 : : 16 : Zimmermann_Anne
+ENG_140_4 1 0
+1 : 01 : 0 7 8 9 : : ORLAN_213 ORLAN_113 ORLAN_115 ORLAN_215 ORLAN_105 : : 14 : Fleming_Patrick
+ENG_140_5 1 0
+1 : 01 : 0 9 16 40 : : ORLAN_115 ORLAN_215 ORLAN_205 ORLAN_113 ORLAN_105 : : 14 : Fleming_Patrick
+ENG_140_6 1 0
+1 : 01 : 10 2 3 109 86 : : ORLAN_213 ORLAN_215 ORLAN_105 ORLAN_113 ORLAN_205 : : 16 : Driggers_James
+ENG_140_7 1 0
+1 : 01 : 2 3 10 86 147 : : ORLAN_115 ORLAN_105 ORLAN_213 ORLAN_205 ORLAN_215 : : 16 : Coffae_Lori
+ENG_140_8 1 0
+1 : 01 : 10 109 147 3 86 : : ORLAN_115 ORLAN_213 ORLAN_205 ORLAN_105 ORLAN_113 : : 16 : Coffae_Lori
+ENG_140_9 1 0
+1 : 01 : 6 1 41 23 25 : : ORLAN_115 ORLAN_215 ORLAN_213 ORLAN_105 ORLAN_113 : : 16 : Forsythe_Matthew
+ENG_140_H1 1 0
+1 : 01 : 4 11 : : ORLAN_213 ORLAN_205 ORLAN_113 ORLAN_215 ORLAN_105 : : 16 : Driggers_James
+ENG_140_H2 1 0
+1 : 01 : 5 54 : : ORLAN_105 ORLAN_215 ORLAN_115 ORLAN_113 ORLAN_213 : : 16 : Driggers_James
+ENG_167_1X 1 0
+1 : 01 : 0 7 8 : : ORLAN_205 ORLAN_213 ORLAN_105 ORLAN_115 ORLAN_113 : : 16 : Williams_Deyon
+ENG_167_2X 1 0
+1 : 01 : 3 10 109 2 17 : : ORLAN_205 ORLAN_213 ORLAN_215 ORLAN_115 ORLAN_105 : : 16 : Aufhammer_Charles
+ENG_167_H1X 1 0
+1 : 01 : 5 54 : : ORLAN_205 ORLAN_105 ORLAN_113 ORLAN_215 ORLAN_213 : : 16 : Aufhammer_Charles
+ENG_190_1X 1 0
+1 : 01 : 0 7 8 9 : : ORLAN_113 ORLAN_105 ORLAN_215 ORLAN_213 ORLAN_205 : : 18 : Russell_Emily
+ENG_190_2X 1 0
+1 : 01 : 0 9 16 40 : : ORLAN_105 ORLAN_215 ORLAN_205 ORLAN_213 ORLAN_115 : : 18 : Reich_Paul
+ENG_190_H1X 1 0
+1 : 01 : 5 54 : : ORLAN_105 ORLAN_113 ORLAN_115 ORLAN_215 ORLAN_213 : : 20 : Zimmermann_Anne
+ENG_201_1X 1 0
+1 : 01 : 6 41 14 1 25 : : ORLAN_215 ORLAN_115 ORLAN_105 ORLAN_205 ORLAN_213 : : 18 : Nordstrom_E
+ENG_201_H1X 1 0
+1 : 01 : 5 54 : : ORLAN_215 ORLAN_205 ORLAN_113 ORLAN_115 ORLAN_105 : : 18 : Nordstrom_E
+ENG_206_H1X 1 0
+1 : 01 : 36 38 63 : : ORLAN_105 ORLAN_113 ORLAN_115 ORLAN_215 ORLAN_213 : : 20 : Huebner_Meribeth
+ENG_209_H1X 1 0
+1 : 01 : 15 35 62 72 : : ORLAN_105 ORLAN_213 ORLAN_215 ORLAN_205 ORLAN_115 : : 18 : Coffae_Lori
+ENG_225_H1 1 0
+1 : 01 : 36 38 63 : : ORLAN_113 ORLAN_205 ORLAN_105 ORLAN_213 ORLAN_115 : : 16 : Coffae_Lori
+ENG_232_1X 1 0
+1 : 01 : 3 152 106 86 17 : : ORLAN_105 ORLAN_113 ORLAN_115 ORLAN_215 ORLAN_213 : : 20 : Zimmermann_Anne
+ENG_234_1X 1 0
+1 : 01 : 2 3 10 86 147 : : ORLAN_105 ORLAN_113 ORLAN_115 ORLAN_215 ORLAN_213 : : 20 : Frost_Carol
+ENG_234_H1X 1 0
+1 : 01 : 4 11 : : ORLAN_105 ORLAN_113 ORLAN_115 ORLAN_215 ORLAN_213 : : 20 : Boles_William
+ENG_234_H2X 1 0
+1 : 01 : 5 54 : : ORLAN_105 ORLAN_113 ORLAN_115 ORLAN_215 ORLAN_213 : : 19 : Forsythe_Matthew
+ENG_267_1X 1 0
+1 : 01 : 0 9 16 40 : : ORLAN_215 ORLAN_113 ORLAN_105 ORLAN_205 ORLAN_213 : : 16 : Deaver_Philip
+ENG_273_H1X 1 0
+1 : 01 : 5 54 : : ORLAN_213 ORLAN_205 ORLAN_105 ORLAN_115 ORLAN_215 : : 18 : Pinsky_Mark
+ENG_277_H1X 1 0
+1 : 01 : 36 38 63 : : ORLAN_115 ORLAN_113 ORLAN_215 ORLAN_105 ORLAN_213 : : 16 : Boyar_Jay
+ENG_300B_H1 1 0
+1 : 01 : 36 38 63 : : ORLAN_105 ORLAN_215 ORLAN_205 ORLAN_113 ORLAN_115 : : 17 : McLeod_Michael
+ENG_300B_H2 1 0
+1 : 01 : 15 35 62 72 : : ORLAN_213 ORLAN_115 ORLAN_105 ORLAN_215 ORLAN_205 : : 17 : Lilley_Susan
+ENG_300B_H3 1 0
+1 : 01 : 15 35 62 72 : : ORLAN_213 ORLAN_215 ORLAN_113 ORLAN_115 ORLAN_205 : : 17 : McLeod_Michael
+ENG_300D_H6 1 0
+1 : 01 : 4 11 : : ORLAN_105 ORLAN_205 ORLAN_215 ORLAN_115 ORLAN_113 : : 17 : Carpenter_Kenneth
+ENG_300H_H5 1 0
+1 : 01 : 4 11 : : ORLAN_115 ORLAN_105 ORLAN_113 ORLAN_213 ORLAN_205 : : 17 : Boyar_Jay
+ENG_303_H1X 1 0
+1 : 01 : 15 35 62 72 : : ORLAN_215 ORLAN_105 ORLAN_205 ORLAN_213 ORLAN_115 : : 18 : Jones_Jill
+ENG_304_1X 1 0
+1 : 01 : 0 9 16 40 : : ORLAN_113 ORLAN_105 ORLAN_215 ORLAN_115 ORLAN_205 : : 18 : Russell_Emily
+ENG_317_1X 1 0
+1 : 01 : 10 3 17 147 86 : : ORLAN_215 ORLAN_213 ORLAN_115 ORLAN_113 ORLAN_205 : : 18 : Nordstrom_E
+ENG_319_H1X 1 0
+1 : 01 : 4 11 : : ORLAN_115 ORLAN_113 ORLAN_215 ORLAN_213 ORLAN_105 : : 18 : Fleming_Patrick
+ENG_321_1X 1 0
+1 : 01 : 2 3 10 86 147 : : ORLAN_213 ORLAN_115 ORLAN_105 ORLAN_215 ORLAN_113 : : 18 : Aggarwal_Vidhu
+ENG_321_H1X 1 0
+1 : 01 : 36 38 63 : : ORLAN_205 ORLAN_113 ORLAN_115 ORLAN_213 ORLAN_215 : : 18 : Aggarwal_Vidhu
+ENG_344_H1X 1 0
+1 : 01 : 36 38 63 : : ORLAN_115 ORLAN_205 ORLAN_213 ORLAN_215 ORLAN_105 : : 18 : Fleming_Patrick
+ENG_367_H1X 1 0
+1 : 01 : 5 54 : : ORLAN_105 ORLAN_215 ORLAN_213 ORLAN_115 ORLAN_205 : : 16 : Deaver_Philip
+ENG_374_H1X 1 0
+1 : 01 : 4 11 : : ORLAN_205 ORLAN_113 ORLAN_215 ORLAN_213 ORLAN_115 : : 16 : Forsythe_Matthew
+ENG_380_1X 1 0
+1 : 01 : 9 12 16 40 94 : : ORLAN_113 ORLAN_215 ORLAN_105 ORLAN_115 ORLAN_205 : : 16 : Cheng_Martha
+ENG_444_1X 1 0
+1 : 01 : 3 106 152 2 86 : : ORLAN_213 ORLAN_113 ORLAN_105 ORLAN_215 ORLAN_115 : : 16 : Aggarwal_Vidhu
+ENG_467_1X 1 0
+1 : 01 : 10 3 17 109 147 : : ORLAN_113 ORLAN_115 ORLAN_105 ORLAN_215 ORLAN_205 : : 16 : Frost_Carol
+ENG_490_H1X 1 0
+1 : 01 : 15 35 62 72 : : ORLAN_113 ORLAN_215 ORLAN_115 ORLAN_205 ORLAN_213 : : 16 : Reich_Paul
+ENV_120_H1 1 0
+1 : 01 : 74 : : BUSH_308 BUSH_176 BUSH_301 BUSH_180 BUSH_212 : : 24 : Houck_Jason
+ENV_189_1 1 0
+1 : 01 : 6 79 1 25 14 : : BEAL_2 BEAL_1 : : 20 : Poole_Leslie
+ENV_189_H1X 1 0
+1 : 01 : 15 35 62 72 : : BEAL_2 BEAL_1 : : 20 : Poole_Leslie
+ENV_222_H1X 1 0
+1 : 01 : 36 38 63 : : BEAL_2 BEAL_1 : : 20 : Landis_Andrew
+ENV_225_1 1 0
+1 : 01 : 1 23 14 25 6 : : BEAL_2 BEAL_1 : : 20 : Nodine_Emily
+ENV_225_1_LAB 1 0
+1 : 01 : 28 75 : : BUSH_268 : : 20 : Nodine_Emily
+ENV_270_1 1 0
+1 : 01 : 41 23 1 79 14 : : BUSH_164 BUSH_123 BUSH_176 BUSH_201 BUSH_210 : : 20 : Siry_Joseph
+ENV_292_1 1 0
+1 : 01 : 2 3 10 86 147 : : BEAL_2 BEAL_1 : : 16 : Allen_Barry
+ENV_300_H1 1 0
+1 : 01 : 36 38 63 : : LODGE_REEVES : : 24 : Shephard_Kyle
+ENV_320_H1 1 0
+1 : 01 : 15 35 62 72 : : BUSH_201 BUSH_176 BUSH_208 BUSH_180 BUSH_212 : : 24 : Hulbert_James
+ENV_323_1 1 0
+1 : 01 : 0 7 8 : : ORLAN_105 ORLAN_113 ORLAN_115 ORLAN_215 ORLAN_213 : : 20 : Nodine_Emily
+ENV_365_1 1 0
+1 : 01 : 0 9 16 40 : : BEAL_2 BEAL_1 : : 12 : Allen_Barry
+ENV_380_1 1 0
+1 : 01 : 0 7 8 : : BUSH_176 BUSH_212 BUSH_302 BUSH_208 BUSH_308 : : 20 : Siry_Joseph
+ENV_389_1 1 0
+1 : 01 : 10 86 147 17 2 : : BEAL_2 BEAL_1 : : 20 : Poole_Leslie
+ENV_389_H1 1 0
+1 : 01 : 5 54 : : LODGE_REEVES : : 24 : Vargas_Alberto
+FIL_150_1 1 0
+1 : 01 : 0 9 16 40 : : LODGE_REEVES : : 20 : Cummings_Denise
+FIL_150_1_LAB 1 0
+1 : 01 : 76 : : LODGE_REEVES : : 20 : Cummings_Denise
+FRN_101_1 1 0
+1 : 01 : 77 : : HAUCK_112 HAUCK_100 HAUCK_104 HAUCK_113 : : 20 : Williams_Brad
+FRN_102_2 1 0
+1 : 01 : 6 1 41 14 23 : : HAUCK_112 HAUCK_100 HAUCK_104 HAUCK_113 : : 20 : Mesavage_Ruth
+FRN_102_2_LAB 1 0
+1 : 01 : 78 : : HAUCK_100 : : 20 : Mesavage_Ruth
+FRN_201_1 1 0
+1 : 01 : 6 79 23 14 1 : : HAUCK_112 HAUCK_100 HAUCK_104 HAUCK_113 : : 20 : Lima_Richard
+FRN_201_2 1 0
+1 : 01 : 1 6 23 25 : : HAUCK_112 HAUCK_100 HAUCK_104 HAUCK_113 : : 20 : Lima_Richard
+FRN_202_1 1 0
+1 : 01 : 41 23 6 14 79 : : HAUCK_112 HAUCK_100 HAUCK_104 HAUCK_113 : : 20 : Mesavage_Ruth
+FRN_305_1 1 0
+1 : 01 : 41 14 79 1 23 : : HAUCK_104 HAUCK_111 HAUCK_100 HAUCK_110 HAUCK_113 : : 15 : Lima_Richard
+FRN_320_1 1 0
+1 : 01 : 6 14 41 79 : : HAUCK_100 HAUCK_111 HAUCK_110 HAUCK_104 HAUCK_113 : : 15 : Mesavage_Ruth
+GBH_200_1 1 0
+1 : 01 : 6 79 23 14 1 : : ASC_109 ASC_150 ASC_139 : : 25 : Morris_Richard
+GBH_305A_H1X 1 0
+1 : 01 : 15 35 62 72 : : BUSH_202 BUSH_164 BUSH_308 BUSH_123 BUSH_228 : : 18 : Johnson_James
+GMN_102_1 1 0
+1 : 01 : 1 23 25 14 6 : : HAUCK_104 HAUCK_100 HAUCK_106 HAUCK_110 HAUCK_113 : : 15 : King-Polsinelli_Melissa
+GMN_161_1 1 0
+1 : 01 : 80 88 : : HAUCK_104 HAUCK_112 HAUCK_113 HAUCK_100 HAUCK_106 : : 15 : NO_INSTRUCTOR_SPECIFIED_GMN_161_1
+GMN_202_1 1 0
+1 : 01 : 6 1 14 41 25 : : HAUCK_112 HAUCK_113 HAUCK_104 HAUCK_106 HAUCK_110 : : 15 : Williams_Brad
+GMN_202_2 1 0
+1 : 01 : 1 6 23 25 : : HAUCK_110 HAUCK_104 HAUCK_111 HAUCK_100 HAUCK_112 : : 15 : Williams_Brad
+GMN_261_1 1 0
+1 : 01 : 81 : : HAUCK_104 HAUCK_100 HAUCK_106 HAUCK_113 HAUCK_112 : : 15 : Williams_Brad
+GMN_331_1 1 0
+1 : 01 : 0 9 16 40 : : HAUCK_106 HAUCK_100 HAUCK_110 HAUCK_112 HAUCK_111 : : 15 : Decker_Nancy
+HCM_135_H2 1 0
+1 : 01 : 5 54 : : BUSH_208 BUSH_210 BUSH_302 BUSH_180 BUSH_308 : : 22 : Robinson_Patricia
+HCM_200_H2 1 0
+1 : 01 : 36 38 63 : : BUSH_212 BUSH_308 BUSH_201 BUSH_164 BUSH_176 : : 22 : Evans_Chester
+HCM_300_H1 1 0
+1 : 01 : 15 35 62 72 : : CSS_230 CSS_232 CSS_226 CSS_121 CSS_170 : : 22 : Hotchkiss_Renee
+HCM_335_H1 1 0
+1 : 01 : 36 38 63 : : BUSH_164 BUSH_302 BUSH_212 BUSH_228 BUSH_208 : : 22 : Niles_Nancy
+HIS_120_2 1 0
+1 : 01 : 0 7 8 : : ORLAN_113 ORLAN_215 : : 24 : Yao_Yusheng
+HIS_120_3 1 0
+1 : 01 : 0 9 16 40 : : BUSH_308 BUSH_301 BUSH_201 BUSH_164 BUSH_210 : : 24 : Norris_Jim
+HIS_120_5 1 0
+1 : 01 : 1 23 41 6 25 : : CSS_226 CSS_135 CSS_134 CSS_100 CSS_230 : : 24 : Strom_Claire
+HIS_120_H1X 1 0
+1 : 01 : 40 94 16 12 95 : : CSS_134 CSS_230 CSS_221 CSS_226 CSS_229 : : 24 : Yao_Yusheng
+HIS_130_1 1 0
+1 : 01 : 2 3 10 86 147 : : CSS_221 CSS_134 CSS_135 CSS_229 CSS_226 : : 24 : Ewing_Hannah
+HIS_150_1 1 0
+1 : 01 : 6 23 25 79 41 : : CSS_229 CSS_226 CSS_134 CSS_100 CSS_232 : : 24 : Yao_Yusheng
+HIS_202_1 1 0
+1 : 01 : 0 7 8 9 : : CSS_118 CSS_230 CSS_119 CSS_221 CSS_229 : : 17 : Ewing_Hannah
+HIS_322_1 1 0
+1 : 01 : 1 14 23 41 25 : : BUSH_102 BUSH_210 BUSH_308 BUSH_301 BUSH_201 : : 15 : Norris_Jim
+HIS_346_1 1 0
+1 : 01 : 10 17 86 109 3 : : CSS_230 CSS_229 CSS_222 CSS_232 CSS_133 : : 15 : Chambliss_Julian
+HON_201H_1 1 0
+1 : 01 : 1 6 23 25 41 : : LODGE_REEVES : : 18 : French_Todd
+HON_201H_2 1 0
+1 : 01 : 1 6 23 25 41 : : ORLAN_113 ORLAN_115 ORLAN_205 ORLAN_213 ORLAN_105 : : 18 : Russell_Emily
+HON_300A_1 1 0
+1 : 01 : 0 9 16 40 : : SULLV_HSE : : 15 : Cavenaugh_Jennifer
+HON_350S_1 1 0
+1 : 01 : 1 6 41 23 14 : : LODGE_REEVES : : 15 : Zimmerman_James
+HON_400_1 1 0
+1 : 01 : 0 7 8 : : CSS_134 CSS_119 CSS_100 CSS_222 CSS_135 : : 18 : Newcomb_Rachel
+HUM_304_H1 1 0
+1 : 01 : 5 54 : : CSS_134 CSS_221 CSS_232 CSS_222 CSS_226 : : 24 : Brooks_George
+HUM_306_H1 1 0
+1 : 01 : 15 35 62 72 : : KMC_1 : : 24 : Simmons_Patricia
+IFT_107_H2X 1 0
+1 : 01 : 60 82 83 : : OLIN_VAN_HOUTEN OLIN_211 OLIN_225 OLIN_220 : : 14 : Watson_Linda
+IFT_110_H2X 1 0
+1 : 01 : 60 82 83 : : OLIN_VAN_HOUTEN OLIN_211 OLIN_225 OLIN_220 : : 14 : Walters_Ian
+IFT_113_H1X 1 0
+1 : 01 : 84 85 : : OLIN_VAN_HOUTEN OLIN_211 OLIN_225 OLIN_220 : : 14 : Watson_Linda
+IFT_300_H1X 1 0
+1 : 01 : 60 82 83 : : OLIN_VAN_HOUTEN OLIN_211 OLIN_225 OLIN_220 : : 12 : Sugar_Amy
+IFT_300_H2X 1 0
+1 : 01 : 84 85 : : OLIN_VAN_HOUTEN OLIN_211 OLIN_225 OLIN_220 : : 12 : Vargas_Jessica
+INAF_301_H1 1 0
+1 : 01 : 15 35 62 72 : : CSS_121 CSS_134 CSS_221 CSS_170 CSS_100 : : 22 : Day_Stephen
+INAF_310_H1 1 0
+1 : 01 : 4 11 : : CSS_221 CSS_232 CSS_229 CSS_121 CSS_118 : : 18 : Reynolds_Ted
+INAF_315E_H1 1 0
+1 : 01 : 5 54 : : CSS_121 CSS_229 CSS_221 CSS_100 CSS_222 : : 22 : Pritchard_Sebastian
+INAF_315I_H2 1 0
+1 : 01 : 37 : : CSS_232 CSS_170 CSS_134 CSS_121 CSS_167 : : 22 : Bersia_John
+INAF_322_H1 1 0
+1 : 01 : 36 38 63 : : CSS_170 CSS_121 CSS_226 CSS_135 CSS_232 : : 22 : Day_Stephen
+INB_200_1 1 0
+1 : 01 : 2 3 10 86 147 : : CSS_118 CSS_167 CSS_133 CSS_221 CSS_121 : : 20 : Perri_Alessandro
+INB_200_2 1 0
+1 : 01 : 10 2 3 86 17 : : CSS_167 CSS_100 CSS_222 CSS_232 CSS_229 : : 20 : Perri_Alessandro
+INB_200_3 1 0
+1 : 01 : 3 2 17 106 152 : : BUSH_176 BUSH_208 BUSH_302 BUSH_210 BUSH_308 : : 20 : Perri_Alessandro
+INB_201_1 1 0
+1 : 01 : 86 2 3 10 109 : : CSS_134 CSS_119 CSS_221 CSS_170 CSS_226 : : 18 : Lairson_Thomas
+INB_214_1 1 0
+1 : 01 : 6 23 1 79 14 : : CSS_134 CSS_133 CSS_222 CSS_118 CSS_170 : : 20 : Buckley_Keith
+INB_230_1 1 0
+1 : 01 : 2 3 10 86 147 : : CSS_170 CSS_226 CSS_134 CSS_230 CSS_167 : : 20 : Pronobis_Paul
+INB_230_2 1 0
+1 : 01 : 10 147 86 17 109 : : CSS_170 CSS_133 CSS_230 CSS_229 CSS_222 : : 20 : Pronobis_Paul
+INB_230_3 1 0
+1 : 01 : 3 106 152 17 86 : : BUSH_202 BUSH_208 BUSH_164 BUSH_201 BUSH_123 : : 20 : Pronobis_Paul
+INB_236_1 1 0
+1 : 01 : 0 7 8 : : CSS_170 CSS_133 CSS_222 CSS_221 CSS_121 : : 20 : Boulanger_Michele
+INB_236_2 1 0
+1 : 01 : 0 7 8 9 : : CSS_134 CSS_221 CSS_222 CSS_232 CSS_118 : : 20 : Boulanger_Michele
+INB_236_3 1 0
+1 : 01 : 0 9 16 40 : : CSS_170 CSS_226 CSS_134 CSS_221 CSS_232 : : 20 : Boulanger_Michele
+INB_336_1 1 0
+1 : 01 : 0 9 16 40 : : FAIRBK_114 FAIRBK_107 FAIRBK_116 FAIRBK_112 : : 20 : Kodzi_Emmanuel
+INB_337_1 1 0
+1 : 01 : 0 7 8 : : CSS_121 CSS_229 CSS_222 CSS_100 CSS_118 : : 20 : Fetscherin_Marc
+INB_337_2 1 0
+1 : 01 : 0 7 8 : : FAIRBK_114 FAIRBK_107 FAIRBK_116 FAIRBK_112 : : 20 : Aldea_Jose
+INB_365_1 1 0
+1 : 01 : 0 7 8 : : FAIRBK_114 FAIRBK_107 FAIRBK_116 FAIRBK_112 : : 20 : Kodzi_Emmanuel
+INB_365_2 1 0
+1 : 01 : 0 7 8 9 : : FAIRBK_114 FAIRBK_107 FAIRBK_116 FAIRBK_112 : : 20 : Kodzi_Emmanuel
+INB_372_1 1 0
+1 : 01 : 0 7 8 : : NO_ROOM_SPECIFIED_INB_372_1 : : 20 : Lewin_Richard
+INB_372_2 1 0
+1 : 01 : 0 7 8 9 : : NO_ROOM_SPECIFIED_INB_372_2 : : 20 : Lewin_Richard
+INB_377_1 1 0
+1 : 01 : 0 9 16 40 : : BUSH_176 BUSH_164 BUSH_210 BUSH_310 BUSH_123 : : 20 : Lewin_Richard
+INB_390T_1 1 0
+1 : 01 : 0 7 8 9 : : CSS_121 CSS_167 CSS_133 CSS_170 CSS_134 : : 20 : Fetscherin_Marc
+INB_450_1 1 0
+1 : 01 : 87 : : FAIRBK_114 FAIRBK_107 FAIRBK_116 FAIRBK_112 : : 20 : Kupetz_Allen
+INT_100_1 1 0
+1 : 01 : 80 88 : : CSS_167 CSS_222 CSS_135 CSS_119 CSS_232 : : 11 : Griffin_Tiffany
+INT_100_H1 1 0
+1 : 01 : 89 : : SULLV_HSE : : 17 : Griffin_Tiffany
+INT_101_1 1 0
+1 : 01 : 29 90 92 100 : : SULLV_HSE : : 15 : DiGorio_Jeremy
+INT_200M_H1 1 0
+1 : 01 : 36 38 63 : : BUSH_176 BUSH_228 BUSH_308 BUSH_180 BUSH_201 : : 24 : Musgrave_L.
+INT_200M_H2 1 0
+1 : 01 : 36 38 63 : : BUSH_201 BUSH_308 BUSH_210 : : 25 : Kenyon_Erik
+INT_202_1 1 0
+1 : 01 : 91 99 : : OLIN_VAN_HOUTEN OLIN_211 OLIN_225 OLIN_220 : : 15 : Hein_Meredith
+INT_301_1 1 0
+1 : 01 : 39 90 92 100 : : LODGE_REEVES : : 15 : DiGorio_Jeremy
+INT_396_1 1 0
+1 : 01 : 93 : : CSS_226 : : 31 : Benso_Adrianne
+JPN_101_H1X 1 0
+1 : 01 : 12 16 40 94 95 : : HAUCK_112 HAUCK_100 HAUCK_104 HAUCK_113 : : 20 : Patterson_Harue
+JPN_201_H1X 1 0
+1 : 01 : 12 40 94 95 : : HAUCK_112 HAUCK_100 HAUCK_104 HAUCK_113 : : 20 : Patterson_Harue
+LAT_101_1 1 0
+1 : 01 : 41 79 23 6 1 : : LODGE_REEVES : : 25 : Rubarth_Scott
+LAT_201_1 1 0
+1 : 01 : 41 79 1 23 14 : : ORLAN_215 : : 25 : Vander_Poppen_Robert
+MAT_103_1 1 0
+1 : 01 : 96 111 124 125 : : BUSH_228 BUSH_212 BUSH_201 BUSH_210 BUSH_208 : : 24 : Boyd_Sheri
+MAT_103_1_LAB 1 0
+1 : 01 : 53 97 102 138 : : BUSH_301 : : 24 : Boyd_Sheri
+MAT_108_1 1 0
+1 : 01 : 1 6 23 25 : : BUSH_228 BUSH_164 BUSH_301 BUSH_176 BUSH_201 : : 24 : Boyd_Sheri
+MAT_108_2 1 0
+1 : 01 : 6 41 14 79 1 : : BUSH_308 BUSH_208 BUSH_164 BUSH_176 BUSH_201 : : 24 : Boyd_Sheri
+MAT_108_3 1 0
+1 : 01 : 41 6 14 79 1 : : BUSH_102 BUSH_180 BUSH_164 BUSH_301 BUSH_201 : : 18 : Rejniak_Gabrielle
+MAT_108_4 1 0
+1 : 01 : 0 7 8 : : BUSH_308 BUSH_176 BUSH_212 BUSH_201 BUSH_180 : : 24 : Rejniak_Gabrielle
+MAT_108_5 1 0
+1 : 01 : 1 6 14 41 79 : : BUSH_212 BUSH_301 BUSH_180 BUSH_302 BUSH_201 : : 24 : Rejniak_Gabrielle
+MAT_108_H1 1 0
+1 : 01 : 98 : : CSS_133 CSS_230 CSS_231 CSS_135 CSS_121 : : 20 : Cristwell_Precious
+MAT_108L_1_LAB 1 0
+1 : 01 : 91 99 : : BUSH_301 : : 24 : Rejniak_Gabrielle
+MAT_108L_2_LAB 1 0
+1 : 01 : 29 39 90 92 100 : : CSS_133 : : 24 : Boyd_Sheri
+MAT_108L_3_LAB 1 0
+1 : 01 : 56 57 58 : : OLIN_220 : : 24 : Rejniak_Gabrielle
+MAT_108L_4_LAB 1 0
+1 : 01 : 49 68 69 101 : : BUSH_301 : : 24 : Boyd_Sheri
+MAT_109_1_LAB 1 0
+1 : 01 : 53 97 102 138 : : BUSH_301 : : 24 : Rejniak_Gabrielle
+MAT_109_1 1 0
+1 : 01 : 0 7 8 9 : : BUSH_308 BUSH_302 BUSH_210 BUSH_180 BUSH_208 : : 24 : Rejniak_Gabrielle
+MAT_109_2 1 0
+1 : 01 : 2 3 10 86 147 : : BUSH_228 BUSH_208 BUSH_180 BUSH_308 BUSH_176 : : 24 : Boyd_Sheri
+MAT_109_2_LAB 1 0
+1 : 01 : 53 97 102 138 : : BUSH_228 : : 24 : Boyd_Sheri
+MAT_110_1 1 0
+1 : 01 : 2 3 10 86 147 : : BUSH_201 BUSH_164 BUSH_176 BUSH_308 BUSH_180 : : 24 : Yellen_Jay
+MAT_110_1_LAB 1 0
+1 : 01 : 53 97 102 138 : : BUSH_201 : : 24 : Yellen_Jay
+MAT_111_1 1 0
+1 : 01 : 41 1 79 14 6 : : BUSH_201 BUSH_210 : : 29 : Anderson_Mark
+MAT_111_1_LAB 1 0
+1 : 01 : 103 : : BUSH_210 : : 29 : Anderson_Mark
+MAT_111_2 1 0
+1 : 01 : 0 7 8 9 : : BUSH_176 BUSH_301 BUSH_210 BUSH_228 BUSH_180 : : 24 : Teymuroglu_Zeynep
+MAT_111_2_LAB 1 0
+1 : 01 : 104 : : CSS_121 : : 24 : Teymuroglu_Zeynep
+MAT_112_1 1 0
+1 : 01 : 105 : : BUSH_212 BUSH_176 BUSH_201 BUSH_308 BUSH_180 : : 24 : Vitray_Richard
+MAT_140_H1 1 0
+1 : 01 : 61 106 145 152 : : BUSH_301 BUSH_164 BUSH_308 BUSH_208 BUSH_176 : : 24 : Anderson_Mark
+MAT_219_1 1 0
+1 : 01 : 1 23 25 14 41 : : BUSH_208 BUSH_164 BUSH_228 BUSH_176 BUSH_180 : : 24 : Yellen_Jay
+MAT_330_1 1 0
+1 : 01 : 6 14 41 79 : : BUSH_212 BUSH_201 BUSH_301 BUSH_164 BUSH_210 : : 24 : Vitray_Richard
+MAT_350_1 1 0
+1 : 01 : 0 7 8 : : BUSH_208 BUSH_302 BUSH_210 BUSH_228 BUSH_301 : : 24 : Teymuroglu_Zeynep
+MAT_440_1 1 0
+1 : 01 : 0 7 8 9 : : BUSH_210 BUSH_212 BUSH_228 BUSH_164 BUSH_208 : : 24 : Anderson_Mark
+MUS_120_1 1 0
+1 : 01 : 6 41 23 79 14 : : KEENE_103 KEENE_101 : : 17 : Lecky_Karen
+MUS_151_1 1 0
+1 : 01 : 1 14 23 25 41 : : KEENE_103 KEENE_101 KEENE_104 KEENE_119 : : 7 : Crozier_Daniel
+MUS_151_H1 1 0
+1 : 01 : 106 3 17 145 152 : : KEENE_103 KEENE_101 : : 20 : Ray_James
+MUS_153_1 1 0
+1 : 01 : 0 7 8 : : KEENE_103 KEENE_101 KEENE_104 KEENE_119 : : 5 : Cook_Gloria
+MUS_153_2 1 0
+1 : 01 : 0 7 8 9 : : KEENE_103 KEENE_101 KEENE_104 KEENE_119 : : 5 : Cook_Gloria
+MUS_153_H1 1 0
+1 : 01 : 0 9 16 40 : : KEENE_103 KEENE_104 KEENE_101 KEENE_119 : : 10 : Ray_James
+MUS_153_H2 1 0
+1 : 01 : 9 12 16 40 94 : : KEENE_103 KEENE_104 KEENE_101 KEENE_119 : : 10 : Ray_James
+MUS_160_1 1 0
+1 : 01 : 0 7 8 : : KEENE_103 KEENE_101 : : 19 : Archard_Charles
+MUS_160_H1 1 0
+1 : 01 : 5 54 : : KEENE_101 : : 24 : Archard_Charles
+MUS_223_1X 1 0
+1 : 01 : 96 111 124 125 : : KEENE_103 KEENE_101 : : 20 : Foster_Julia
+MUS_227_1X 1 0
+1 : 01 : 9 12 16 40 94 : : KEENE_103 KEENE_101 KEENE_119 : : 14 : Flick_Daniel
+MUS_251_1 1 0
+1 : 01 : 6 79 14 41 1 : : KEENE_103 KEENE_101 : : 19 : Crozier_Daniel
+MUS_251_H1 1 0
+1 : 01 : 12 16 40 94 95 : : KEENE_103 KEENE_101 : : 20 : Crozier_Daniel
+MUS_286_1X 1 0
+1 : 01 : 86 147 2 109 10 : : KEENE_103 KEENE_104 KEENE_101 KEENE_119 : : 10 : Ray_James
+MUS_292_1X 1 0
+1 : 01 : 0 7 8 : : KEENE_103 KEENE_101 : : 20 : Archard_Charles
+MUS_305H_1X 1 0
+1 : 01 : 9 12 16 40 94 : : KEENE_103 KEENE_101 : : 20 : Grau_John
+MUS_310_1X 1 0
+1 : 01 : 0 7 8 9 : : KEENE_103 KEENE_101 : : 20 : Grau_John
+MUS_341_1X 1 0
+1 : 01 : 68 107 : : KEENE_103 KEENE_101 KEENE_119 : : 16 : Linn_Teresa
+MUS_342_1X 1 0
+1 : 01 : 108 : : KEENE_103 KEENE_101 KEENE_119 : : 16 : Roos_Joni
+MUS_360_1X 1 0
+1 : 01 : 0 7 8 : : KEENE_103 KEENE_101 : : 20 : Lackman_Susan
+MUS_361_1 1 0
+1 : 01 : 86 109 10 17 2 : : KEENE_103 KEENE_101 : : 20 : Witmer_Ruth
+MUS_361_H1 1 0
+1 : 01 : 109 86 17 10 152 : : KEENE_103 KEENE_101 : : 20 : Witmer_Ruth
+MUS_372_1X 1 0
+1 : 01 : 0 7 8 9 : : KEENE_103 KEENE_101 KEENE_119 : : 12 : Lackman_Susan
+MUS_380_1X 1 0
+1 : 01 : 0 9 16 40 : : KEENE_103 KEENE_101 KEENE_119 : : 16 : Cook_Gloria
+MUS_381_1X 1 0
+1 : 01 : 0 9 16 40 : : NO_ROOM_SPECIFIED_MUS_381_1X : : 20 : Foster_Julia
+PEA_30_1 1 0
+1 : 01 : 110 114 121 : : ASC_LOBBY_PEA_30_1 : : 29 : Vossler_Andrew
+PEA_30_2 1 0
+1 : 01 : 96 111 118 124 125 : : ASC_LOBBY_PEA_30_2 : : 29 : Sweeney_Matthew
+PEA_32_1 1 0
+1 : 01 : 96 111 118 124 125 : : POOL_POOL : : 25 : VanKuren_Amber-Leigh
+PEA_34_1 1 0
+1 : 01 : 65 66 112 : : ASC_109 ASC_150 ASC_230 ASC_243 ASC_139 : : 20 : Morse_Timothy
+PEA_34_2 1 0
+1 : 01 : 113 : : ASC_109 ASC_230 ASC_150 ASC_138 ASC_139 : : 20 : Morse_Timothy
+PEA_36_1 1 0
+1 : 01 : 110 114 121 : : ASC_139 ASC_243 ASC_230 ASC_150 ASC_109 : : 20 : Chatelain_Judith
+PEA_36_2 1 0
+1 : 01 : 115 119 : : ASC_139 ASC_230 ASC_150 ASC_109 ASC_243 : : 20 : Chatelain_Judith
+PEA_37_1 1 0
+1 : 01 : 116 117 : : ASC_LOBBY_PEA_37_1 : : 24 : Rose_David
+PEA_37_2 1 0
+1 : 01 : 116 117 : : ASC_LOBBY_PEA_37_2 : : 24 : Rose_David
+PEA_40_1 1 0
+1 : 01 : 96 111 124 125 : : TENNIS_TEN-BM : : 12 : Buckley_Beverly
+PEA_40_2 1 0
+1 : 01 : 110 114 121 : : TENNIS_TEN-BM : : 12 : Bohrnstedt_Ronald
+PEA_42_1 1 0
+1 : 01 : 111 118 123 124 125 : : TENNIS_TEN-BM : : 12 : Buckley_Beverly
+PEA_42_2 1 0
+1 : 01 : 115 119 121 : : TENNIS_TEN-BM : : 12 : Buckley_Beverly
+PEA_44_1 1 0
+1 : 01 : 120 : : ASC_LOBBY_PEA_44_1 : : 8 : Arrowsmith_Nathan
+PEA_44_2 1 0
+1 : 01 : 116 117 : : ASC_LOBBY_PEA_44_2 : : 8 : Arrowsmith_Nathan
+PEA_46_1 1 0
+1 : 01 : 116 117 : : ASC_LOBBY_PEA_46_1 : : 8 : Frakes_Owen
+PEA_51_1 1 0
+1 : 01 : 103 : : ASC_150 : : 29 : Arrowsmith_Nathan
+PEA_54_1 1 0
+1 : 01 : 96 111 124 125 : : ASC_138 ASC_243 ASC_109 ASC_150 ASC_139 : : 20 : Pistor_Shawn
+PEA_54_2 1 0
+1 : 01 : 96 111 118 124 125 : : ASC_138 ASC_243 ASC_230 ASC_139 ASC_109 : : 20 : Pistor_Shawn
+PEA_56_1 1 0
+1 : 01 : 110 114 119 121 : : ASC_230 ASC_138 ASC_150 ASC_243 ASC_139 : : 20 : Hendriks_Jensen
+PEA_58_1 1 0
+1 : 01 : 96 111 124 125 : : BOAT_1 : : 12 : Bedsole_Marc
+PEA_62_1 1 0
+1 : 01 : 120 : : BOAT_1 : : 12 : Smith_Harry
+PEA_62_2 1 0
+1 : 01 : 103 : : BOAT_1 : : 12 : Smith_Harry
+PEA_62_3 1 0
+1 : 01 : 116 117 : : BOAT_1 : : 12 : Smith_Harry
+PEA_62_4 1 0
+1 : 01 : 116 117 : : BOAT_1 : : 12 : Smith_Harry
+PEA_62_5 1 0
+1 : 01 : 122 : : BOAT_1 : : 12 : Smith_Harry
+PEA_70_1 1 0
+1 : 01 : 111 118 123 124 125 : : ASC_109 ASC_150 ASC_139 : : 25 : Nichols_Stuart
+PEA_71_1 1 0
+1 : 01 : 118 123 124 125 : : ASC_109 ASC_150 ASC_139 : : 25 : Nichols_Stuart
+PEA_73_1 1 0
+1 : 01 : 96 111 124 125 : : ASC_139 ASC_230 ASC_109 ASC_138 ASC_243 : : 20 : Portoghese_Theresia
+PEA_73_2 1 0
+1 : 01 : 124 118 123 125 96 : : ASC_139 ASC_230 ASC_243 ASC_150 ASC_138 : : 20 : Portoghese_Theresia
+PEA_74_1 1 0
+1 : 01 : 125 118 96 111 124 : : ASC_139 ASC_150 ASC_109 ASC_243 ASC_138 : : 20 : Portoghese_Theresia
+PEA_74_2 1 0
+1 : 01 : 96 111 118 124 125 : : ASC_139 ASC_243 ASC_109 ASC_138 ASC_150 : : 20 : Portoghese_Theresia
+PEA_75_1 1 0
+1 : 01 : 110 114 121 : : ASC_139 ASC_230 ASC_243 ASC_109 ASC_138 : : 20 : Chatelain_Judith
+PEA_75_2 1 0
+1 : 01 : 115 119 121 : : ASC_139 ASC_109 ASC_243 ASC_150 ASC_138 : : 20 : Chatelain_Judith
+PEA_80_1 1 0
+1 : 01 : 110 114 119 121 : : ASC_139 ASC_150 ASC_243 ASC_138 ASC_230 : : 20 : Chatelain_Judith
+PED_101_1 1 0
+1 : 01 : 0 7 8 : : ASC_109 ASC_150 ASC_139 ASC_243 : : 24 : Pistor_Dena
+PED_101_2 1 0
+1 : 01 : 0 7 8 : : ASC_109 ASC_150 ASC_139 ASC_243 : : 24 : Pistor_Dena
+PED_101_3 1 0
+1 : 01 : 0 7 8 9 : : ASC_109 ASC_150 ASC_139 ASC_243 : : 24 : Pistor_Dena
+PED_101_4 1 0
+1 : 01 : 0 9 16 40 : : ASC_109 ASC_150 ASC_139 ASC_243 : : 24 : Pistor_Dena
+PED_101_5 1 0
+1 : 01 : 2 3 10 86 147 : : ASC_109 ASC_150 ASC_139 ASC_243 : : 24 : Buckley_Keith
+PED_101_6 1 0
+1 : 01 : 1 14 25 41 23 : : ASC_109 ASC_150 ASC_139 ASC_243 : : 24 : Friscia_Brian
+PED_101_7 1 0
+1 : 01 : 6 1 23 25 14 : : ASC_109 ASC_150 ASC_139 ASC_243 : : 24 : Friscia_Brian
+PED_101_8 1 0
+1 : 01 : 0 7 8 : : KMC_1 : : 24 : Henderson_Merritt
+PED_106_1 1 0
+1 : 01 : 0 7 8 : : BOAT_1 : : 6 : Melograno_Vincent
+PED_106_2 1 0
+1 : 01 : 0 7 8 9 : : BOAT_1 : : 14 : Melograno_Vincent
+PED_106_3 1 0
+1 : 01 : 4 11 : : BOAT_1 : : 20 : Schwalb_Philip
+PED_477_1 1 0
+1 : 01 : 0 7 8 : : ASC_243 ASC_230 ASC_109 ASC_139 ASC_150 : : 20 : Lopez_Amy
+PEV_83_2 1 0
+1 : 01 : 126 : : ASC_LOBBY_PEV_83_2 : : 29 : Schuck_Alicia
+PEV_85_1 1 0
+1 : 01 : 126 : : ASC_150 : : 29 : Snow_Sindee
+PEV_86_1 1 0
+1 : 01 : 126 : : BOAT_1 : : 29 : Bedsole_Marc
+PHI_108_1 1 0
+1 : 01 : 0 7 8 9 : : LODGE_REEVES : : 25 : Musgrave_L.
+PHI_223_1 1 0
+1 : 01 : 1 6 23 25 41 : : SULLV_HSE : : 25 : Smaw_Eric
+PHI_242_1 1 0
+1 : 01 : 6 25 41 1 23 : : SULLV_HSE : : 25 : Smaw_Eric
+PHI_290_1 1 0
+1 : 01 : 41 79 1 14 6 : : SULLV_HSE : : 25 : Smaw_Eric
+PHI_314_1 1 0
+1 : 01 : 1 6 14 41 79 : : SULLV_HSE : : 17 : Smaw_Eric
+PHI_318_H1 1 0
+1 : 01 : 15 35 62 72 : : FAIRBK_114 FAIRBK_107 FAIRBK_116 FAIRBK_112 : : 20 : Armstrong_James
+PHY_114_2 1 0
+1 : 01 : 1 6 14 41 79 : : BUSH_164 BUSH_180 BUSH_302 BUSH_228 BUSH_212 : : 24 : Mortimer_Elmarie
+PHY_114_2_LAB 1 0
+1 : 01 : 27 : : BUSH_180 : : 24 : Mortimer_Elmarie
+PHY_117_1 1 0
+1 : 01 : 6 79 23 25 14 : : BUSH_164 BUSH_301 BUSH_210 BUSH_201 BUSH_302 : : 24 : Murdaugh_Anne
+PHY_117_1_LAB 1 0
+1 : 01 : 28 75 : : BUSH_180 : : 24 : Murdaugh_Anne
+PHY_120_1 1 0
+1 : 01 : 1 23 41 6 14 : : BUSH_164 BUSH_228 BUSH_301 BUSH_208 BUSH_176 : : 20 : Mortimer_Elmarie
+PHY_120_1_LAB 1 0
+1 : 01 : 26 127 : : BUSH_180 : : 20 : Mortimer_Elmarie
+PHY_130_1 1 0
+1 : 01 : 1 23 25 41 14 : : BUSH_180 BUSH_228 BUSH_212 BUSH_308 BUSH_164 : : 24 : Coyle_Whitney
+PHY_130_1_LAB 1 0
+1 : 01 : 128 : : BUSH_180 : : 24 : Coyle_Whitney
+PHY_130_2 1 0
+1 : 01 : 1 6 14 41 79 : : BUSH_180 BUSH_308 BUSH_201 BUSH_301 BUSH_176 : : 23 : Coyle_Whitney
+PHY_130_2_LAB 1 0
+1 : 01 : 31 43 : : BUSH_180 : : 23 : Coyle_Whitney
+PHY_220_1 1 0
+1 : 01 : 129 : : BUSH_180 BUSH_208 BUSH_264 BUSH_176 BUSH_308 : : 12 : Fuse_Christopher
+PHY_230_1 1 0
+1 : 01 : 130 : : BUSH_180 BUSH_210 BUSH_308 BUSH_212 BUSH_164 : : 16 : Mortimer_Elmarie
+PHY_314_1 1 0
+1 : 01 : 34 : : BUSH_164 BUSH_264 BUSH_208 BUSH_277 BUSH_260 : : 12 : Murdaugh_Anne
+PHY_314_1 1 0
+1 : 01 : 1 6 23 25 41 : : BUSH_180 BUSH_302 BUSH_310 BUSH_208 BUSH_210 : : 12 : Murdaugh_Anne
+PHY_411_1 1 0
+1 : 01 : 1 6 23 25 : : BUSH_164 BUSH_302 BUSH_004 BUSH_123 BUSH_308 : : 9 : Moore_Thomas
+PHY_412_1 1 0
+1 : 01 : 131 : : BUSH_004 BUSH_164 BUSH_277 BUSH_310 BUSH_301 : : 9 : Moore_Thomas
+POL_100_2 1 0
+1 : 01 : 0 7 8 : : CSS_221 CSS_121 CSS_229 CSS_135 CSS_100 : : 24 : Tatari_Eren
+POL_100_3 1 0
+1 : 01 : 0 7 8 9 : : CSS_229 CSS_135 CSS_230 CSS_226 CSS_222 : : 24 : Davison_Joan
+POL_130_2 1 0
+1 : 01 : 0 7 8 : : SULLV_HSE : : 24 : Gunter_Michael
+POL_130_3 1 0
+1 : 01 : 0 9 16 40 : : CSS_221 CSS_229 CSS_226 CSS_100 CSS_230 : : 24 : Chong_Daniel
+POL_160_1 1 0
+1 : 01 : 1 25 23 14 41 : : CSS_230 CSS_135 CSS_226 CSS_134 CSS_121 : : 24 : Davison_Donald
+POL_161_1 1 0
+1 : 01 : 6 79 25 1 23 : : CSS_221 CSS_222 CSS_229 CSS_121 CSS_100 : : 24 : Foglesong_Richard
+POL_319_1 1 0
+1 : 01 : 0 9 16 40 : : CSS_134 CSS_231 CSS_230 CSS_222 CSS_135 : : 15 : Lairson_Thomas
+POL_330_1 1 0
+1 : 01 : 0 7 8 : : CSS_229 CSS_221 CSS_100 CSS_170 CSS_133 : : 15 : Chong_Daniel
+POL_332_1 1 0
+1 : 01 : 0 7 8 9 : : CSS_231 CSS_135 CSS_221 CSS_121 CSS_118 : : 15 : Chong_Daniel
+POL_346_1 1 0
+1 : 01 : 2 3 10 86 147 : : CSS_231 CSS_221 CSS_229 CSS_118 CSS_100 : : 15 : Davison_Donald
+POL_453_1 1 0
+1 : 01 : 0 9 16 40 : : CSS_167 CSS_135 CSS_119 CSS_100 CSS_133 : : 15 : Gunter_Michael
+PPE_119_1 1 0
+1 : 01 : 1 6 41 23 25 : : CSS_221 CSS_134 CSS_222 CSS_121 CSS_226 : : 24 : Foglesong_Richard
+PSY_101_1 1 0
+1 : 01 : 1 41 6 23 14 : : BUSH_176 BUSH_302 BUSH_180 BUSH_228 BUSH_164 : : 24 : St._John_Steven
+PSY_101_H1 1 0
+1 : 01 : 4 11 : : BUSH_210 BUSH_301 BUSH_180 BUSH_164 BUSH_208 : : 24 : Bennett_Dianne
+PSY_150_1 1 0
+1 : 01 : 0 7 8 : : BUSH_212 BUSH_176 BUSH_308 BUSH_301 BUSH_210 : : 24 : Carnahan_Sharon
+PSY_150_2 1 0
+1 : 01 : 0 7 8 : : BUSH_176 BUSH_164 BUSH_210 BUSH_180 BUSH_208 : : 24 : Harris_Paul
+PSY_150_3 1 0
+1 : 01 : 0 7 8 : : BUSH_228 BUSH_201 BUSH_210 BUSH_301 BUSH_212 : : 23 : Houston_John
+PSY_200_1 1 0
+1 : 01 : 0 9 16 40 : : BUSH_201 BUSH_212 BUSH_164 BUSH_301 BUSH_308 : : 24 : Luchner_Andrew
+PSY_211_1 1 0
+1 : 01 : 1 23 25 6 14 : : CSS_121 CSS_230 CSS_226 CSS_100 CSS_135 : : 24 : Woodward_Suzanne
+PSY_211_H1 1 0
+1 : 01 : 5 54 : : BUSH_201 BUSH_176 BUSH_212 BUSH_228 BUSH_301 : : 24 : Houston_John
+PSY_217_1 1 0
+1 : 01 : 2 3 10 86 147 : : BUSH_176 BUSH_301 BUSH_228 BUSH_201 BUSH_208 : : 24 : Ruiz_Maria
+PSY_217_1_LAB 1 0
+1 : 01 : 33 132 : : BUSH_176 : : 24 : Ruiz_Maria
+PSY_250_1 1 0
+1 : 01 : 0 7 8 9 : : BUSH_228 BUSH_176 BUSH_301 BUSH_302 BUSH_202 : : 16 : Davidson_Alice
+PSY_250_2 1 0
+1 : 01 : 0 7 8 9 : : BUSH_274 BUSH_228 BUSH_164 BUSH_308 BUSH_202 : : 14 : Houston_John
+PSY_255_1 1 0
+1 : 01 : 0 9 16 40 : : BUSH_212 BUSH_176 BUSH_301 BUSH_308 BUSH_310 : : 18 : Harris_Paul
+PSY_255L_1_LAB 1 0
+1 : 01 : 0 7 8 9 : : BUSH_301 : : 15 : Harris_Paul
+PSY_261_H1 1 0
+1 : 01 : 15 35 62 72 : : BUSH_212 BUSH_180 BUSH_210 BUSH_228 BUSH_308 : : 24 : Rey_Catalina
+PSY_301_H1 1 0
+1 : 01 : 5 54 : : BUSH_212 BUSH_176 BUSH_164 BUSH_228 BUSH_201 : : 24 : Migetz_Debrah
+PSY_302_1 1 0
+1 : 01 : 0 7 8 : : BUSH_212 BUSH_176 BUSH_302 BUSH_201 BUSH_308 : : 24 : Queen_Jennifer
+PSY_304_H1 1 0
+1 : 01 : 15 35 62 72 : : BUSH_210 BUSH_164 BUSH_212 BUSH_208 BUSH_176 : : 24 : Rupp_Michael
+PSY_305_1 1 0
+1 : 01 : 10 17 109 3 147 : : BUSH_176 BUSH_164 BUSH_301 BUSH_228 BUSH_308 : : 24 : Woodward_Suzanne
+PSY_306_H1 1 0
+1 : 01 : 15 35 62 72 : : BUSH_210 BUSH_301 BUSH_228 BUSH_164 BUSH_180 : : 24 : Miller_Leslie
+PSY_310_1 1 0
+1 : 01 : 6 23 25 79 1 : : BUSH_228 BUSH_302 BUSH_164 BUSH_180 BUSH_210 : : 24 : Luchner_Andrew
+PSY_310_H1 1 0
+1 : 01 : 5 54 : : BUSH_228 BUSH_164 BUSH_308 BUSH_301 BUSH_302 : : 24 : Daniels_Bradley
+PSY_312_H1 1 0
+1 : 01 : 15 35 62 72 : : BUSH_228 BUSH_176 BUSH_201 BUSH_308 BUSH_180 : : 24 : Consalo_Marc
+PSY_315C_H1 1 0
+1 : 01 : 4 11 : : BUSH_210 BUSH_310 BUSH_228 BUSH_308 BUSH_201 : : 20 : Elliott_Christopher
+PSY_316_H1 1 0
+1 : 01 : 5 54 : : BUSH_201 BUSH_212 BUSH_228 BUSH_208 BUSH_176 : : 24 : Goldstein_Nancy
+PSY_322_1 1 0
+1 : 01 : 2 3 10 86 147 : : CSS_229 CSS_230 CSS_167 CSS_118 CSS_170 : : 16 : Woodward_Suzanne
+PSY_322L_1_LAB 1 0
+1 : 01 : 3 152 106 2 86 : : BUSH_310 : : 16 : Woodward_Suzanne
+PSY_326_1 1 0
+1 : 01 : 0 7 8 9 : : BUSH_208 BUSH_210 BUSH_310 BUSH_180 BUSH_212 : : 18 : St._John_Steven
+PSY_326L_1_LAB 1 0
+1 : 01 : 0 7 8 : : BUSH_101 : : 18 : St._John_Steven
+PSY_328_1 1 0
+1 : 01 : 10 3 17 109 86 : : BUSH_202 BUSH_123 BUSH_102 BUSH_210 BUSH_176 : : 18 : Davidson_Alice
+PSY_330_H1 1 0
+1 : 01 : 36 38 63 : : BUSH_302 BUSH_164 BUSH_228 BUSH_202 BUSH_212 : : 20 : Niemi_Robert
+PSY_333_1 1 0
+1 : 01 : 6 14 41 25 79 : : BUSH_208 BUSH_201 BUSH_210 BUSH_180 BUSH_301 : : 24 : St._John_Steven
+PSY_336_H1 1 0
+1 : 01 : 36 38 63 : : BUSH_210 BUSH_308 BUSH_302 BUSH_228 BUSH_201 : : 22 : Dunn_Stacey
+PSY_341_1 1 0
+1 : 01 : 1 14 23 6 41 : : BUSH_274 BUSH_277 BUSH_301 BUSH_208 BUSH_260 : : 12 : Ruiz_Maria
+PSY_341L_1_LAB 1 0
+1 : 01 : 133 : : BUSH_274 : : 12 : Ruiz_Maria
+PSY_343_1 1 0
+1 : 01 : 2 3 10 86 147 : : BUSH_302 BUSH_308 BUSH_208 BUSH_210 BUSH_212 : : 24 : Dunn_Stacey
+PSY_343_H1 1 0
+1 : 01 : 4 11 : : BUSH_228 BUSH_301 BUSH_212 BUSH_164 BUSH_176 : : 24 : Dunn_Stacey
+PSY_413_H1 1 0
+1 : 01 : 36 38 63 : : BUSH_210 BUSH_212 BUSH_164 BUSH_301 BUSH_308 : : 22 : Williams_Angela
+PSY_495_1 1 0
+1 : 01 : 134 : : BUSH_176 BUSH_301 BUSH_201 BUSH_210 BUSH_180 : : 12 : Harris_Paul
+RED_309_1 1 0
+1 : 01 : 0 7 8 9 : : CSS_222 CSS_135 CSS_100 CSS_133 CSS_229 : : 20 : Griner_Angela
+RED_369_1X 1 0
+1 : 01 : 0 9 16 40 : : CSS_222 CSS_221 CSS_134 CSS_100 CSS_232 : : 20 : Fadool_Margot
+RED_371_H1 1 0
+1 : 01 : 5 54 : : CSS_222 CSS_167 CSS_231 CSS_226 CSS_229 : : 10 : Padilla_Aimee
+RED_409_1 1 0
+1 : 01 : 20 135 : : CSS_232 CSS_134 CSS_118 CSS_121 CSS_226 : : 20 : Griner_Angela
+RED_409L_1_LAB 1 0
+1 : 01 : 1 6 23 25 : : CSS_232 : : 20 : Griner_Angela
+REL_113_1 1 0
+1 : 01 : 2 3 10 86 147 : : KMC_1 : : 25 : D'Amato_Mario
+REL_125_1 1 0
+1 : 01 : 0 7 8 9 : : ORLAN_215 : : 25 : Greenberg_Yudit
+REL_126_H1 1 0
+1 : 01 : 5 54 : : KMC_1 : : 24 : Patrick_William
+REL_237_1 1 0
+1 : 01 : 3 152 17 106 10 : : KMC_1 : : 25 : D'Amato_Mario
+REL_300_1X 1 0
+1 : 01 : 0 9 16 40 : : OLIN_211 OLIN_225 OLIN_VAN_HOUTEN : : 17 : Greenberg_Yudit
+RFLA_100_1 1 0
+1 : 01 : 136 : : CSS_226 CSS_230 CSS_232 CSS_135 CSS_221 : : 25 : Strom_Claire
+RFLA_100_2 1 0
+1 : 01 : 137 : : CSS_226 CSS_100 CSS_221 CSS_135 CSS_222 : : 25 : Strom_Claire
+RFLA_100_3 1 0
+1 : 01 : 53 97 102 138 : : CSS_226 CSS_135 CSS_100 CSS_230 CSS_232 : : 25 : Strom_Claire
+RFLA_400_1 1 0
+1 : 01 : 87 : : LODGE_REEVES : : 16 : Strom_Claire
+RSN_101_1 1 0
+1 : 01 : 1 23 25 14 6 : : HAUCK_112 HAUCK_110 HAUCK_100 HAUCK_111 HAUCK_113 : : 15 : Boguslawski_Alexander
+RSN_234_1 1 0
+1 : 01 : 139 : : HAUCK_106 HAUCK_110 HAUCK_104 HAUCK_113 HAUCK_100 : : 15 : Boguslawski_Alexander
+RSN_234_1 1 0
+1 : 01 : 124 111 125 118 96 : : HAUCK_110 HAUCK_112 HAUCK_104 HAUCK_100 HAUCK_111 : : 15 : Boguslawski_Alexander
+SEB_200_1 1 0
+1 : 01 : 10 17 2 86 3 : : BUSH_208 BUSH_164 BUSH_308 BUSH_176 BUSH_302 : : 22 : Stecker_Michelle
+SEB_200_2 1 0
+1 : 01 : 3 86 10 17 109 : : BUSH_208 BUSH_180 BUSH_228 BUSH_301 BUSH_201 : : 22 : Stecker_Michelle
+SEB_220_1 1 0
+1 : 01 : 0 7 8 : : HAUCK_112 HAUCK_113 : : 22 : Warnecke_Tonia
+SEB_220_2 1 0
+1 : 01 : 0 7 8 9 : : HAUCK_112 HAUCK_113 : : 22 : Warnecke_Tonia
+SOC_108_1 1 0
+1 : 01 : 0 7 8 9 : : CSS_135 CSS_222 CSS_221 CSS_232 CSS_100 : : 25 : McClure_Amy
+SOC_111_1 1 0
+1 : 01 : 2 3 10 86 147 : : CSS_230 CSS_226 CSS_135 CSS_100 CSS_222 : : 25 : Nichter_Matthew
+SOC_111_2 1 0
+1 : 01 : 3 109 152 86 2 : : BUSH_201 BUSH_308 BUSH_210 : : 25 : Nichter_Matthew
+SOC_201_1 1 0
+1 : 01 : 0 7 8 : : CSS_135 CSS_232 CSS_226 CSS_221 CSS_100 : : 25 : McClure_Amy
+SOC_301_1 1 0
+1 : 01 : 10 17 2 147 86 : : CSS_118 CSS_222 CSS_232 CSS_121 CSS_134 : : 18 : Armenia_Amy
+SOC_311C_1 1 0
+1 : 01 : 9 12 16 40 94 : : BUSH_102 BUSH_176 BUSH_308 BUSH_208 BUSH_310 : : 18 : Nichter_Matthew
+SOC_346_1 1 0
+1 : 01 : 0 9 16 40 : : CSS_135 CSS_221 CSS_229 CSS_232 CSS_118 : : 18 : McClure_Amy
+SPN_101_1 1 0
+1 : 01 : 13 140 143 : : HAUCK_106 HAUCK_112 HAUCK_104 HAUCK_113 HAUCK_100 : : 18 : Smith_Yona
+SPN_101_2 1 0
+1 : 01 : 13 140 143 144 : : WAR_201 : : 18 : Smith_Yona
+SPN_101_3 1 0
+1 : 01 : 141 142 143 144 : : BUSH_302 BUSH_123 BUSH_228 BUSH_310 BUSH_102 : : 18 : Campos_Maria
+SPN_101_4 1 0
+1 : 01 : 141 142 144 : : BUSH_302 BUSH_210 BUSH_102 BUSH_202 BUSH_123 : : 18 : Campos_Maria
+SPN_102_1 1 0
+1 : 01 : 13 140 141 143 144 : : WAR_201 : : 18 : Smith_Yona
+SPN_102_2 1 0
+1 : 01 : 13 141 142 143 144 : : WAR_201 : : 18 : Smith_Yona
+SPN_110_1 1 0
+1 : 01 : 1 25 41 23 14 : : FAIRBK_112 FAIRBK_116 FAIRBK_114 FAIRBK_107 : : 18 : Morales_Margareth
+SPN_110_2 1 0
+1 : 01 : 6 14 79 25 1 : : FAIRBK_112 FAIRBK_116 FAIRBK_114 FAIRBK_107 : : 18 : Morales_Margareth
+SPN_110_3 1 0
+1 : 01 : 6 23 1 14 25 : : HAUCK_111 HAUCK_112 HAUCK_106 HAUCK_104 HAUCK_113 : : 18 : Holguin-Intriago_Jose
+SPN_110_4 1 0
+1 : 01 : 41 6 23 79 14 : : HAUCK_111 HAUCK_104 HAUCK_100 HAUCK_112 HAUCK_106 : : 18 : Holguin-Intriago_Jose
+SPN_201_1 1 0
+1 : 01 : 1 6 23 25 : : HAUCK_111 HAUCK_100 HAUCK_106 HAUCK_112 HAUCK_104 : : 18 : Holguin-Intriago_Jose
+SPN_201_2 1 0
+1 : 01 : 1 23 25 6 41 : : HAUCK_111 HAUCK_113 HAUCK_100 HAUCK_104 HAUCK_112 : : 18 : Holguin-Intriago_Jose
+SPN_201_3 1 0
+1 : 01 : 1 6 14 41 79 : : BUSH_210 BUSH_302 BUSH_164 BUSH_201 BUSH_176 : : 18 : Morales_Margareth
+SPN_201_4 1 0
+1 : 01 : 6 14 41 79 : : BUSH_210 BUSH_176 BUSH_302 BUSH_308 BUSH_212 : : 18 : Morales_Margareth
+SPN_201_5 1 0
+1 : 01 : 1 6 23 25 : : HAUCK_113 HAUCK_112 HAUCK_111 HAUCK_106 HAUCK_104 : : 18 : Paniagua-Tejo_Maria
+SPN_201_6 1 0
+1 : 01 : 1 6 23 25 41 : : HAUCK_113 HAUCK_106 HAUCK_104 HAUCK_111 HAUCK_110 : : 15 : Paniagua-Tejo_Maria
+SPN_201_H1X 1 0
+1 : 01 : 17 61 106 145 152 : : BUSH_302 BUSH_164 BUSH_212 BUSH_176 BUSH_102 : : 15 : Mann-Grosso_Valerie
+SPN_202_1 1 0
+1 : 01 : 6 41 79 23 14 : : HAUCK_113 HAUCK_100 HAUCK_111 HAUCK_112 HAUCK_110 : : 15 : Paniagua-Tejo_Maria
+SPN_202_2 1 0
+1 : 01 : 41 14 6 1 23 : : HAUCK_113 HAUCK_106 HAUCK_111 HAUCK_104 HAUCK_112 : : 8 : Paniagua-Tejo_Maria
+SPN_290_1 1 0
+1 : 01 : 0 7 8 : : HAUCK_111 HAUCK_100 HAUCK_104 HAUCK_110 HAUCK_113 : : 15 : Diaz-Zambrana_Rosana
+SPN_290_2 1 0
+1 : 01 : 0 7 8 9 : : HAUCK_111 HAUCK_106 HAUCK_104 HAUCK_112 HAUCK_100 : : 15 : Diaz-Zambrana_Rosana
+SPN_302_1 1 0
+1 : 01 : 146 : : BEAL_2 BEAL_1 : : 15 : Tome_Patricia
+SPN_337_1 1 0
+1 : 01 : 2 10 86 147 : : BEAL_2 BEAL_1 : : 15 : Tome_Patricia
+SPN_341_1 1 0
+1 : 01 : 148 : : HAUCK_110 HAUCK_112 HAUCK_104 HAUCK_113 HAUCK_111 : : 15 : Prieto-Calixto_Alberto
+SPN_341_2 1 0
+1 : 01 : 149 : : HAUCK_113 HAUCK_106 HAUCK_110 HAUCK_112 HAUCK_104 : : 15 : Prieto-Calixto_Alberto
+SWAG_205_1X 1 0
+1 : 01 : 40 95 9 94 12 : : KMC_1 : : 20 : Dennis_Kimberly
+SWAG_225F_H1X 1 0
+1 : 01 : 12 16 40 94 95 : : SULLV_HSE : : 20 : Edwards_Ruth
+SWAG_350_H1X 1 0
+1 : 01 : 150 : : CSS_221 CSS_135 CSS_222 CSS_230 CSS_226 : : 25 : Brandon_Wendy
+THE_100_1 1 0
+1 : 01 : 6 25 14 41 1 : : KMC_1 : : 20 : Cooperman_Hilary
+THE_100_2 1 0
+1 : 01 : 1 6 14 41 79 : : BUSH_123 BUSH_228 BUSH_164 BUSH_302 BUSH_201 : : 20 : Cooperman_Hilary
+THE_111_1 1 0
+1 : 01 : 0 7 8 9 : : ANNIE_AUD : : 12 : Miller_Robert
+THE_112_1 1 0
+1 : 01 : 19 20 151 : : COST_SHOP : : 14 : Cody-Rapport_Lisa
+THE_131_1 1 0
+1 : 01 : 0 7 8 : : FRED_FRED : : 16 : Zivot_Eric
+THE_131_H1X 1 0
+1 : 01 : 152 106 17 109 145 : : ASC_243 ASC_230 ASC_139 ASC_150 ASC_138 : : 20 : Ouellette_Thomas
+THE_133_1 1 0
+1 : 01 : 0 7 8 9 : : FRED_FRED : : 14 : Charles_David
+THE_135_1 1 0
+1 : 01 : 3 10 109 2 17 : : DANCE_1 : : 14 : Barnes_Melissa
+THE_136_1 1 0
+1 : 01 : 6 79 41 25 1 : : FRED_FRED : : 14 : Zivot_Eric
+THE_201_1 1 0
+1 : 01 : 0 7 8 9 : : KMC_1 : : 12 : DiQuattro_Marianne
+THE_206_H1X 1 0
+1 : 01 : 5 54 : : CSS_134 CSS_231 CSS_135 CSS_226 CSS_170 : : 20 : Rodgers_Charles
+THE_210_1 1 0
+1 : 01 : 0 9 16 40 : : ORLAN_105 ORLAN_113 ORLAN_115 ORLAN_215 ORLAN_213 : : 20 : Cooperman_Hilary
+THE_250G_1 1 0
+1 : 01 : 3 17 152 109 106 : : FRED_FRED : : 20 : Cooperman_Hilary
+THE_323_1 1 0
+1 : 01 : 18 : : COST_SHOP : : 12 : Cody-Rapport_Lisa
+THE_325_1 1 0
+1 : 01 : 19 20 151 : : FRED_FRED : : 14 : Charles_David
+THE_331_1 1 0
+1 : 01 : 18 : : FRED_FRED : : 16 : Zivot_Eric
+THE_340_1 1 0
+1 : 01 : 139 : : FRED_FRED : : 14 : Charles_David
+THE_341_1 1 0
+1 : 01 : 1 23 6 41 25 : : REX_1 : : 20 : DiQuattro_Marianne
+THE_391_1 1 0
+1 : 01 : 153 : : FRED_FRED : : 14 : Cushman_Lauren
+THE_480_1 1 0
+1 : 01 : 154 : : FRED_FRED : : 12 : Ouellette_Thomas
+TPJ_111_1 1 0
+1 : 01 : 50 155 : : OLIN_211 : : 25 : Robertshaw_Suzanne
+ANT_202_1_LAC_200_1 1 0
+1 : 01 : 0 7 8 9 : : CSS_100 CSS_134 CSS_135 CSS_121 CSS_231 : : 12 : Kistler_Sarah_Kistler_Sarah
+ANT_310_1_GBH_310_1 1 0
+1 : 01 : 2 3 10 86 147 : : CSS_119 CSS_232 CSS_170 CSS_133 CSS_121 : : 8 : Lauer_Carol_Lauer_Carol
+ART_232_H1X_ART_332_H1X 1 0
+1 : 01 : 5 54 : : CFAC_116 CFAC_110 CFAC_113 CFAC_101 CFAC_111 : : 8 : Simmons_Rachel_Simmons_Rachel
+CHN_301_1_CHN_302_1 1 0
+1 : 01 : 156 : : HAUCK_104 HAUCK_110 HAUCK_112 HAUCK_100 HAUCK_106 : : 15 : Wei_Li_Wei_Li
+DAN_170_1_DAN_270_1 1 0
+1 : 01 : 19 20 135 151 : : DANCE_1 : : 15 : Judy_Katrina_Judy_Katrina
+DAN_177_H1X_DAN_277_H1X 1 0
+1 : 01 : 36 38 63 : : DANCE_1 : : 12 : Wilson_Roberta_Wilson_Roberta
+DAN_179_H1X_DAN_279_H1X 1 0
+1 : 01 : 36 38 63 : : DANCE_1 : : 10 : Wilson_Roberta_Wilson_Roberta
+ECO_233_1_INB_233_1 1 0
+1 : 01 : 0 9 16 40 : : CSS_230 CSS_231 CSS_170 CSS_232 CSS_118 : : 2 : Baranes_Avaraham_Baranes_Avaraham
+ECO_233_2_INB_233_2 1 0
+1 : 01 : 9 12 16 40 94 : : BUSH_164 BUSH_123 BUSH_264 BUSH_004 BUSH_208 : : 2 : Baranes_Avaraham_Baranes_Avaraham
+IFT_110_H1X_IFT_110_H3X 1 0
+1 : 01 : 84 85 : : OLIN_VAN_HOUTEN OLIN_211 OLIN_225 OLIN_220 : : 14 : Walters_Ian_Walters_Ian
+IFT_120_H1X_IFT_120_H3X 1 0
+1 : 01 : 60 82 83 : : OLIN_211 OLIN_225 OLIN_VAN_HOUTEN OLIN_220 : : 16 : Moore_Miriam_Moore_Miriam
+INT_260_H1_INT_261_H1 1 0
+1 : 01 : 157 : : BUSH_308 BUSH_210 BUSH_180 BUSH_310 BUSH_212 : : 20 : Holt_Constance_Holt_Constance
+PEV_81_1_PEV_83_1 1 0
+1 : 01 : 126 : : ASC : : 29 : Ash_Bradley_Buckley_Keith
+PSY_250L_1_LAB_PSY_250L_2_LAB 1 0
+1 : 01 : 0 9 16 40 : : OLIN_225 : : 16 : Davidson_Alice_Houston_John
+
+
+AMST_200_1 ARA_101_1 M,4
+AMST_200_1 ARH_360_1 L,1
+AMST_200_1 CHM_460_1 L,2
+AMST_200_1 EDU_271_1 L,1
+AMST_200_1 ENG_232_1X M,4
+AMST_200_1 ENG_317_1X L,2
+AMST_200_1 ENG_344_H1X L,2
+AMST_200_1 ENG_380_1X L,1
+AMST_200_1 IFT_300_H1X L,2
+AMST_200_1 IFT_300_H2X M,4
+AMST_200_1 PED_477_1 M,3
+AMST_200_1 PEV_85_1 M,3
+AMST_200_1 PSY_322L_1_LAB L,2
+AMST_200_1 PSY_333_1 L,1
+AMST_200_1 SOC_311C_1 M,3
+AMST_200_1 SPN_302_1 M,3
+AMST_200_1 THE_323_1 M,4
+AMST_200_1 TPJ_111_1 L,2
+ANT_150_1 ANT_228_1 L,2
+ANT_150_1 ENG_140_9 L,1
+ANT_150_1 HIS_346_1 M,3
+ANT_150_1 PEV_83_2 M,3
+ANT_150_1 SOC_201_1 M,3
+ANT_150_1 THE_112_1 M,3
+ANT_150_1 TPJ_111_1 L,1
+ANT_150_2 ANT_228_1 L,1
+ANT_150_2 BUS_101_1 L,1
+ANT_150_2 HIS_346_1 L,1
+ANT_150_2 MAT_109_2 L,1
+ANT_150_2 MAT_112_1 L,1
+ANT_150_2 PEV_83_2 M,3
+ANT_150_2 SOC_201_1 M,3
+ANT_150_2 THE_112_1 L,2
+ANT_150_2 TPJ_111_1 L,1
+ANT_200_1 ANT_228_1 M,3
+ANT_200_1 ANT_301_1 M,3
+ANT_200_1 ART_230_1 L,1
+ANT_200_1 COM_221_1 M,4
+ANT_200_1 ENV_222_H1X M,3
+ANT_200_1 FRN_101_1 M,4
+ANT_200_1 HIS_130_1 L,1
+ANT_200_1 INT_100_1 L,1
+ANT_200_1 REL_113_1 M,4
+ANT_200_1 THE_111_1 L,2
+ANT_200_1 THE_331_1 M,4
+ANT_200_1 THE_341_1 L,1
+ANT_209_1 ARH_218_1 L,1
+ANT_209_1 COM_221_1 L,2
+ANT_209_1 COM_315A_H1X L,2
+ANT_209_1 ENG_232_1X L,2
+ANT_209_1 ENG_234_H1X M,3
+ANT_209_1 ENG_317_1X M,3
+ANT_209_1 ENV_323_1 M,3
+ANT_209_1 HIS_202_1 L,1
+ANT_209_1 HON_201H_1 M,3
+ANT_209_1 HON_201H_2 L,2
+ANT_209_1 LAT_101_1 M,4
+ANT_209_1 PEA_75_2 M,4
+ANT_209_1 PSY_200_1 M,3
+ANT_228_1 ANT_255_1 L,2
+ANT_228_1 ANT_300_1 H,9
+ANT_228_1 ANT_301_1 M,3
+ANT_228_1 ANT_452_H1X M,5
+ANT_228_1 CHN_151_1 L,2
+ANT_228_1 CLS_205A_H1X M,3
+ANT_228_1 COM_318_1 M,3
+ANT_228_1 COM_480_H1X L,2
+ANT_228_1 HON_300A_1 M,3
+ANT_228_1 HON_350S_1 L,1
+ANT_228_1 INT_100_1 M,4
+ANT_228_1 INT_100_H1 L,1
+ANT_228_1 LAT_101_1 M,4
+ANT_228_1 PSY_322_1 L,1
+ANT_228_1 REL_113_1 L,2
+ANT_228_1 SPN_337_1 M,3
+ANT_228_1 SWAG_205_1X L,2
+ANT_228_1 TPJ_111_1 M,3
+ANT_255_1 ANT_300_1 M,4
+ANT_255_1 ARA_101_1 H,6
+ANT_255_1 BUS_101_2 L,1
+ANT_255_1 CHM_460_1 M,4
+ANT_255_1 CHN_202_1 M,3
+ANT_255_1 DAN_422_H1X L,2
+ANT_255_1 ECO_135_1 L,1
+ANT_255_1 ECO_202_2 L,2
+ANT_255_1 ECO_202_3 L,1
+ANT_255_1 ECO_202_4 L,2
+ANT_255_1 ENV_222_H1X M,4
+ANT_255_1 FRN_101_1 M,3
+ANT_255_1 FRN_320_1 M,4
+ANT_255_1 HIS_130_1 L,1
+ANT_255_1 HON_201H_2 L,1
+ANT_255_1 HON_350S_1 M,4
+ANT_255_1 IFT_110_H2X M,3
+ANT_255_1 INB_377_1 M,4
+ANT_255_1 INB_450_1 M,4
+ANT_255_1 INT_101_1 M,4
+ANT_255_1 LAT_101_1 M,4
+ANT_255_1 PEA_70_1 L,2
+ANT_255_1 PHI_290_1 L,1
+ANT_255_1 POL_100_2 M,4
+ANT_255_1 POL_130_2 L,2
+ANT_255_1 POL_130_3 L,2
+ANT_255_1 RSN_101_1 L,1
+ANT_255_1 SOC_311C_1 M,3
+ANT_255_1 TPJ_111_1 L,2
+ANT_300_1 ANT_452_H1X M,4
+ANT_300_1 CHN_151_1 L,1
+ANT_300_1 CLS_205A_H1X M,4
+ANT_300_1 ENV_323_1 M,4
+ANT_300_1 LAT_201_1 M,3
+ANT_300_1 PHI_242_1 M,3
+ANT_300_1 POL_330_1 M,4
+ANT_300_1 REL_113_1 L,2
+ANT_300_1 SPN_341_1 L,1
+ANT_300_1 TPJ_111_1 L,2
+ANT_301_1 BIO_344_1 L,1
+ANT_301_1 COM_315B_H2X M,4
+ANT_301_1 FRN_201_2 M,4
+ANT_301_1 GBH_200_1 M,3
+ANT_301_1 PSY_326_1 L,1
+ANT_301_1 SPN_202_2 L,1
+ANT_452_H1X CMC_250D_H1X M,3
+ANT_452_H1X HON_300A_1 M,3
+ARA_101_1 ECO_135_1 L,1
+ARA_101_1 ENG_467_1X M,4
+ARA_101_1 HIS_130_1 M,3
+ARA_101_1 INT_101_1 L,1
+ARA_101_1 PHI_290_1 L,2
+ARA_101_1 POL_130_2 M,4
+ARA_101_1 POL_346_1 M,3
+ARA_101_1 THE_480_1 L,2
+ARH_201_1 ARH_205_1 M,3
+ARH_201_1 ARH_286_1 L,2
+ARH_201_1 ART_110_1 M,3
+ARH_201_1 ART_230_1 M,3
+ARH_201_1 CHN_101_2 L,1
+ARH_201_1 FRN_101_1 L,1
+ARH_201_1 GBH_200_1 L,1
+ARH_201_1 HON_201H_2 M,4
+ARH_201_1 INT_101_1 L,1
+ARH_201_1 PEA_37_1 L,1
+ARH_201_1 PEV_83_2 M,3
+ARH_201_1 REL_300_1X M,4
+ARH_205_1 ART_110_1 M,3
+ARH_205_1 ART_230_1 L,2
+ARH_205_1 BUS_135_4 L,1
+ARH_205_1 CLP_102_1 L,1
+ARH_205_1 COM_325_H1X M,3
+ARH_205_1 ECO_381_1 L,1
+ARH_205_1 ENV_270_1 M,4
+ARH_205_1 ENV_292_1 M,4
+ARH_205_1 ENV_380_1 M,4
+ARH_205_1 INT_101_1 M,3
+ARH_205_1 PEA_37_1 L,1
+ARH_205_1 PEA_37_2 M,4
+ARH_205_1 PEA_51_1 L,2
+ARH_205_1 POL_332_1 M,4
+ARH_205_1 SPN_290_1 L,1
+ARH_205_1 SPN_290_2 L,1
+ARH_205_1 THE_210_1 M,3
+ARH_218_1 ARH_304_1 L,2
+ARH_218_1 ARH_360_1 L,2
+ARH_218_1 ART_241_1 M,4
+ARH_218_1 BIO_201_1 M,3
+ARH_218_1 MAT_219_1 L,1
+ARH_218_1 PEA_70_1 M,3
+ARH_218_1 PEA_80_1 M,3
+ARH_218_1 PSY_328_1 L,2
+ARH_218_1 TPJ_111_1 M,5
+ARH_286_1 ART_241_1 L,2
+ARH_286_1 ENV_323_1 M,3
+ARH_286_1 ENV_365_1 L,2
+ARH_286_1 ENV_380_1 L,1
+ARH_286_1 INB_372_2 L,2
+ARH_286_1 INB_390T_1 M,4
+ARH_286_1 PEA_75_1 L,1
+ARH_286_1 PEA_75_2 L,1
+ARH_286_1 PEA_80_1 M,4
+ARH_286_1 SOC_201_1 L,1
+ARH_304_1 ARH_424_1 M,4
+ARH_304_1 ART_272_1 M,4
+ARH_304_1 CMC_350A_1X L,1
+ARH_304_1 ENG_234_H2X L,1
+ARH_304_1 ENV_292_1 L,2
+ARH_304_1 ENV_323_1 M,4
+ARH_304_1 INB_377_1 L,2
+ARH_304_1 PSY_200_1 L,2
+ARH_304_1 SWAG_350_H1X M,4
+ARH_304_1 THE_111_1 M,3
+ARH_360_1 HON_400_1 M,4
+ARH_360_1 INT_396_1 M,4
+ARH_360_1 PHI_108_1 M,3
+ARH_360_1 SWAG_350_H1X M,3
+ARH_360_1 TPJ_111_1 M,4
+ARH_424_1 ART_241_1 M,4
+ARH_424_1 ART_440_1 M,5
+ART_110_1 COM_315B_H2X L,1
+ART_110_1 COM_318_1 M,4
+ART_110_1 COM_325_H1X L,1
+ART_110_1 ENV_292_1 L,1
+ART_110_1 LAT_101_1 L,1
+ART_110_1 PHI_242_1 L,2
+ART_110_1 PSY_305_1 L,2
+ART_110_1 REL_113_1 L,2
+ART_110_1 SOC_111_2 L,1
+ART_230_1 ECO_321_H1X L,1
+ART_230_1 ECO_381_1 L,1
+ART_230_1 ENV_380_1 M,3
+ART_230_1 JPN_201_H1X M,3
+ART_230_1 LAT_101_1 M,4
+ART_230_1 PEA_51_1 L,2
+ART_230_1 PSY_200_1 M,3
+ART_230_1 SEB_220_2 M,3
+ART_230_1 SPN_101_1 L,1
+ART_241_1 ART_440_1 H,6
+ART_241_1 PEA_80_1 L,2
+ART_241_1 SPN_337_1 M,4
+ART_272_1 ART_440_1 M,3
+ART_272_1 BUS_135_H1 L,1
+ART_272_1 FRN_101_1 M,4
+ART_295_1 PHY_412_1 M,4
+ART_295_2 CHM_120_2_LAB L,1
+ART_295_2 PEA_74_2 L,1
+ART_295_2 PHY_411_1 M,4
+ART_440_1 HON_400_1 L,2
+ART_440_1 PEA_73_2 L,1
+ART_440_1 PSY_322_1 M,3
+ART_440_1 PSY_328_1 M,3
+BIO_112_1 COM_480_H1X L,1
+BIO_112_1 INB_365_1 M,4
+BIO_112_1 INB_365_2 M,4
+BIO_112_1 INB_377_1 M,4
+BIO_112_1 INB_450_1 M,3
+BIO_112_1 PPE_119_1 L,1
+BIO_112_1 TPJ_111_1 L,1
+BIO_112_1_LAB DAN_170_H1X L,1
+BIO_112_1_LAB INB_377_1 L,1
+BIO_112_1_LAB PPE_119_1 M,4
+BIO_112_1_LAB TPJ_111_1 L,2
+BIO_121_1 BIO_201_1 M,4
+BIO_121_1 CHM_220_2 L,1
+BIO_121_1 CHM_220L_2_LAB M,4
+BIO_121_1 CHM_220L_3_LAB L,2
+BIO_121_1 CHM_220L_4_LAB M,4
+BIO_121_1 ENG_140_2 L,1
+BIO_121_1 HON_350S_1 M,3
+BIO_121_1 MAT_112_1 L,1
+BIO_121_1 PEA_73_1 L,1
+BIO_121_1 PSY_250_2 L,1
+BIO_121_1_LAB BIO_201_1 L,2
+BIO_121_1_LAB CHM_120_3_LAB L,1
+BIO_121_1_LAB CHM_220_1 M,5
+BIO_121_1_LAB CHM_220_2 M,5
+BIO_121_1_LAB CHM_220L_1_LAB L,1
+BIO_121_1_LAB PEV_83_2 L,1
+BIO_121_2 BIO_201_1 M,3
+BIO_121_2 CHM_120_5_LAB L,1
+BIO_121_2 CHM_220_1 L,1
+BIO_121_2 CHM_220_2 M,5
+BIO_121_2 CHM_220L_1_LAB L,2
+BIO_121_2 CHM_220L_2_LAB M,4
+BIO_121_2 CHM_220L_3_LAB L,1
+BIO_121_2 MAT_111_1 L,1
+BIO_121_2_LAB BIO_201_1 L,1
+BIO_121_2_LAB CHM_220_2 L,2
+BIO_121_2_LAB GMN_202_1 L,1
+BIO_121_2_LAB HON_350S_1 M,4
+BIO_121_3 BIO_201_1 L,2
+BIO_121_3 CHM_220_1 M,4
+BIO_121_3 CHM_220_2 M,5
+BIO_121_3 CHM_220L_3_LAB M,4
+BIO_121_3 CHM_220L_4_LAB L,1
+BIO_121_3 ENG_232_1X L,1
+BIO_121_3 HON_350S_1 M,4
+BIO_121_3 PSY_150_1 L,1
+BIO_121_3_LAB BIO_201_1 L,2
+BIO_121_3_LAB CHM_120_4 L,1
+BIO_121_3_LAB CHM_220_1 L,2
+BIO_121_3_LAB CHM_220_2 M,3
+BIO_121_3_LAB CHM_220L_4_LAB M,3
+BIO_121_3_LAB ENG_140_H2 L,1
+BIO_121_3_LAB HON_350S_1 M,3
+BIO_121_3_LAB MAT_110_1 L,1
+BIO_201_1 CHM_220L_3_LAB L,1
+BIO_201_1 COM_100_H2X L,1
+BIO_201_1 DAN_170_H1X M,3
+BIO_201_1 ENV_189_1 L,1
+BIO_201_1 ENV_189_H1X M,4
+BIO_201_1 IFT_107_H2X L,1
+BIO_201_1 IFT_110_H2X M,5
+BIO_201_1 INT_202_1 L,2
+BIO_236_1_LAB CHM_460_1 M,4
+BIO_308_1 BIO_344_1 L,1
+BIO_308_1 TPJ_111_1 L,1
+BIO_308_1_LAB BIO_344_1 L,1
+BIO_308_1_LAB PEV_83_2 L,1
+BIO_311_1 PED_106_2 L,1
+BIO_311_1 PHY_120_1_LAB L,1
+BIO_311_1_LAB CHM_220L_3_LAB L,1
+BIO_312_1 HON_400_1 L,2
+BIO_312_1_LAB BIO_342_1 L,1
+BIO_312_1_LAB BIO_342_1_LAB L,2
+BIO_312_1_LAB HON_400_1 M,4
+BIO_312_1_LAB SPN_341_2 L,1
+BIO_316_1 BIO_344_1 L,1
+BIO_316_1 CHM_460_1 M,3
+BIO_316_1 PHY_130_1_LAB L,1
+BIO_316_1_LAB BIO_341_1 L,1
+BIO_316_1_LAB CHM_460_1 M,3
+BIO_341_1 MAT_111_1_LAB L,1
+BIO_341_1 PHY_120_1_LAB M,4
+BIO_341_1_LAB CHM_350_1 M,3
+BIO_341_1_LAB EDU_271_1 L,1
+BIO_341_1_LAB PHY_120_1 L,2
+BIO_342_1 BIO_344_1 L,1
+BIO_342_1_LAB BIO_344_1 L,1
+BIO_342_1_LAB CHM_220L_3_LAB L,1
+BIO_344_1 CHM_460_1 L,2
+BIO_344_1 GBH_200_1 L,1
+BIO_344_1 PEA_74_1 L,1
+BIO_344_1 PEV_83_2 L,1
+BIO_344_1 PHY_120_1_LAB L,1
+BIO_344_1 TPJ_111_1 M,4
+BUS_101_1 CMS_167L_2_LAB L,1
+BUS_101_1 IFT_300_H2X L,1
+BUS_101_2 IFT_300_H2X L,1
+BUS_101_2 SOC_201_1 L,1
+BUS_101_3 FRN_305_1 L,1
+BUS_101_3 MUS_153_2 L,1
+BUS_101_3 PED_101_5 L,1
+BUS_101_4 FRN_201_1 L,1
+BUS_101_4 HIS_120_5 L,1
+BUS_101_4 INT_396_1 L,1
+BUS_101_5 BUS_135_H2 L,1
+BUS_101_5 ECO_203_2 L,1
+BUS_101_5 ENG_140_10 L,1
+BUS_101_H1X ECO_203_2 L,1
+BUS_101_H2 CLP_102_2 L,1
+BUS_101_H2 SEB_220_1 L,1
+BUS_135_1 MAT_108L_3_LAB L,1
+BUS_135_2 SOC_201_1 L,1
+BUS_135_2 SPN_201_4 L,1
+BUS_135_3 ENG_140_3 L,1
+BUS_135_3 ENG_140_7 L,1
+BUS_135_3 ENG_140_8 L,1
+BUS_135_3 PSY_150_3 L,1
+BUS_135_4 EDU_271_2 L,1
+BUS_135_H1 MAT_350_1 L,1
+BUS_135_H2 BUS_354_H1 L,1
+BUS_135_H2 ENG_140_6 L,1
+BUS_135_H2 PSY_211_H1 L,1
+BUS_215_1 PEA_75_1 L,1
+BUS_215_1 PSY_150_2 L,1
+BUS_215_1 SEB_200_2 L,1
+BUS_215_2 INT_202_1 L,1
+BUS_215_2 PSY_150_2 L,1
+BUS_215_2 SEB_200_2 M,4
+BUS_215_3 ENG_140_12 L,1
+BUS_215_3 SEB_200_1 M,4
+BUS_215_3 SPN_201_5 L,1
+BUS_215_H1 PED_106_2 L,1
+BUS_215_H1 PEV_83_2 L,1
+BUS_215_H1 SEB_200_1 L,1
+BUS_215_H1 SEB_200_2 M,3
+BUS_215_H2 SEB_200_2 M,4
+BUS_230_1 BUS_241_1 L,1
+BUS_230_1 BUS_241_H1 M,4
+BUS_230_2 BUS_241_1 M,4
+BUS_230_2 BUS_241_2 M,3
+BUS_230_2 INT_396_1 L,2
+BUS_230_H1 BUS_241_1 L,2
+BUS_230_H1 BUS_241_2 L,2
+BUS_230_H1 BUS_241_H1 L,1
+BUS_230_H1 ECO_203_1 L,1
+BUS_230_H1 MAT_111_1_LAB L,1
+BUS_241_1 PED_101_2 L,1
+BUS_241_1 PEV_83_2 M,4
+BUS_241_1 SEB_200_1 M,4
+BUS_241_1 SEB_200_2 M,3
+BUS_241_1 SEB_220_2 M,4
+BUS_241_2 PEV_83_2 L,1
+BUS_241_2 SEB_220_1 L,2
+BUS_241_2 SEB_220_2 M,4
+BUS_241_H1 COM_110_H1X L,1
+BUS_241_H1 RFLA_100_2 L,1
+BUS_241_H1 SEB_200_1 M,4
+BUS_241_H1 SEB_200_2 M,3
+BUS_241_H1 SEB_220_1 L,2
+BUS_310_1 BUS_312_1 M,4
+BUS_310_1 EDU_271_1 L,1
+BUS_310_2 BUS_312_1 L,1
+BUS_310_2 BUS_312_2 L,2
+BUS_310_2 CMS_167L_2_LAB L,1
+BUS_310_H1 BUS_312_2 M,4
+BUS_310_H1 BUS_354_1 M,3
+BUS_310_H1 BUS_390C_1 L,2
+BUS_310_H1 PED_101_7 L,1
+BUS_310_H2 BUS_312_1 L,2
+BUS_310_H2 BUS_312_2 M,4
+BUS_310_H2 BUS_354_H1 L,1
+BUS_312_1 BUS_320_1 M,4
+BUS_312_1 BUS_320_2 L,1
+BUS_312_1 BUS_350_H1 H,6
+BUS_312_1 BUS_352_1 H,6
+BUS_312_1 BUS_352_H2 L,1
+BUS_312_1 BUS_354_1 L,2
+BUS_312_1 BUS_354_H1 M,4
+BUS_312_1 BUS_390C_1 M,5
+BUS_312_1 BUS_400_H1 L,2
+BUS_312_1 COM_221_1 L,1
+BUS_312_1 PEA_46_1 L,2
+BUS_312_1 SEB_200_1 M,4
+BUS_312_1 SEB_200_2 L,2
+BUS_312_2 BUS_320_1 L,1
+BUS_312_2 BUS_320_H1 L,1
+BUS_312_2 BUS_330_1 M,3
+BUS_312_2 BUS_330_H1 L,2
+BUS_312_2 BUS_350_1 H,6
+BUS_312_2 BUS_350_H1 L,1
+BUS_312_2 BUS_352_1 L,1
+BUS_312_2 BUS_352_H2 L,2
+BUS_312_2 BUS_354_1 M,3
+BUS_312_2 BUS_354_H1 M,3
+BUS_312_2 BUS_390C_1 H,6
+BUS_312_2 BUS_400_1 M,4
+BUS_312_2 BUS_400_H1 L,1
+BUS_312_2 COM_221_1 M,3
+BUS_312_2 PEA_46_1 M,3
+BUS_312_2 SEB_200_1 M,4
+BUS_312_2 SPN_102_2 L,1
+BUS_320_1 BUS_330_2 M,3
+BUS_320_1 BUS_350_1 L,1
+BUS_320_1 BUS_352_H2 M,4
+BUS_320_1 BUS_400_H1 M,4
+BUS_320_2 BUS_330_1 L,2
+BUS_320_2 BUS_330_2 M,3
+BUS_320_2 BUS_330_H1 L,1
+BUS_320_2 BUS_350_H1 M,4
+BUS_320_2 BUS_352_1 M,3
+BUS_320_2 BUS_390C_1 M,3
+BUS_320_2 BUS_400_1 L,1
+BUS_320_2 SEB_220_1 L,2
+BUS_320_2 SEB_220_2 L,2
+BUS_320_H1 BUS_330_2 M,4
+BUS_320_H1 BUS_350_1 L,1
+BUS_320_H1 BUS_352_1 M,4
+BUS_320_H1 BUS_390C_1 L,2
+BUS_320_H1 BUS_400_1 M,3
+BUS_320_H1 SEB_220_1 M,3
+BUS_320_H1 SEB_220_2 L,2
+BUS_330_1 SEB_220_1 M,3
+BUS_330_1 SEB_220_2 M,3
+BUS_330_2 BUS_390C_1 L,2
+BUS_330_2 SEB_220_1 L,2
+BUS_330_2 SEB_220_2 L,2
+BUS_330_H1 COM_480_1 L,1
+BUS_350_1 BUS_352_1 M,4
+BUS_350_1 BUS_352_H2 L,1
+BUS_350_1 BUS_390C_1 L,1
+BUS_350_1 BUS_400_1 L,1
+BUS_350_1 IFT_110_H2X L,2
+BUS_350_H1 BUS_352_1 L,2
+BUS_350_H1 BUS_352_H2 M,4
+BUS_350_H1 BUS_390C_1 L,1
+BUS_350_H1 BUS_400_1 L,1
+BUS_350_H1 BUS_400_H1 M,3
+BUS_350_H1 IFT_110_H2X L,1
+BUS_350_H1 PEA_62_4 L,1
+BUS_350_H1 PED_101_1 L,1
+BUS_350_H1 SEB_220_2 L,1
+BUS_352_1 BUS_390C_1 M,3
+BUS_352_1 BUS_400_1 L,1
+BUS_352_1 BUS_400_H1 L,1
+BUS_352_H2 BUS_400_H1 L,2
+BUS_354_H1 PEV_83_2 L,2
+BUS_390C_1 BUS_400_1 M,4
+BUS_390C_1 COM_305_H1X L,1
+BUS_390C_1 SEB_200_2 M,4
+BUS_390C_1 SEB_220_1 M,4
+BUS_390C_1 SEB_220_2 L,1
+BUS_400_1 SPN_110_1 L,1
+BUS_400_H1 ENG_190_2X L,1
+CHM_103_1 FRN_201_1 L,1
+CHM_103_1 IFT_107_H2X L,1
+CHM_103_1_LAB COM_100_H2X L,1
+CHM_103_1_LAB ENV_189_H1X L,1
+CHM_105_1 IFT_110_H2X L,2
+CHM_105_1 INB_365_2 M,3
+CHM_105_1 INB_390T_1 M,3
+CHM_105_1_LAB COM_318_1 L,2
+CHM_105_1_LAB ECO_221_2 L,1
+CHM_105_1_LAB INB_365_1 L,1
+CHM_105_1_LAB PED_101_2 L,1
+CHM_105_2 COM_318_1 L,1
+CHM_105_2 INB_365_1 L,2
+CHM_105_2 INB_365_2 M,4
+CHM_105_2 PSY_326L_1_LAB L,1
+CHM_105_2 SPN_302_1 L,1
+CHM_106_1 CLP_102_2 L,1
+CHM_106_1 CMC_300_1 M,3
+CHM_106_1 COM_295_2 M,4
+CHM_106_1 COM_295_H1 L,2
+CHM_106_1 COM_318_1 M,3
+CHM_106_1 ECO_321_H1X M,5
+CHM_106_1 ECO_370_H1X L,1
+CHM_106_1 EDU_280_1X L,2
+CHM_106_1 ENG_232_1X M,3
+CHM_106_1 ENG_304_1X M,5
+CHM_106_1 ENG_344_H1X L,2
+CHM_106_1 IFT_107_H2X M,3
+CHM_106_1 MAT_108_5 L,1
+CHM_106_1 MAT_219_1 M,3
+CHM_106_1 MAT_330_1 M,4
+CHM_106_1 MAT_350_1 M,4
+CHM_106_1 PEA_58_1 L,1
+CHM_106_1 POL_346_1 M,3
+CHM_106_1 POL_453_1 M,3
+CHM_106_1 PSY_217_1 M,4
+CHM_106_1 PSY_217_1_LAB M,3
+CHM_106_1 PSY_302_1 M,3
+CHM_106_1 PSY_322_1 L,1
+CHM_106_1 PSY_343_1 M,4
+CHM_106_1 PSY_343_H1 M,4
+CHM_106_1 RED_309_1 M,3
+CHM_106_1 REL_237_1 M,3
+CHM_106_1 SOC_108_1 M,4
+CHM_106_1 SOC_201_1 L,1
+CHM_106_1 SOC_311C_1 M,3
+CHM_106_1 SOC_346_1 L,1
+CHM_106_1 SPN_302_1 M,4
+CHM_106_1 THE_135_1 M,3
+CHM_106_1 THE_480_1 L,2
+CHM_106_1 TPJ_111_1 L,1
+CHM_120_1 MAT_108L_3_LAB L,1
+CHM_120_1 PHY_314_1 L,1
+CHM_120_1 SPN_110_2 L,1
+CHM_120_1_LAB PED_101_5 L,1
+CHM_120_2 ENG_232_1X L,1
+CHM_120_2 PEA_73_2 L,1
+CHM_120_2_LAB FIL_150_1_LAB L,1
+CHM_120_2_LAB GBH_200_1 L,1
+CHM_120_2_LAB LAT_101_1 L,1
+CHM_120_2_LAB MAT_111_1 L,1
+CHM_120_4 MAT_109_2_LAB L,1
+CHM_120_4 MUS_153_H2 L,1
+CHM_120_4_LAB CMS_167L_3_LAB L,1
+CHM_120_4_LAB GMN_331_1 L,1
+CHM_120_4_LAB HIS_120_H1X L,1
+CHM_120_5_LAB HON_201H_1 L,1
+CHM_220_1 CHM_220L_1_LAB H,8
+CHM_220_1 CHM_220L_2_LAB M,5
+CHM_220_1 CHM_220L_3_LAB L,2
+CHM_220_1 CHM_220L_4_LAB M,4
+CHM_220_1 DAN_170_H1X M,4
+CHM_220_1 HON_350S_1 M,3
+CHM_220_1 MAT_112_1 M,3
+CHM_220_1 PEV_83_2 L,2
+CHM_220_1 PSY_326L_1_LAB L,1
+CHM_220_2 CHM_220L_1_LAB H,6
+CHM_220_2 CHM_220L_2_LAB H,6
+CHM_220_2 CHM_220L_3_LAB H,7
+CHM_220_2 CHM_220L_4_LAB H,7
+CHM_220_2 GMN_102_1 L,1
+CHM_220_2 GMN_202_2 L,1
+CHM_220_2 HON_350S_1 M,4
+CHM_220_2 PHY_230_1 L,1
+CHM_220L_2_LAB HON_350S_1 L,2
+CHM_220L_3_LAB HON_350S_1 M,4
+CHM_220L_3_LAB MAT_111_1 L,1
+CHM_220L_4_LAB HON_350S_1 L,1
+CHM_220L_4_LAB SPN_102_1 L,1
+CHM_305_1 CHM_320_1 M,4
+CHM_305_1 CHM_350_1 L,1
+CHM_305_1 MAT_219_1 L,2
+CHM_305_1_LAB CHM_320_1 L,2
+CHM_305_1_LAB CHM_350_1 M,3
+CHM_305_1_LAB CHM_460_1 M,3
+CHM_305_1_LAB PHY_130_1 L,1
+CHM_320_1 CHM_350_1 M,4
+CHM_320_1 CHM_460_1 L,2
+CHM_320_1_LAB CHM_460_1 M,4
+CHM_320_1_LAB MAT_112_1 L,2
+CHM_350_1 CHM_460_1 L,1
+CHM_460_1 EDU_271_1 M,3
+CHM_460_1 GBH_200_1 M,5
+CHM_460_1 HON_400_1 M,4
+CHM_460_1 MAT_112_1 M,4
+CHM_460_1 MAT_219_1 M,3
+CHM_460_1 MAT_440_1 L,1
+CHM_460_1 PED_106_3 L,1
+CHM_460_1 PHI_290_1 M,4
+CHM_460_1 TPJ_111_1 L,1
+CHN_101_2 CHN_151_1 H,9
+CHN_101_2 DAN_300_H1X M,3
+CHN_101_2 ECO_142_1 L,2
+CHN_101_2 HON_201H_1 L,1
+CHN_101_2 HON_201H_2 L,2
+CHN_101_2 PEA_62_2 L,1
+CHN_101_2 PHI_223_1 M,4
+CHN_101_2 REL_113_1 L,1
+CHN_101_2 REL_237_1 M,4
+CHN_101_2 SWAG_225F_H1X M,3
+CHN_101_2 THE_210_1 L,2
+CHN_102_1 PEA_71_1 L,2
+CHN_102_1 POL_161_1 L,2
+CHN_151_1 DAN_300_H1X M,3
+CHN_151_1 INT_101_1 M,4
+CHN_151_1 PHI_223_1 L,1
+CHN_151_1 THE_210_1 L,2
+CHN_201_1 CHN_251_1 M,3
+CHN_201_1 ECO_370_H1X L,1
+CHN_201_1 GMN_102_1 L,2
+CHN_201_1 PED_101_7 L,1
+CHN_201_1 TPJ_111_1 L,1
+CHN_202_1 ENG_140_14 L,1
+CHN_202_1 INB_336_1 L,2
+CHN_202_1 POL_332_1 L,2
+CHN_202_1 PSY_255_1 L,1
+CHN_202_1 PSY_255L_1_LAB M,5
+CHN_251_1 GBH_200_1 M,4
+CHN_251_1 GMN_102_1 L,2
+CLP_102_1 COM_221_1 M,3
+CLP_102_1 COM_315B_H2X L,1
+CLP_102_1 ENG_304_1X L,1
+CLP_102_1 MUS_227_1X L,2
+CLP_102_2 COM_221_1 L,1
+CLP_102_2 COM_315B_H2X M,4
+CLP_102_2 ENG_209_H1X L,2
+CLP_102_2 MAT_109_2 L,1
+CLP_102_2 MUS_227_1X M,3
+CLP_102_2 PEA_75_2 L,1
+CLS_205A_H1X GMN_102_1 L,2
+CLS_205A_H1X LAT_201_1 L,1
+CLS_205A_H1X REL_113_1 M,4
+CLS_205A_H1X REL_300_1X L,2
+CMC_100_1 MAT_108_H1 L,1
+CMC_100_1_LAB ENG_140_H1 L,1
+CMC_100_1_LAB POL_130_3 L,1
+CMC_100_1_LAB REL_237_1 L,1
+CMC_100_1_LAB THE_250G_1 M,4
+CMC_250D_H1X CMC_300_1 L,1
+CMC_250D_H1X CMC_325_H1X M,4
+CMC_250D_H1X MUS_292_1X M,3
+CMC_250D_H1X PPE_119_1 M,3
+CMC_250D_H1X PSY_217_1 L,2
+CMC_250D_H1X REL_113_1 L,2
+CMC_250D_H1X SOC_346_1 M,4
+CMC_300_1 CMC_325_H1X M,3
+CMC_300_1 CMC_350A_1X M,5
+CMC_300_1 COM_318_1 L,1
+CMC_300_1 ENV_270_1 L,2
+CMC_300_1 ENV_323_1 L,2
+CMC_300_1 HON_300A_1 L,2
+CMC_300_1 HON_350S_1 M,3
+CMC_300_1 HON_400_1 M,3
+CMC_300_1 INT_396_1 L,2
+CMC_300_1 POL_161_1 L,2
+CMC_300_1 REL_113_1 M,4
+CMC_300_1 SOC_346_1 L,1
+CMC_325_H1X ENV_365_1 M,4
+CMC_325_H1X INB_214_1 L,1
+CMC_325_H1X MUS_292_1X M,3
+CMC_325_H1X PPE_119_1 M,3
+CMC_325_H1X PSY_305_1 M,3
+CMC_325_H1X PSY_328_1 L,2
+CMC_325_H1X SOC_301_1 M,4
+CMC_325_H1X SOC_346_1 L,1
+CMC_350A_1X HON_300A_1 M,4
+CMC_350A_1X INT_202_1 M,5
+CMC_350A_1X MAT_219_1 M,4
+CMC_350A_1X POL_161_1 L,2
+CMC_350A_1X PSY_255_1 M,3
+CMC_350A_1X PSY_255L_1_LAB M,3
+CMC_350A_1X PSY_341L_1_LAB M,3
+CMC_350A_1X SOC_346_1 L,2
+CMC_350A_1X THE_136_1 M,4
+CMS_167_1 CMS_167L_1_LAB M,4
+CMS_167_1 CMS_167L_2_LAB M,4
+CMS_167_1 CMS_167L_H1_LAB L,1
+CMS_167_1 MAT_350_1 M,3
+CMS_167_2 CMS_167L_2_LAB L,1
+CMS_167_2 CMS_167L_H1_LAB L,1
+CMS_167_2 ECO_202_2 L,1
+CMS_167_2 ENG_140_8 L,1
+CMS_167_H1 CMS_167L_1_LAB M,4
+CMS_167_H1 CMS_167L_3_LAB M,3
+CMS_167_H1 ECO_202_1 L,1
+CMS_167_H1 ECO_202_2 L,1
+CMS_167L_1_LAB MAT_350_1 M,3
+CMS_167L_1_LAB PHY_314_1 L,1
+CMS_167L_2_LAB MAT_350_1 M,4
+CMS_167L_H1_LAB ENG_140_2 L,1
+CMS_167L_H1_LAB IFT_300_H2X L,1
+CMS_167L_H1_LAB REL_125_1 L,1
+CMS_170_H1X CMS_380_H1X M,4
+CMS_170_H1X MAT_219_1 L,2
+CMS_170_H1X MAT_330_1 M,3
+CMS_170_H1X MAT_350_1 M,3
+CMS_170_H1X PHY_411_1 M,4
+CMS_170_H1X PHY_412_1 L,1
+CMS_170_H1X REL_237_1 L,1
+CMS_170_H1X RFLA_400_1 M,4
+CMS_230_1 CMS_270_1 L,1
+CMS_230_1 CMS_380_H1X M,4
+CMS_230_1 CMS_395A_H1X L,2
+CMS_230_1 MAT_140_H1 M,3
+CMS_230_1 MAT_330_1 L,1
+CMS_230_1 MAT_350_1 L,1
+CMS_230_H1 CMS_270_1 M,4
+CMS_230_H1 CMS_380_H1X L,2
+CMS_230_H1 CMS_395A_H1X L,1
+CMS_270_H1 MAT_219_1 L,1
+CMS_270_H1 SPN_201_6 L,1
+CMS_380_H1X CMS_395A_H1X H,6
+CMS_395A_H1X CMS_450_H1X L,1
+CMS_395A_H1X ECO_135_1 M,3
+CMS_395A_H1X ENG_317_1X L,2
+CMS_395A_H1X MAT_219_1 L,1
+CMS_395A_H1X MAT_440_1 L,2
+CMS_450_H1X MAT_440_1 L,2
+COM_100_1 PSY_150_3 L,1
+COM_100_2 PEA_62_2 L,1
+COM_100_H1X COM_110_2 L,1
+COM_100_H1X COM_110_H1 L,1
+COM_100_H2X ECO_242_H2X L,1
+COM_100_H2X PSY_211_H1 L,1
+COM_100_H2X SOC_111_1 L,1
+COM_110_1 ENG_140_11 L,1
+COM_110_1 ENG_140_8 L,1
+COM_110_1 PED_101_5 L,1
+COM_110_1 PED_101_7 L,1
+COM_110_H1 GMN_331_1 L,1
+COM_110_H1X SOC_111_2 L,1
+COM_220_1 GBH_200_1 M,3
+COM_220_H1X PEA_62_1 L,1
+COM_220_H1X RFLA_100_3 L,1
+COM_220_H2X PEA_62_2 L,1
+COM_221_1 COM_295_2 L,2
+COM_221_1 COM_295_H1 M,3
+COM_221_1 COM_295_H1X L,2
+COM_221_1 COM_305_H2X L,1
+COM_221_1 COM_315A_H1X M,3
+COM_221_1 ECO_135_1 M,4
+COM_221_1 ENG_232_1X L,2
+COM_221_1 IFT_110_H2X L,1
+COM_221_1 INT_396_1 M,4
+COM_221_1 MUS_380_1X M,4
+COM_221_1 PEV_83_2 M,4
+COM_221_1 PSY_302_1 L,2
+COM_295_1 COM_312_H1X M,4
+COM_295_2 MAT_103_1_LAB L,1
+COM_295_H1 COM_312_H1X L,2
+COM_295_H1X COM_306_1 L,1
+COM_295_H1X COM_312_H1X L,1
+COM_295_H1X COM_318_1 L,2
+COM_295_H1X EDU_271_2 L,1
+COM_295_H1X PEA_40_1 L,1
+COM_295_H1X SPN_201_2 L,1
+COM_305_1 COM_312_H1X L,2
+COM_305_1 EDU_271_1 L,1
+COM_305_H1X COM_312_H1X M,4
+COM_305_H1X COM_318_1 L,2
+COM_305_H1X PSY_217_1 L,1
+COM_305_H2X COM_312_H1X M,4
+COM_305_H2X COM_315A_H1X M,3
+COM_305_H2X SEB_220_1 L,1
+COM_306_1 MAT_108_5 L,1
+COM_306_H1 MAT_108_4 L,1
+COM_306_H1X COM_312_H1X L,1
+COM_312_H1X COM_318_1 H,8
+COM_312_H1X COM_325_H1X H,6
+COM_312_H1X ENG_317_1X L,1
+COM_312_H1X IFT_110_H2X M,3
+COM_312_H1X PED_106_1 L,1
+COM_312_H1X PED_477_1 M,4
+COM_312_H1X PSY_101_1 M,3
+COM_312_H1X PSY_101_H1 L,2
+COM_312_H1X SOC_111_1 M,4
+COM_312_H1X SOC_111_2 M,4
+COM_312_H1X SOC_301_1 L,1
+COM_315A_H1X COM_480_1 M,5
+COM_315A_H1X GBH_200_1 M,3
+COM_315B_H2X COM_480_H1X L,2
+COM_315B_H2X INB_201_1 M,4
+COM_315B_H2X PED_477_1 M,3
+COM_315B_H2X SPN_337_1 M,3
+COM_315B_H2X THE_133_1 M,4
+COM_315B_H2X THE_325_1 M,4
+COM_315B_H2X THE_340_1 L,2
+COM_315C_H3X COM_480_1 M,3
+COM_315C_H3X COM_480_H1X M,3
+COM_315C_H3X ENG_267_1X L,2
+COM_315C_H3X ENG_380_1X L,1
+COM_315C_H3X LAT_201_1 L,2
+COM_315C_H3X REL_300_1X M,4
+COM_318_1 COM_325_H1X H,9
+COM_318_1 COM_480_1 H,7
+COM_318_1 COM_480_H1X H,6
+COM_318_1 ENG_232_1X L,1
+COM_318_1 ENG_303_H1X M,3
+COM_318_1 ENG_304_1X M,4
+COM_318_1 IFT_107_H2X L,1
+COM_318_1 INB_390T_1 M,3
+COM_318_1 LAT_201_1 L,1
+COM_318_1 MAT_103_1 L,1
+COM_318_1 MAT_103_1_LAB M,4
+COM_318_1 PEA_34_1 M,3
+COM_318_1 PEA_75_1 M,4
+COM_318_1 PEA_80_1 L,2
+COM_318_1 PEV_83_2 M,3
+COM_318_1 PSY_200_1 L,1
+COM_318_1 PSY_217_1 M,3
+COM_318_1 PSY_217_1_LAB H,6
+COM_318_1 PSY_322_1 M,3
+COM_318_1 PSY_322L_1_LAB M,5
+COM_318_1 PSY_495_1 M,3
+COM_325_H1X COM_480_1 H,6
+COM_325_H1X MUS_160_H1 M,4
+COM_325_H1X PEA_75_2 L,2
+COM_325_H1X PSY_200_1 M,3
+COM_325_H1X PSY_217_1 M,5
+COM_325_H1X SOC_108_1 L,1
+COM_351_H1 COM_480_1 L,1
+COM_480_1 PSY_200_1 M,3
+COM_480_1 PSY_217_1 L,2
+COM_480_1 PSY_217_1_LAB M,4
+DAN_170_H1X DAN_200_1 M,4
+DAN_170_H1X DAN_300_H1X M,3
+DAN_170_H1X DAN_422_H1X L,2
+DAN_170_H1X EDU_280_1X M,4
+DAN_170_H1X EED_319_H1X L,2
+DAN_170_H1X INB_201_1 L,1
+DAN_170_H1X INB_365_1 L,1
+DAN_170_H1X INB_365_2 M,3
+DAN_170_H1X INB_372_1 M,3
+DAN_170_H1X INT_202_1 M,3
+DAN_170_H1X INT_396_1 M,5
+DAN_170_H1X MUS_380_1X L,1
+DAN_170_H1X PEA_58_1 L,2
+DAN_170_H1X PHI_108_1 M,4
+DAN_170_H1X PHY_412_1 M,4
+DAN_170_H1X PSY_326_1 M,4
+DAN_170_H1X PSY_326L_1_LAB L,2
+DAN_170_H1X PSY_333_1 M,4
+DAN_170_H1X THE_135_1 L,2
+DAN_170_H1X THE_480_1 L,1
+DAN_200_1 DAN_422_H1X L,1
+DAN_200_1 THE_112_1 M,4
+DAN_200_1 THE_136_1 L,2
+DAN_200_1 THE_325_1 M,4
+DAN_200_1 THE_340_1 M,3
+DAN_200_1 THE_480_1 M,3
+DAN_200_1 TPJ_111_1 M,4
+DAN_203_1 HON_400_1 L,1
+DAN_203_1 PEV_83_2 L,1
+DAN_203_1 PSY_200_1 M,3
+DAN_203_1 REL_113_1 M,4
+DAN_203_1 SOC_201_1 M,4
+DAN_210_1 DAN_422_H1X L,1
+DAN_210_1 ENG_201_H1X M,3
+DAN_210_1 GBH_305A_H1X L,1
+DAN_210_1 IFT_107_H2X L,2
+DAN_210_1 IFT_110_H2X L,2
+DAN_210_1 INB_377_1 M,4
+DAN_210_1 MAT_330_1 M,4
+DAN_210_1 PEA_30_1 M,4
+DAN_210_1 PHY_314_1 L,2
+DAN_210_1 PHY_412_1 M,4
+DAN_210_1 PSY_328_1 L,2
+DAN_210_1 SOC_201_1 L,2
+DAN_300_H1X DAN_422_H1X H,6
+DAN_300_H1X EDU_271_2 M,3
+DAN_300_H1X MAT_108L_2_LAB L,1
+DAN_300_H1X THE_331_1 M,3
+DAN_300_H1X THE_341_1 L,2
+DAN_300_H1X THE_480_1 M,3
+DAN_422_H1X EDU_271_1 M,3
+DAN_422_H1X EDU_271_2 M,4
+DAN_422_H1X INT_396_1 M,3
+DAN_422_H1X PHY_411_1 L,1
+DAN_422_H1X POL_130_2 L,1
+DAN_422_H1X POL_130_3 M,3
+DAN_422_H1X POL_319_1 M,4
+DAN_422_H1X POL_330_1 L,2
+DAN_422_H1X SOC_311C_1 M,3
+DAN_422_H1X THE_133_1 L,1
+DAN_422_H1X THE_331_1 L,1
+DAN_422_H1X THE_480_1 M,3
+ECO_135_1 ECO_200_1 M,4
+ECO_135_1 ECO_303_2 L,2
+ECO_135_1 ECO_306_1 L,1
+ECO_135_1 ENV_222_H1X L,1
+ECO_135_1 FRN_201_1 M,3
+ECO_135_1 GBH_200_1 L,2
+ECO_135_1 LAT_101_1 M,3
+ECO_135_1 PEA_46_1 M,3
+ECO_135_1 PEV_85_1 L,2
+ECO_135_1 REL_125_1 M,4
+ECO_200_1 ECO_303_1 L,2
+ECO_200_1 ECO_303_2 L,2
+ECO_200_1 ECO_306_1 M,4
+ECO_200_1 ECO_370_H1X M,4
+ECO_200_1 ECO_404_1 L,2
+ECO_200_1 PHY_117_1 L,1
+ECO_200_1 POL_160_1 L,2
+ECO_200_1 PPE_119_1 L,2
+ECO_202_1 ENG_190_1X L,1
+ECO_202_1 PEA_40_1 L,1
+ECO_202_1 PEV_83_2 L,1
+ECO_202_2 HIS_322_1 L,1
+ECO_202_2 MAT_110_1 L,1
+ECO_202_2 PEA_74_1 L,1
+ECO_202_2 PEA_74_2 L,1
+ECO_202_3 ENG_140_11 L,1
+ECO_202_3 POL_100_2 L,1
+ECO_202_3 POL_130_3 L,1
+ECO_203_1 INB_337_2 L,1
+ECO_203_1 SPN_290_1 L,1
+ECO_203_2 ENG_304_1X L,1
+ECO_203_2 PEA_40_2 L,1
+ECO_203_2 PHI_223_1 L,1
+ECO_203_2 PHI_242_1 L,1
+ECO_203_2 POL_332_1 L,1
+ECO_221_1 PED_101_3 L,1
+ECO_221_2 GMN_202_2 L,1
+ECO_221_2 SPN_201_1 L,1
+ECO_221_2_LAB PED_101_6 L,1
+ECO_242_H1X ECO_306_1 L,2
+ECO_242_H1X PEA_54_1 L,1
+ECO_242_H2X ECO_306_1 M,5
+ECO_242_H2X ECO_321_H1X L,2
+ECO_242_H2X ECO_370_H1X M,3
+ECO_242_H2X INB_201_1 L,1
+ECO_242_H2X INT_396_1 M,3
+ECO_242_H2X MAT_109_1_LAB L,1
+ECO_303_1 ECO_306_1 M,4
+ECO_303_1 ENG_140_12 L,1
+ECO_303_1 MAT_219_1 L,2
+ECO_303_2 ECO_306_1 H,6
+ECO_303_2 ECO_321_H1X M,4
+ECO_303_2 ENG_190_2X L,1
+ECO_303_2 MAT_219_1 M,3
+ECO_304_1 MAT_350_1 L,2
+ECO_304_1 SPN_102_1 L,1
+ECO_304_2 ECO_381_1 L,2
+ECO_304_2 INB_365_1 L,1
+ECO_304_2 MAT_350_1 M,4
+ECO_304_2 SPN_201_6 L,1
+ECO_304_H1 MAT_350_1 M,3
+ECO_304_H1 PED_101_8 L,1
+ECO_306_1 ECO_370_H1X H,6
+ECO_306_1 ECO_381_1 M,3
+ECO_306_1 GBH_305A_H1X L,2
+ECO_306_1 HIS_322_1 M,3
+ECO_306_1 HON_400_1 L,1
+ECO_306_1 IFT_110_H2X M,3
+ECO_306_1 INB_214_1 L,1
+ECO_306_1 INB_372_2 M,3
+ECO_306_1 INB_377_1 L,1
+ECO_306_1 PEA_46_1 L,1
+ECO_306_1 PHI_223_1 L,2
+ECO_306_1 POL_453_1 M,5
+ECO_321_H1X ECO_370_H1X M,4
+ECO_321_H1X MAT_110_1_LAB L,1
+ECO_321_H1X MAT_219_1 L,2
+ECO_321_H1X PED_477_1 M,3
+ECO_370_H1X ECO_381_1 M,4
+ECO_370_H1X ECO_404_1 M,4
+ECO_370_H1X ENV_222_H1X M,4
+ECO_370_H1X INT_396_1 L,2
+ECO_370_H1X POL_332_1 L,2
+ECO_370_H1X POL_453_1 H,6
+ECO_370_H1X THE_325_1 M,3
+ECO_381_1 ECO_404_1 M,3
+ECO_381_1 GBH_305A_H1X M,3
+ECO_381_1 HIS_150_1 M,4
+ECO_381_1 HON_400_1 M,3
+ECO_381_1 IFT_110_H2X L,2
+ECO_381_1 MAT_110_1 M,3
+ECO_381_1 MAT_110_1_LAB M,3
+ECO_381_1 MAT_112_1 L,1
+ECO_381_1 PHY_117_1 M,4
+ECO_381_1 PHY_117_1_LAB L,1
+ECO_381_1 PPE_119_1 M,4
+ECO_404_1 HON_400_1 M,4
+ECO_404_1 PEV_83_2 M,3
+ECO_404_1 POL_453_1 L,2
+ECO_404_1 PSY_200_1 M,4
+EDU_271_1 EDU_280_1X L,2
+EDU_271_1 PSY_302_1 M,3
+EDU_271_1 TPJ_111_1 L,1
+EDU_272_1 MAT_219_1 M,4
+EDU_272_1 MAT_350_1 L,1
+EDU_272_H1 EDU_280_1X M,4
+EDU_272_H1 MAT_219_1 M,4
+EDU_280_1X ENG_380_1X L,1
+EDU_280_1X FRN_320_1 L,2
+EDU_280_1X PHI_242_1 L,2
+EDU_280_1X PSY_302_1 L,1
+EDU_280_1X RED_309_1 L,1
+EDU_280_1X RED_369_1X M,4
+EDU_280_1X REL_125_1 M,3
+EDU_280_1X RFLA_100_3 L,1
+EDU_280_1X THE_135_1 L,1
+EDU_280_1X THE_480_1 L,1
+EDU_310_H1X HIS_202_1 L,1
+EDU_324_H1X EDU_406_1 M,4
+EDU_324_H1X RED_409_1 M,4
+EDU_406_1 EED_319_H1X M,4
+EDU_406_1 EED_364_1 M,3
+EDU_406_1 EED_364_H1 M,4
+EDU_406_1 EED_368_1 M,5
+EDU_406_1 EED_368_H1 H,6
+EDU_406_1 ENG_444_1X L,1
+EDU_406_1 INT_301_1 L,1
+EDU_406_1 PSY_217_1 L,2
+EDU_406_1 RED_371_H1 M,3
+EDU_406_1 RED_409_1 H,15
+EDU_406_1 RED_409L_1_LAB H,15
+EDU_417_H1X MUS_342_1X M,4
+EDU_417_H1X PEA_36_1 L,1
+EED_319_H1X EED_364_H1 M,5
+EED_319_H1X MAT_108_1 L,1
+EED_319_H1X PEV_83_2 L,1
+EED_319_H1X RED_309_1 M,5
+EED_364_1 RED_309_1 M,3
+EED_364_1 RED_369_1X H,6
+EED_364_1 RED_409_1 M,3
+EED_364_1 RED_409L_1_LAB L,2
+EED_364_1 SPN_101_4 L,1
+EED_364_H1 RED_369_1X M,4
+EED_364_H1 RED_409_1 M,5
+EED_364_H1 RED_409L_1_LAB H,6
+EED_368_1 RED_309_1 L,1
+EED_368_1 RED_369_1X L,2
+EED_368_1 RED_409_1 M,3
+EED_368_1 RED_409L_1_LAB M,3
+EED_368_H1 RED_309_1 L,1
+EED_368_H1 RED_369_1X M,3
+EED_368_H1 RED_409_1 M,4
+EED_368_H1 RED_409L_1_LAB M,4
+ENG_140_10 PEA_34_1 L,1
+ENG_140_11 MAT_111_2_LAB L,1
+ENG_140_11 PEA_62_1 L,1
+ENG_140_11 SPN_101_4 L,1
+ENG_140_12 INB_236_1 L,1
+ENG_140_12 PEA_80_1 L,1
+ENG_140_12 PHI_108_1 L,1
+ENG_140_12 SPN_102_2 L,1
+ENG_140_13 PEA_62_2 L,1
+ENG_140_13 PHI_108_1 L,1
+ENG_140_13 POL_130_3 L,1
+ENG_140_13 THE_111_1 L,1
+ENG_140_3 HIS_120_2 L,1
+ENG_140_3 HIS_150_1 L,1
+ENG_140_3 REL_113_1 L,1
+ENG_140_5 PED_101_7 L,1
+ENG_140_5 SOC_111_2 L,1
+ENG_140_7 ENV_225_1_LAB L,1
+ENG_140_7 INB_200_2 L,1
+ENG_140_7 PEA_56_1 L,1
+ENG_140_7 PSY_211_1 L,1
+ENG_140_8 PEA_62_4 L,1
+ENG_140_9 PSY_101_H1 L,1
+ENG_140_H1 PED_101_8 L,1
+ENG_140_H2 MAT_108_H1 L,1
+ENG_140_H2 PHI_242_1 L,1
+ENG_167_H1X PEV_85_1 L,1
+ENG_190_2X POL_160_1 L,1
+ENG_190_2X SPN_201_5 L,1
+ENG_201_1X ENG_277_H1X M,3
+ENG_201_H1X ENG_277_H1X M,4
+ENG_206_H1X ENG_267_1X L,1
+ENG_209_H1X ENG_374_H1X L,1
+ENG_209_H1X SOC_201_1 M,3
+ENG_232_1X ENG_303_H1X M,3
+ENG_232_1X ENG_317_1X L,2
+ENG_232_1X ENG_321_1X L,2
+ENG_232_1X ENG_321_H1X L,1
+ENG_232_1X PHY_411_1 L,2
+ENG_232_1X PHY_412_1 L,2
+ENG_232_1X RED_309_1 M,4
+ENG_232_1X RED_369_1X L,2
+ENG_232_1X SOC_311C_1 L,1
+ENG_234_H1X PED_101_5 L,1
+ENG_267_1X JPN_101_H1X L,1
+ENG_267_1X MAT_112_1 M,4
+ENG_267_1X PEA_70_1 L,2
+ENG_267_1X PHI_108_1 L,2
+ENG_267_1X REL_113_1 L,2
+ENG_267_1X THE_340_1 M,4
+ENG_277_H1X ENG_319_H1X M,3
+ENG_277_H1X ENG_444_1X M,4
+ENG_277_H1X HIS_150_1 M,4
+ENG_303_H1X POL_130_2 M,4
+ENG_303_H1X POL_161_1 M,3
+ENG_303_H1X REL_300_1X M,3
+ENG_303_H1X TPJ_111_1 M,5
+ENG_304_1X ENG_317_1X M,5
+ENG_304_1X ENG_319_H1X M,4
+ENG_304_1X ENG_321_1X L,1
+ENG_304_1X ENG_321_H1X M,3
+ENG_304_1X ENG_344_H1X M,4
+ENG_304_1X GBH_200_1 M,3
+ENG_304_1X HIS_130_1 L,2
+ENG_304_1X HIS_346_1 M,3
+ENG_304_1X HON_350S_1 M,3
+ENG_304_1X PEA_56_1 L,2
+ENG_304_1X PEA_70_1 M,3
+ENG_304_1X PEA_73_1 M,3
+ENG_304_1X PEA_73_2 M,4
+ENG_304_1X POL_161_1 M,3
+ENG_304_1X PSY_217_1 M,4
+ENG_304_1X PSY_217_1_LAB M,4
+ENG_304_1X PSY_305_1 L,2
+ENG_304_1X SOC_108_1 M,3
+ENG_304_1X SWAG_205_1X L,1
+ENG_304_1X THE_135_1 L,1
+ENG_317_1X ENG_321_1X M,3
+ENG_317_1X ENG_321_H1X M,3
+ENG_317_1X PEA_56_1 L,1
+ENG_317_1X PSY_255_1 L,1
+ENG_317_1X PSY_255L_1_LAB M,4
+ENG_319_H1X ENG_444_1X L,2
+ENG_321_1X ENG_490_H1X M,3
+ENG_321_1X HON_350S_1 M,4
+ENG_321_H1X ENG_490_H1X L,1
+ENG_344_H1X ENG_367_H1X M,4
+ENG_344_H1X HON_400_1 M,4
+ENG_344_H1X TPJ_111_1 L,1
+ENG_367_H1X ENG_374_H1X M,3
+ENG_367_H1X ENG_444_1X M,4
+ENG_367_H1X ENV_270_1 M,4
+ENG_367_H1X HON_400_1 M,4
+ENG_367_H1X PSY_200_1 L,1
+ENG_367_H1X REL_125_1 M,4
+ENG_367_H1X SOC_301_1 L,2
+ENG_374_H1X SWAG_205_1X M,3
+ENG_380_1X INT_396_1 L,2
+ENG_380_1X PEA_56_1 M,3
+ENG_380_1X PEA_70_1 L,1
+ENG_380_1X POL_332_1 M,3
+ENG_380_1X PSY_200_1 L,2
+ENG_380_1X PSY_326_1 M,4
+ENG_380_1X REL_300_1X M,3
+ENG_380_1X SPN_110_4 L,1
+ENG_380_1X TPJ_111_1 L,2
+ENG_444_1X GBH_305A_H1X M,3
+ENG_444_1X RED_409_1 M,4
+ENG_444_1X SOC_301_1 L,2
+ENG_467_1X THE_111_1 M,4
+ENG_467_1X THE_331_1 L,2
+ENG_490_H1X SWAG_205_1X L,1
+ENG_490_H1X THE_340_1 L,1
+ENV_189_1 ENV_225_1 L,1
+ENV_189_1 ENV_225_1_LAB L,1
+ENV_189_1 ENV_270_1 M,3
+ENV_189_1 PEV_85_1 M,3
+ENV_189_1 TPJ_111_1 L,1
+ENV_189_H1X ENV_225_1 L,1
+ENV_189_H1X ENV_225_1_LAB M,4
+ENV_189_H1X ENV_380_1 L,2
+ENV_189_H1X PEV_85_1 M,4
+ENV_189_H1X TPJ_111_1 M,3
+ENV_222_H1X ENV_225_1 L,1
+ENV_222_H1X ENV_292_1 M,4
+ENV_222_H1X ENV_323_1 M,4
+ENV_222_H1X ENV_365_1 M,5
+ENV_222_H1X ENV_389_1 M,3
+ENV_222_H1X ENV_389_H1 M,4
+ENV_222_H1X PEA_32_1 L,2
+ENV_222_H1X PEA_58_1 L,1
+ENV_222_H1X POL_453_1 L,1
+ENV_222_H1X THE_133_1 M,4
+ENV_225_1 ENV_323_1 M,4
+ENV_225_1 PEA_62_1 L,1
+ENV_225_1_LAB ENV_323_1 M,4
+ENV_270_1 ENV_380_1 M,4
+ENV_270_1 PEA_34_1 L,1
+ENV_270_1 PEA_62_1 L,1
+ENV_270_1 POL_161_1 L,2
+ENV_270_1 SWAG_225F_H1X L,1
+ENV_292_1 ENV_323_1 M,4
+ENV_292_1 ENV_365_1 L,2
+ENV_292_1 ENV_389_1 L,1
+ENV_292_1 GMN_331_1 M,4
+ENV_292_1 HIS_322_1 L,2
+ENV_292_1 IFT_110_H2X M,5
+ENV_292_1 INB_372_1 L,1
+ENV_292_1 INB_372_2 L,1
+ENV_292_1 INB_390T_1 L,1
+ENV_292_1 PED_477_1 M,3
+ENV_292_1 POL_130_2 M,4
+ENV_292_1 POL_332_1 M,3
+ENV_292_1 SOC_108_1 M,4
+ENV_300_H1 ENV_323_1 M,4
+ENV_300_H1 ENV_380_1 L,2
+ENV_323_1 ENV_365_1 M,4
+ENV_323_1 ENV_389_1 H,9
+ENV_323_1 ENV_389_H1 H,6
+ENV_323_1 HON_300A_1 M,3
+ENV_323_1 LAT_201_1 L,1
+ENV_323_1 PEV_83_2 M,4
+ENV_323_1 TPJ_111_1 L,2
+ENV_365_1 ENV_389_1 M,5
+ENV_365_1 IFT_107_H2X L,2
+ENV_365_1 IFT_110_H2X M,4
+ENV_365_1 POL_161_1 M,4
+ENV_389_1 SOC_108_1 M,3
+FIL_150_1_LAB INB_372_2 L,1
+FRN_101_1 HON_201H_1 M,4
+FRN_101_1 HON_201H_2 L,2
+FRN_101_1 IFT_110_H2X M,3
+FRN_101_1 INT_101_1 M,4
+FRN_101_1 MAT_108L_1_LAB M,4
+FRN_101_1 MAT_108L_3_LAB M,3
+FRN_101_1 MAT_108L_4_LAB M,4
+FRN_101_1 PEA_56_1 M,4
+FRN_101_1 PHI_108_1 L,1
+FRN_101_1 POL_100_2 L,1
+FRN_101_1 POL_161_1 L,1
+FRN_101_1 POL_346_1 M,3
+FRN_101_1 SOC_108_1 L,2
+FRN_201_1 HON_201H_1 L,2
+FRN_201_1 HON_201H_2 L,1
+FRN_201_2 HON_201H_1 L,2
+FRN_201_2 HON_201H_2 M,4
+FRN_202_1 FRN_320_1 L,1
+FRN_202_1 THE_133_1 M,3
+FRN_305_1 INB_201_1 L,2
+FRN_305_1 INB_390T_1 L,2
+FRN_305_1 INB_450_1 M,4
+FRN_305_1 MUS_227_1X L,2
+FRN_305_1 MUS_360_1X M,4
+FRN_305_1 PEA_58_1 L,2
+FRN_305_1 PEV_86_1 M,4
+FRN_305_1 PHI_242_1 L,2
+FRN_305_1 THE_201_1 L,2
+FRN_305_1 THE_341_1 M,3
+FRN_320_1 HON_350S_1 M,3
+FRN_320_1 MUS_153_H1 L,1
+FRN_320_1 RED_369_1X M,3
+GBH_200_1 MAT_219_1 L,1
+GBH_200_1 MAT_440_1 L,2
+GBH_200_1 PEA_73_1 M,4
+GBH_200_1 PED_477_1 M,3
+GBH_200_1 PPE_119_1 M,4
+GBH_200_1 PSY_250_2 M,3
+GBH_200_1 PSY_326_1 M,4
+GBH_200_1 SWAG_205_1X L,2
+GBH_305A_H1X INB_377_1 M,4
+GBH_305A_H1X INB_450_1 L,1
+GBH_305A_H1X MAT_103_1 M,4
+GBH_305A_H1X MUS_360_1X M,4
+GBH_305A_H1X RED_309_1 M,4
+GBH_305A_H1X RED_369_1X L,2
+GBH_305A_H1X SOC_301_1 L,2
+GMN_102_1 INB_337_2 L,1
+GMN_102_1 MUS_120_1 L,2
+GMN_102_1 PHI_290_1 L,2
+GMN_102_1 PHY_220_1 L,1
+GMN_102_1 POL_319_1 L,1
+GMN_102_1 PSY_302_1 M,4
+GMN_102_1 PSY_328_1 M,3
+GMN_102_1 REL_125_1 M,4
+GMN_102_1 TPJ_111_1 M,4
+GMN_202_1 INB_214_1 L,1
+GMN_202_1 INB_390T_1 M,3
+GMN_202_1 INT_396_1 M,4
+GMN_202_1 MAT_110_1_LAB L,1
+GMN_202_2 GMN_261_1 L,1
+GMN_202_2 INB_214_1 L,2
+GMN_202_2 INB_390T_1 L,1
+GMN_202_2 INB_450_1 L,2
+GMN_202_2 INT_396_1 M,4
+GMN_202_2 POL_330_1 M,4
+GMN_202_2 TPJ_111_1 L,2
+GMN_261_1 INB_450_1 L,1
+GMN_331_1 REL_125_1 L,2
+HIS_120_2 LAT_101_1 M,4
+HIS_120_2 SPN_110_3 L,1
+HIS_120_3 HIS_130_1 L,1
+HIS_120_3 LAT_101_1 L,1
+HIS_120_3 PEA_73_2 L,1
+HIS_120_5 LAT_101_1 M,4
+HIS_120_H1X INB_200_2 L,1
+HIS_120_H1X LAT_101_1 M,4
+HIS_120_H1X MAT_109_1 L,1
+HIS_120_H1X THE_112_1 L,1
+HIS_130_1 HIS_346_1 M,4
+HIS_130_1 PEA_75_1 M,3
+HIS_130_1 PEA_75_2 L,1
+HIS_130_1 POL_160_1 M,4
+HIS_130_1 SOC_108_1 M,4
+HIS_130_1 THE_111_1 L,2
+HIS_130_1 THE_341_1 M,4
+HIS_130_1 TPJ_111_1 L,1
+HIS_150_1 INB_230_3 L,1
+HIS_150_1 JPN_101_H1X M,4
+HIS_150_1 LAT_201_1 M,3
+HIS_150_1 MAT_330_1 L,1
+HIS_150_1 PEA_56_1 L,1
+HIS_150_1 PEA_80_1 M,3
+HIS_150_1 PEV_83_2 M,3
+HIS_150_1 POL_160_1 M,3
+HIS_150_1 REL_113_1 L,2
+HIS_150_1 SOC_201_1 M,4
+HIS_150_1 SPN_302_1 M,4
+HIS_150_1 SWAG_205_1X M,3
+HIS_202_1 HIS_346_1 L,1
+HIS_202_1 HON_300A_1 M,3
+HIS_202_1 INT_396_1 M,3
+HIS_202_1 PEA_37_2 M,3
+HIS_202_1 POL_330_1 M,4
+HIS_202_1 TPJ_111_1 L,1
+HIS_322_1 HIS_346_1 M,3
+HIS_322_1 HON_400_1 M,4
+HIS_322_1 INB_214_1 M,4
+HIS_322_1 INB_390T_1 M,4
+HIS_322_1 INB_450_1 M,3
+HIS_322_1 PED_101_6 L,1
+HIS_346_1 POL_319_1 M,4
+HIS_346_1 POL_330_1 M,3
+HIS_346_1 POL_332_1 M,4
+HIS_346_1 REL_113_1 M,3
+HIS_346_1 REL_125_1 L,1
+HIS_346_1 REL_237_1 M,4
+HIS_346_1 TPJ_111_1 L,2
+HON_201H_1 INT_101_1 M,3
+HON_201H_1 LAT_101_1 M,5
+HON_201H_1 MAT_112_1 M,3
+HON_201H_1 PEA_62_5 L,1
+HON_201H_1 PEA_70_1 L,1
+HON_201H_1 PHI_223_1 L,2
+HON_201H_1 POL_100_3 M,3
+HON_201H_1 POL_130_2 L,1
+HON_201H_1 REL_237_1 L,2
+HON_201H_1 THE_135_1 L,2
+HON_201H_2 LAT_101_1 M,3
+HON_201H_2 MAT_112_1 M,4
+HON_201H_2 PEA_70_1 M,4
+HON_201H_2 PHI_223_1 L,1
+HON_201H_2 POL_100_2 L,2
+HON_201H_2 THE_112_1 M,4
+HON_300A_1 PEV_86_1 L,2
+HON_300A_1 PHY_117_1 M,4
+HON_300A_1 PHY_117_1_LAB M,3
+HON_300A_1 REL_237_1 M,3
+HON_300A_1 RFLA_400_1 M,3
+HON_300A_1 SWAG_205_1X M,4
+HON_300A_1 SWAG_350_H1X M,4
+HON_300A_1 THE_111_1 L,1
+HON_300A_1 THE_325_1 L,2
+HON_300A_1 THE_340_1 L,1
+HON_300A_1 TPJ_111_1 M,5
+HON_350S_1 POL_319_1 L,1
+HON_350S_1 PSY_250_2 M,3
+HON_350S_1 PSY_302_1 L,2
+HON_350S_1 SOC_311C_1 L,1
+HON_350S_1 TPJ_111_1 M,4
+HON_400_1 INB_377_1 L,1
+HON_400_1 INB_390T_1 M,4
+HON_400_1 MAT_112_1 L,1
+HON_400_1 MUS_341_1X M,4
+HON_400_1 PHI_290_1 M,4
+HON_400_1 POL_453_1 L,2
+HON_400_1 PSY_322_1 M,3
+HON_400_1 PSY_322L_1_LAB L,2
+HON_400_1 PSY_328_1 L,1
+HON_400_1 TPJ_111_1 L,2
+IFT_107_H2X INB_390T_1 M,3
+IFT_107_H2X INB_450_1 M,3
+IFT_107_H2X JPN_101_H1X L,2
+IFT_107_H2X MAT_350_1 L,2
+IFT_107_H2X MUS_160_H1 L,1
+IFT_107_H2X PED_477_1 M,3
+IFT_107_H2X POL_161_1 M,4
+IFT_107_H2X POL_332_1 M,3
+IFT_107_H2X SOC_301_1 M,3
+IFT_107_H2X TPJ_111_1 L,1
+IFT_110_H2X IFT_300_H1X M,4
+IFT_110_H2X IFT_300_H2X M,3
+IFT_110_H2X INB_214_1 M,4
+IFT_110_H2X INB_372_1 M,4
+IFT_110_H2X INB_372_2 M,3
+IFT_110_H2X INB_390T_1 M,4
+IFT_110_H2X PED_477_1 L,2
+IFT_110_H2X POL_332_1 L,1
+IFT_110_H2X SOC_108_1 M,3
+IFT_110_H2X SPN_302_1 L,1
+INB_200_1 PEA_62_3 L,1
+INB_200_1 PED_106_2 L,1
+INB_200_1 SOC_111_2 L,1
+INB_200_2 MAT_103_1 L,1
+INB_200_2 SPN_101_1 L,1
+INB_200_2 SPN_110_4 L,1
+INB_200_2 SPN_290_1 L,1
+INB_201_1 INB_214_1 L,1
+INB_201_1 INB_337_1 M,3
+INB_201_1 INB_337_2 L,1
+INB_201_1 INB_365_1 L,1
+INB_201_1 INB_365_2 M,3
+INB_201_1 INB_372_1 L,2
+INB_201_1 INB_450_1 L,1
+INB_201_1 PEA_37_1 L,1
+INB_201_1 PEA_58_1 L,2
+INB_201_1 PEA_73_1 M,4
+INB_201_1 POL_100_2 M,3
+INB_201_1 REL_125_1 L,2
+INB_214_1 INB_236_1 M,4
+INB_214_1 INB_236_3 M,5
+INB_214_1 INB_365_1 L,1
+INB_214_1 INB_365_2 M,4
+INB_214_1 INB_372_2 L,2
+INB_214_1 INB_390T_1 L,1
+INB_214_1 INB_450_1 H,6
+INB_214_1 INT_396_1 M,4
+INB_214_1 MAT_350_1 L,2
+INB_214_1 MAT_440_1 M,3
+INB_214_1 PEV_83_2 M,3
+INB_214_1 POL_319_1 L,2
+INB_214_1 SPN_302_1 L,1
+INB_230_1 INB_236_1 L,1
+INB_230_1 INB_236_3 M,3
+INB_230_1 PEA_74_1 L,1
+INB_230_1 PED_101_4 L,1
+INB_230_2 INB_236_1 M,3
+INB_230_2 INB_236_2 L,1
+INB_230_2 INB_236_3 L,1
+INB_230_2 SPN_101_2 L,1
+INB_230_3 INB_236_2 M,3
+INB_230_3 PHY_117_1 L,1
+INB_236_2 PEA_54_2 L,1
+INB_236_3 PEA_62_5 L,1
+INB_236_3 PED_101_1 L,1
+INB_336_1 INB_365_2 L,1
+INB_336_1 INB_372_2 M,4
+INB_337_1 INB_365_1 H,6
+INB_337_1 INB_365_2 M,3
+INB_337_1 INB_372_1 L,2
+INB_337_1 INB_372_2 M,4
+INB_337_1 PEV_83_2 M,3
+INB_337_1 PSY_200_1 L,1
+INB_337_2 INB_365_1 M,3
+INB_337_2 INB_372_2 M,4
+INB_337_2 PEA_30_2 L,1
+INB_337_2 PEV_83_2 M,3
+INB_337_2 POL_319_1 M,3
+INB_337_2 PSY_101_1 L,1
+INB_337_2 PSY_200_1 L,2
+INB_365_1 INB_372_1 M,3
+INB_365_1 INB_372_2 M,5
+INB_365_1 POL_319_1 L,2
+INB_365_1 SPN_337_1 M,3
+INB_365_1 SPN_341_1 L,1
+INB_365_1 SPN_341_2 M,3
+INB_365_2 INB_372_1 M,3
+INB_365_2 INB_372_2 M,4
+INB_365_2 INB_450_1 L,1
+INB_365_2 INT_396_1 M,4
+INB_365_2 PEA_58_1 L,2
+INB_365_2 PED_101_1 L,1
+INB_365_2 POL_319_1 L,1
+INB_365_2 SEB_200_1 L,1
+INB_365_2 SPN_337_1 L,2
+INB_365_2 SPN_341_1 L,1
+INB_365_2 SPN_341_2 L,1
+INB_372_1 INB_377_1 L,2
+INB_372_1 INB_390T_1 M,4
+INB_372_1 INB_450_1 M,4
+INB_372_1 INT_396_1 M,4
+INB_372_1 SPN_302_1 M,5
+INB_372_1 SPN_337_1 M,3
+INB_372_1 SPN_341_1 L,2
+INB_372_1 SPN_341_2 L,1
+INB_372_1 TPJ_111_1 M,3
+INB_372_2 INB_377_1 M,4
+INB_372_2 INB_390T_1 L,2
+INB_372_2 INB_450_1 L,1
+INB_372_2 INT_396_1 L,2
+INB_372_2 SPN_302_1 L,2
+INB_372_2 SPN_341_2 L,1
+INB_377_1 INB_390T_1 M,4
+INB_377_1 INB_450_1 M,4
+INB_377_1 MAT_350_1 L,1
+INB_377_1 POL_161_1 M,3
+INB_377_1 SPN_302_1 L,2
+INB_377_1 SPN_337_1 M,5
+INB_377_1 SPN_341_1 M,3
+INB_377_1 TPJ_111_1 L,2
+INB_390T_1 INB_450_1 H,10
+INB_390T_1 INT_396_1 M,3
+INB_390T_1 PEV_83_2 M,3
+INB_390T_1 PEV_86_1 L,2
+INB_390T_1 TPJ_111_1 M,3
+INB_450_1 MUS_360_1X M,4
+INB_450_1 PED_477_1 M,4
+INB_450_1 PEV_83_2 M,4
+INB_450_1 PEV_86_1 M,5
+INB_450_1 POL_161_1 L,1
+INB_450_1 SPN_337_1 L,1
+INB_450_1 SPN_341_1 M,5
+INB_450_1 SPN_341_2 M,3
+INB_450_1 TPJ_111_1 L,1
+INT_101_1 PEA_62_4 L,1
+INT_101_1 PHI_223_1 M,4
+INT_101_1 POL_100_2 M,4
+INT_101_1 REL_237_1 L,2
+INT_101_1 SOC_111_1 L,1
+INT_101_1 SOC_111_2 M,4
+INT_101_1 SPN_101_3 L,1
+INT_101_1 THE_133_1 M,4
+INT_202_1 INT_396_1 L,2
+INT_202_1 PHI_223_1 M,3
+INT_202_1 PHI_242_1 L,2
+INT_202_1 PSY_255_1 L,2
+INT_202_1 PSY_255L_1_LAB L,1
+INT_202_1 PSY_302_1 L,1
+INT_202_1 PSY_341_1 M,4
+INT_202_1 PSY_341L_1_LAB L,2
+INT_202_1 THE_133_1 M,3
+INT_202_1 THE_340_1 M,3
+INT_301_1 POL_160_1 L,2
+INT_301_1 POL_319_1 M,3
+INT_301_1 RED_409_1 L,2
+INT_396_1 JPN_101_H1X M,3
+INT_396_1 PEV_83_2 M,4
+INT_396_1 PHI_223_1 M,3
+INT_396_1 PHI_314_1 L,2
+INT_396_1 PHY_230_1 L,2
+INT_396_1 POL_330_1 M,4
+INT_396_1 PSY_322_1 L,1
+INT_396_1 PSY_328_1 M,3
+INT_396_1 REL_237_1 L,1
+INT_396_1 SOC_311C_1 M,3
+INT_396_1 SPN_102_1 M,4
+INT_396_1 SPN_102_2 M,3
+INT_396_1 THE_210_1 L,2
+INT_396_1 THE_340_1 M,4
+INT_396_1 THE_341_1 L,2
+JPN_101_H1X POL_319_1 L,2
+JPN_101_H1X PSY_328_1 M,3
+JPN_101_H1X REL_113_1 H,7
+JPN_101_H1X REL_125_1 L,2
+JPN_201_H1X PEA_70_1 M,4
+LAT_101_1 MUS_292_1X L,2
+LAT_101_1 PEA_70_1 M,5
+LAT_101_1 PED_101_3 L,1
+LAT_101_1 REL_237_1 L,2
+LAT_101_1 THE_112_1 L,1
+LAT_201_1 POL_453_1 M,3
+LAT_201_1 PSY_250_1 L,2
+LAT_201_1 PSY_250_2 L,2
+MAT_103_1 SPN_101_1 L,1
+MAT_103_1_LAB PED_101_6 L,1
+MAT_108_1 MAT_108L_1_LAB M,4
+MAT_108_1 MAT_108L_2_LAB M,3
+MAT_108_1 MAT_108L_3_LAB L,2
+MAT_108_1 MAT_108L_4_LAB L,1
+MAT_108_2 MAT_108L_1_LAB M,4
+MAT_108_2 MAT_108L_2_LAB L,1
+MAT_108_2 MAT_108L_3_LAB M,4
+MAT_108_2 MAT_108L_4_LAB M,3
+MAT_108_2 PED_101_4 L,1
+MAT_108_2 PSY_150_2 L,1
+MAT_108_3 MAT_108L_1_LAB M,3
+MAT_108_3 MAT_108L_2_LAB M,4
+MAT_108_3 MAT_108L_3_LAB L,2
+MAT_108_4 MAT_108L_1_LAB M,3
+MAT_108_4 MAT_108L_2_LAB L,2
+MAT_108_4 MAT_108L_3_LAB M,3
+MAT_108_4 MAT_108L_4_LAB M,5
+MAT_108_4 SPN_101_4 L,1
+MAT_108_5 MAT_108L_1_LAB L,1
+MAT_108_5 MAT_108L_2_LAB M,5
+MAT_108_5 MAT_108L_3_LAB M,5
+MAT_108_5 MAT_108L_4_LAB L,1
+MAT_108_5 PHI_242_1 L,1
+MAT_108_H1 MAT_108L_1_LAB H,6
+MAT_108_H1 MAT_108L_2_LAB M,3
+MAT_108_H1 MAT_108L_3_LAB L,1
+MAT_108_H1 MAT_108L_4_LAB M,4
+MAT_108_H1 PEA_71_1 L,1
+MAT_108L_1_LAB SPN_101_1 L,1
+MAT_109_1_LAB SPN_341_2 L,1
+MAT_109_1 PPE_119_1 L,1
+MAT_109_2 MUS_160_1 L,1
+MAT_109_2_LAB PEA_37_1 L,1
+MAT_109_2_LAB SOC_111_1 L,1
+MAT_110_1_LAB PEV_83_2 L,1
+MAT_111_1 PEA_36_2 L,1
+MAT_111_1 PEA_37_2 L,1
+MAT_111_1 POL_130_3 L,1
+MAT_111_1_LAB PEA_62_4 L,1
+MAT_111_2 PEV_83_2 M,3
+MAT_111_2_LAB PEV_83_2 M,3
+MAT_112_1 PEA_58_1 M,4
+MAT_112_1 PEA_73_2 L,1
+MAT_112_1 PHY_130_1 L,2
+MAT_112_1 PHY_130_1_LAB M,3
+MAT_112_1 PHY_130_2_LAB L,2
+MAT_140_H1 PEA_71_1 L,1
+MAT_219_1 MAT_350_1 M,3
+MAT_219_1 MAT_440_1 M,4
+MAT_219_1 PHY_230_1 M,4
+MAT_219_1 THE_112_1 M,4
+MAT_219_1 TPJ_111_1 L,1
+MAT_330_1 MAT_350_1 H,8
+MAT_350_1 MAT_440_1 M,4
+MAT_350_1 MUS_120_1 L,1
+MAT_350_1 PSY_101_1 M,4
+MAT_350_1 PSY_101_H1 M,3
+MAT_350_1 RFLA_400_1 M,3
+MAT_350_1 SOC_111_2 L,1
+MAT_350_1 TPJ_111_1 M,4
+MAT_440_1 PEA_32_1 M,3
+MAT_440_1 PEV_83_2 L,2
+MAT_440_1 PHI_290_1 M,3
+MAT_440_1 PSY_200_1 L,2
+MUS_120_1 PEV_83_2 M,4
+MUS_120_1 PHI_290_1 M,3
+MUS_120_1 POL_330_1 L,1
+MUS_120_1 PSY_200_1 M,3
+MUS_120_1 SOC_311C_1 M,4
+MUS_151_1 MUS_153_2 M,4
+MUS_151_H1 MUS_153_1 L,2
+MUS_151_H1 MUS_153_H2 M,3
+MUS_153_2 PSY_150_3 L,1
+MUS_153_H1 PEA_62_5 L,1
+MUS_153_H1 PED_101_5 L,1
+MUS_153_H1 PHI_223_1 L,1
+MUS_160_1 TPJ_111_1 M,4
+MUS_160_H1 TPJ_111_1 L,2
+MUS_227_1X MUS_292_1X L,2
+MUS_251_H1 PSY_150_1 L,1
+MUS_286_1X MUS_292_1X L,1
+MUS_286_1X THE_210_1 L,2
+MUS_286_1X TPJ_111_1 L,2
+MUS_292_1X PEA_70_1 L,2
+MUS_292_1X SOC_311C_1 L,2
+MUS_292_1X SPN_302_1 M,4
+MUS_292_1X THE_135_1 M,4
+MUS_292_1X THE_210_1 M,4
+MUS_310_1X MUS_342_1X L,1
+MUS_341_1X TPJ_111_1 M,3
+MUS_342_1X PHY_220_1 L,1
+MUS_342_1X PHY_230_1 M,4
+MUS_360_1X PEV_83_2 M,3
+MUS_360_1X PSY_200_1 L,2
+MUS_360_1X THE_111_1 M,4
+MUS_360_1X THE_135_1 M,3
+MUS_360_1X THE_201_1 L,1
+MUS_360_1X THE_341_1 L,2
+PEA_30_1 POL_130_2 M,4
+PEA_30_1 POL_130_3 L,1
+PEA_30_2 POL_130_2 M,4
+PEA_34_1 PED_101_3 L,1
+PEA_37_1 RED_409_1 L,1
+PEA_37_2 POL_160_1 L,2
+PEA_40_2 TPJ_111_1 M,3
+PEA_44_1 PEA_62_3 L,1
+PEA_44_1 SPN_337_1 M,3
+PEA_44_2 SPN_337_1 L,1
+PEA_51_1 POL_330_1 L,1
+PEA_51_1 REL_125_1 M,4
+PEA_51_1 TPJ_111_1 M,3
+PEA_54_2 PED_106_3 L,1
+PEA_56_1 PEA_71_1 L,2
+PEA_56_1 PHY_230_1 M,3
+PEA_56_1 PSY_305_1 L,1
+PEA_58_1 PEV_86_1 L,2
+PEA_58_1 POL_319_1 M,3
+PEA_58_1 PSY_255_1 L,2
+PEA_58_1 PSY_305_1 L,1
+PEA_58_1 SPN_337_1 L,1
+PEA_62_3 SPN_110_3 L,1
+PEA_62_5 SPN_201_5 L,1
+PEA_70_1 PHI_242_1 L,2
+PEA_70_1 POL_330_1 M,4
+PEA_70_1 PSY_200_1 L,1
+PEA_70_1 RSN_101_1 L,2
+PEA_70_1 THE_210_1 L,2
+PEA_71_1 PHI_108_1 L,2
+PEA_71_1 PHY_230_1 M,3
+PEA_71_1 RFLA_100_3 L,1
+PEA_71_1 TPJ_111_1 M,4
+PEA_73_1 PHI_223_1 M,3
+PEA_73_1 PSY_326_1 L,2
+PEA_73_1 PSY_326L_1_LAB M,4
+PEA_73_1 PSY_328_1 L,1
+PEA_73_1 REL_237_1 M,4
+PEA_73_1 SWAG_205_1X L,2
+PEA_73_1 THE_331_1 M,3
+PEA_73_1 THE_340_1 M,3
+PEA_73_1 THE_480_1 M,3
+PEA_73_2 PHI_223_1 L,1
+PEA_73_2 PSY_326L_1_LAB L,2
+PEA_73_2 REL_237_1 L,1
+PEA_73_2 SWAG_205_1X M,4
+PEA_73_2 THE_331_1 L,1
+PEA_73_2 THE_480_1 M,4
+PEA_75_1 PSY_328_1 L,2
+PEA_75_1 SOC_108_1 L,1
+PEA_75_2 PSY_200_1 M,4
+PEA_75_2 PSY_328_1 M,4
+PEA_75_2 SOC_108_1 L,2
+PEA_80_1 PHI_223_1 M,4
+PEA_80_1 SOC_201_1 M,3
+PEA_80_1 SPN_201_H1X L,1
+PED_101_3 PEV_85_1 L,1
+PED_101_3 SPN_201_H1X L,1
+PED_101_4 SPN_290_2 L,1
+PED_101_4 THE_112_1 L,1
+PED_101_5 THE_340_1 L,1
+PED_101_6 SPN_102_1 L,1
+PED_101_6 SPN_102_2 L,1
+PED_101_7 PSY_211_1 L,1
+PED_101_8 PED_106_3 L,1
+PED_101_8 POL_130_3 L,1
+PED_106_2 PEV_83_2 M,4
+PED_477_1 PEV_83_2 L,1
+PED_477_1 PHI_108_1 M,3
+PED_477_1 POL_332_1 M,4
+PED_477_1 POL_453_1 M,4
+PED_477_1 PSY_305_1 M,4
+PED_477_1 PSY_310_1 L,1
+PED_477_1 PSY_322L_1_LAB M,3
+PED_477_1 PSY_333_1 L,2
+PED_477_1 SOC_311C_1 M,4
+PEV_83_2 PHY_130_2 L,1
+PEV_83_2 PHY_130_2_LAB M,3
+PEV_83_2 PHY_314_1 L,1
+PEV_83_2 PHY_412_1 M,4
+PEV_83_2 POL_130_2 L,2
+PEV_83_2 POL_130_3 M,4
+PEV_83_2 POL_160_1 M,3
+PEV_83_2 PSY_101_1 L,1
+PEV_83_2 PSY_101_H1 L,2
+PEV_83_2 PSY_200_1 M,5
+PEV_83_2 PSY_302_1 M,5
+PEV_83_2 PSY_305_1 M,4
+PEV_83_2 PSY_322_1 M,4
+PEV_83_2 PSY_322L_1_LAB L,2
+PEV_83_2 RED_309_1 M,3
+PEV_83_2 RFLA_100_1 M,4
+PEV_83_2 RFLA_100_2 L,1
+PEV_83_2 RFLA_100_3 M,4
+PEV_83_2 SPN_101_1 M,3
+PEV_83_2 SPN_101_4 M,3
+PEV_83_2 SPN_102_1 L,1
+PEV_83_2 SPN_102_2 L,1
+PEV_85_1 PHI_242_1 M,3
+PEV_85_1 PHI_290_1 L,1
+PEV_85_1 PSY_150_1 M,4
+PEV_85_1 PSY_150_2 L,1
+PEV_85_1 PSY_150_3 L,2
+PEV_85_1 PSY_495_1 M,3
+PEV_85_1 SPN_101_3 L,1
+PEV_85_1 SPN_290_1 M,3
+PEV_86_1 PHI_290_1 M,4
+PHI_108_1 PHY_411_1 M,3
+PHI_108_1 PHY_412_1 M,4
+PHI_108_1 POL_160_1 M,4
+PHI_108_1 THE_112_1 L,2
+PHI_223_1 PHI_242_1 M,3
+PHI_223_1 POL_130_2 L,2
+PHI_223_1 POL_130_3 M,3
+PHI_223_1 REL_113_1 L,1
+PHI_223_1 REL_237_1 L,2
+PHI_242_1 POL_330_1 L,1
+PHI_242_1 PSY_150_2 L,1
+PHI_242_1 PSY_150_3 L,1
+PHI_242_1 PSY_250_2 L,1
+PHI_242_1 PSY_255_1 L,2
+PHI_242_1 PSY_255L_1_LAB M,4
+PHI_242_1 PSY_302_1 L,1
+PHI_242_1 PSY_326_1 L,2
+PHI_242_1 PSY_326L_1_LAB L,1
+PHI_242_1 REL_125_1 M,3
+PHI_242_1 REL_237_1 L,1
+PHI_242_1 SEB_200_1 L,1
+PHI_242_1 TPJ_111_1 M,4
+PHI_290_1 POL_319_1 L,2
+PHI_290_1 TPJ_111_1 M,3
+PHI_314_1 POL_130_3 M,4
+PHY_117_1 THE_210_1 L,2
+PHY_117_1 THE_340_1 L,2
+PHY_117_1 THE_341_1 M,4
+PHY_117_1_LAB THE_210_1 M,3
+PHY_117_1_LAB THE_325_1 L,1
+PHY_117_1_LAB THE_340_1 M,3
+PHY_220_1 PHY_230_1 H,10
+PHY_220_1 RSN_101_1 L,2
+PHY_230_1 TPJ_111_1 L,2
+PHY_314_1 PHY_411_1 L,2
+PHY_314_1 PHY_412_1 L,1
+PHY_314_1 PHY_411_1 H,6
+PHY_314_1 PHY_412_1 H,6
+PHY_411_1 PHY_412_1 H,8
+POL_130_2 POL_160_1 M,4
+POL_130_2 PPE_119_1 M,3
+POL_130_2 REL_237_1 M,3
+POL_130_2 TPJ_111_1 L,2
+POL_130_3 POL_160_1 L,1
+POL_130_3 POL_161_1 M,3
+POL_130_3 POL_346_1 L,1
+POL_130_3 REL_237_1 L,2
+POL_130_3 TPJ_111_1 L,2
+POL_160_1 POL_330_1 M,4
+POL_160_1 POL_332_1 M,4
+POL_160_1 REL_237_1 L,1
+POL_160_1 TPJ_111_1 M,3
+POL_161_1 POL_330_1 L,2
+POL_161_1 POL_332_1 M,3
+POL_161_1 POL_346_1 L,1
+POL_161_1 REL_237_1 M,3
+POL_161_1 TPJ_111_1 L,1
+POL_319_1 POL_330_1 M,3
+POL_319_1 POL_332_1 H,6
+POL_319_1 POL_346_1 M,4
+POL_319_1 PSY_305_1 L,1
+POL_319_1 RFLA_100_2 L,1
+POL_319_1 RFLA_100_3 L,1
+POL_319_1 RFLA_400_1 L,1
+POL_330_1 POL_332_1 M,5
+POL_330_1 REL_237_1 L,2
+POL_330_1 RFLA_100_1 L,1
+POL_330_1 RFLA_400_1 M,3
+POL_330_1 SPN_201_4 L,1
+POL_330_1 TPJ_111_1 L,1
+POL_332_1 POL_346_1 M,5
+POL_332_1 POL_453_1 M,4
+POL_332_1 REL_113_1 M,3
+POL_332_1 REL_237_1 M,4
+POL_332_1 RFLA_400_1 L,2
+POL_332_1 SOC_311C_1 L,2
+POL_453_1 REL_113_1 L,2
+POL_453_1 TPJ_111_1 L,1
+PPE_119_1 TPJ_111_1 L,2
+PSY_101_1 TPJ_111_1 L,1
+PSY_101_H1 PSY_150_1 L,1
+PSY_101_H1 TPJ_111_1 L,2
+PSY_150_1 PSY_250_1 H,6
+PSY_150_1 PSY_250_2 M,4
+PSY_150_1 PSY_255_1 M,3
+PSY_150_1 PSY_305_1 M,4
+PSY_150_1 PSY_333_1 L,1
+PSY_150_2 PSY_250_1 M,4
+PSY_150_2 PSY_250_2 M,3
+PSY_150_2 PSY_255_1 L,2
+PSY_150_2 PSY_305_1 M,3
+PSY_150_3 PSY_250_1 L,2
+PSY_150_3 PSY_255_1 L,1
+PSY_150_3 PSY_255L_1_LAB L,2
+PSY_150_3 SPN_101_2 L,1
+PSY_150_3 SPN_290_2 L,1
+PSY_150_3 TPJ_111_1 L,1
+PSY_200_1 PSY_302_1 M,3
+PSY_200_1 PSY_305_1 M,4
+PSY_200_1 PSY_322L_1_LAB M,4
+PSY_200_1 PSY_326_1 L,2
+PSY_200_1 PSY_326L_1_LAB M,3
+PSY_200_1 PSY_341_1 M,3
+PSY_200_1 PSY_341L_1_LAB L,2
+PSY_200_1 PSY_343_1 M,3
+PSY_200_1 PSY_343_H1 M,4
+PSY_200_1 SWAG_350_H1X M,5
+PSY_200_1 THE_325_1 L,1
+PSY_200_1 THE_340_1 L,1
+PSY_200_1 TPJ_111_1 L,1
+PSY_211_H1 SPN_110_1 L,1
+PSY_217_1 RED_409L_1_LAB M,5
+PSY_217_1_LAB RED_409L_1_LAB M,4
+PSY_255_1 PSY_255L_1_LAB H,10
+PSY_255_1 PSY_302_1 M,4
+PSY_255_1 PSY_305_1 M,3
+PSY_255_1 PSY_328_1 M,4
+PSY_255_1 PSY_333_1 M,5
+PSY_255_1 PSY_341L_1_LAB M,4
+PSY_255_1 PSY_343_H1 L,1
+PSY_255L_1_LAB PSY_302_1 M,5
+PSY_255L_1_LAB PSY_305_1 L,1
+PSY_255L_1_LAB PSY_328_1 M,3
+PSY_255L_1_LAB PSY_333_1 M,3
+PSY_255L_1_LAB PSY_341L_1_LAB M,4
+PSY_255L_1_LAB PSY_343_1 L,1
+PSY_255L_1_LAB SOC_111_1 L,2
+PSY_255L_1_LAB SOC_111_2 L,1
+PSY_302_1 PSY_305_1 L,2
+PSY_302_1 PSY_322_1 L,2
+PSY_302_1 PSY_322L_1_LAB L,2
+PSY_302_1 PSY_326_1 M,4
+PSY_302_1 PSY_328_1 H,6
+PSY_302_1 PSY_333_1 M,5
+PSY_302_1 PSY_341_1 L,2
+PSY_302_1 PSY_341L_1_LAB L,1
+PSY_302_1 PSY_343_1 M,3
+PSY_305_1 PSY_322_1 H,8
+PSY_305_1 PSY_322L_1_LAB L,2
+PSY_305_1 PSY_333_1 M,5
+PSY_305_1 PSY_495_1 L,2
+PSY_310_1 PSY_322_1 M,3
+PSY_310_1 PSY_326_1 M,3
+PSY_310_1 PSY_326L_1_LAB L,2
+PSY_310_H1 PSY_322L_1_LAB L,2
+PSY_310_H1 PSY_326_1 L,2
+PSY_310_H1 PSY_326L_1_LAB M,5
+PSY_310_H1 TPJ_111_1 M,4
+PSY_322_1 PSY_322L_1_LAB H,19
+PSY_322_1 PSY_326_1 L,2
+PSY_322_1 PSY_326L_1_LAB M,4
+PSY_322_1 PSY_328_1 L,1
+PSY_322_1 PSY_495_1 M,4
+PSY_322_1 TPJ_111_1 L,1
+PSY_322L_1_LAB PSY_326_1 M,4
+PSY_322L_1_LAB PSY_326L_1_LAB M,3
+PSY_322L_1_LAB PSY_328_1 L,2
+PSY_322L_1_LAB PSY_333_1 M,3
+PSY_322L_1_LAB PSY_495_1 M,4
+PSY_322L_1_LAB REL_300_1X L,2
+PSY_322L_1_LAB TPJ_111_1 L,2
+PSY_326_1 PSY_326L_1_LAB H,19
+PSY_326_1 PSY_328_1 M,3
+PSY_326_1 PSY_333_1 M,4
+PSY_326_1 PSY_341L_1_LAB M,3
+PSY_326_1 PSY_343_1 M,5
+PSY_326_1 TPJ_111_1 M,4
+PSY_326L_1_LAB PSY_333_1 M,5
+PSY_326L_1_LAB PSY_343_1 M,4
+PSY_326L_1_LAB PSY_495_1 L,1
+PSY_326L_1_LAB REL_300_1X L,2
+PSY_326L_1_LAB TPJ_111_1 L,1
+PSY_328_1 PSY_343_1 M,5
+PSY_328_1 PSY_495_1 M,3
+PSY_328_1 RFLA_100_2 L,1
+PSY_328_1 SOC_201_1 L,1
+PSY_333_1 PSY_341_1 M,4
+PSY_341_1 PSY_341L_1_LAB H,6
+PSY_341_1 PSY_343_1 L,2
+PSY_341_1 PSY_343_H1 M,4
+PSY_341_1 SPN_110_2 L,1
+PSY_341L_1_LAB PSY_343_1 M,3
+PSY_341L_1_LAB PSY_343_H1 M,4
+PSY_341L_1_LAB PSY_495_1 L,1
+PSY_343_1 PSY_495_1 M,3
+RED_309_1 RED_369_1X H,8
+RED_369_1X RED_409_1 M,5
+RED_371_H1 RED_409_1 L,2
+RED_409_1 RED_409L_1_LAB H,20
+REL_113_1 REL_125_1 M,5
+REL_113_1 REL_300_1X M,4
+REL_113_1 SOC_201_1 L,1
+REL_113_1 SPN_341_1 L,1
+REL_113_1 SPN_341_2 L,1
+REL_125_1 REL_237_1 L,1
+REL_125_1 REL_300_1X M,3
+REL_125_1 SOC_201_1 M,4
+REL_125_1 SOC_346_1 L,2
+REL_125_1 TPJ_111_1 M,3
+REL_237_1 REL_300_1X L,2
+REL_237_1 SOC_201_1 M,3
+RFLA_100_2 SPN_101_2 L,1
+SEB_200_1 SEB_220_2 M,4
+SEB_200_2 SEB_220_1 L,1
+SEB_200_2 SEB_220_2 M,4
+SEB_220_1 SPN_337_1 M,3
+SEB_220_2 SPN_337_1 M,3
+SOC_108_1 SOC_111_1 M,4
+SOC_108_1 SOC_311C_1 L,2
+SOC_108_1 TPJ_111_1 M,3
+SOC_111_1 THE_341_1 L,1
+SOC_111_2 SOC_301_1 L,1
+SOC_111_2 THE_341_1 M,3
+SOC_201_1 SOC_346_1 L,1
+SOC_201_1 SWAG_205_1X M,3
+SOC_346_1 SPN_302_1 L,2
+SOC_346_1 SWAG_205_1X L,1
+SPN_201_1 THE_100_2 L,1
+SPN_202_1 TPJ_111_1 M,4
+SPN_202_2 TPJ_111_1 L,2
+SPN_302_1 SPN_337_1 L,1
+SPN_302_1 TPJ_111_1 L,2
+SWAG_205_1X THE_340_1 M,5
+SWAG_205_1X THE_341_1 M,3
+SWAG_205_1X TPJ_111_1 M,4
+THE_111_1 THE_112_1 L,1
+THE_111_1 THE_331_1 L,1
+THE_111_1 THE_341_1 M,4
+THE_111_1 THE_480_1 L,2
+THE_112_1 THE_135_1 M,3
+THE_112_1 THE_201_1 M,4
+THE_112_1 THE_331_1 L,1
+THE_112_1 THE_391_1 L,2
+THE_133_1 THE_136_1 M,3
+THE_133_1 THE_210_1 L,2
+THE_133_1 THE_325_1 L,2
+THE_133_1 THE_340_1 M,4
+THE_133_1 THE_341_1 L,2
+THE_133_1 THE_391_1 L,2
+THE_135_1 THE_325_1 M,5
+THE_135_1 THE_340_1 M,4
+THE_135_1 THE_341_1 M,4
+THE_135_1 THE_480_1 M,5
+THE_136_1 THE_210_1 M,3
+THE_136_1 THE_325_1 M,3
+THE_136_1 THE_340_1 M,5
+THE_136_1 THE_341_1 L,2
+THE_136_1 THE_480_1 L,2
+THE_201_1 THE_250G_1 L,1
+THE_201_1 THE_340_1 L,1
+THE_210_1 THE_250G_1 L,2
+THE_210_1 THE_325_1 M,4
+THE_210_1 THE_340_1 L,2
+THE_210_1 THE_480_1 M,5
+THE_250G_1 THE_340_1 L,1
+THE_323_1 THE_325_1 M,3
+THE_323_1 THE_341_1 M,4
+THE_325_1 THE_331_1 M,5
+THE_325_1 THE_340_1 H,13
+THE_325_1 THE_341_1 L,2
+THE_325_1 THE_391_1 L,1
+THE_325_1 THE_480_1 M,3
+THE_331_1 THE_340_1 L,2
+THE_331_1 THE_341_1 H,9
+THE_331_1 THE_480_1 M,5
+THE_340_1 THE_341_1 M,3
+THE_340_1 THE_391_1 L,2
+THE_340_1 THE_480_1 L,2
+
+
+

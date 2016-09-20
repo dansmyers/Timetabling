@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link href="./bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
+
+		<style>
+		
+		   
+		       body {
+						 font-size: 14pt;
+					 }
+		
+            h1 {
+                margin-bottom: 30px;   
+            }
+            
+            h3 {
+              margin-bottom: 25px;   
+            }
+            
+            p {
+              margin-bottom: 25px;  
+            }
+            
+            code {
+              color: black;
+              background-color: white;
+            }
+            
+            pre {
+                background-color: white;   
+            }
+						
+						.btn {
+							font-size: 14pt;
+						}
+						
+						.course_entry {
+							margin-top: 25px;
+							font-size: 14pt;
+						}
+						
+						.active_course_entry {
+							background-color: white;
+						}
+						
+						.course_info_item {
+							padding-bottom: 35px;
+							margin-bottom: 35px;
+					    border-bottom: solid #111111;
+							border-width: 1px;
+						}
+						
+						.instructor_select_box {
+							width: 400px;
+							font-size: 14pt;
+						}
+						
+						.title_entry_box {
+							width: 400px;
+							font-size: 14pt;
+						}
+						
+						.instructor_select_row {
+							margin-bottom: 10px;
+						}
+						
+						.course_button {
+							margin-bottom: 25px;
+						}
+						
+						.add_remove_buttons_col {
+							text-align: center;
+						}
+						
+						.add_button {
+							margin-top: 75px;
+							margin-bottom: 10px;
+						}
+						
+						.timeslot_filter_row {
+							margin-left: 0px;
+							margin-bottom: 30px;
+						}
+						
+						#timeslot_filter_box {
+							font-size: 14pt;
+						}
+						
+						.course_editing_filter_select {
+							font-size: 14pt;
+						}
+						
+						.course_editing_filter_row {
+							margin-bottom: 25px;
+						}
+						
+						.modal_row {
+							margin-bottom: 10px;
+						}
+            
+		</style>
+	</head>
+
+	<body>
+		<div class='container'>
+
+			<h1>Course Timetabling System</h1>
+
+			<!-- Nav tabs -->
+			<ul class="nav nav-tabs" role="tablist">
+	  		<li><a href="#timeslots" role="tab" data-toggle="tab">Timeslots</a></li>
+  			<li><a href="#rooms" role="tab" data-toggle="tab">Rooms</a></li>
+  			<li class = "active"><a href="#course_input" role="tab" data-toggle="tab">Course Input</a></li>
+  			<li><a href="#scheduling" role="tab" data-toggle="tab">Scheduling</a></li>      
+        <li><a href="#editing" role="tab" data-toggle="tab">Editing</a></li>      
+        <li><a href="#configuration" role="tab" data-toggle="tab">Configuration</a></li>
+			</ul>
+
+			<!-- Tab panes -->
+			<div class="tab-content">
+  				<div class="tab-pane active" id = "course_input">
+						
+						<div class = "row">
+
+	  					<div class = "col-lg-4">
+	              <h3>Courses</h3>
+								
+								<button class = "btn btn-primary course_button">Create New Course</button>
+															
+								<p class = "">Click on a course section below to edit its information.</p>
+								
+								<ul class = "list-group">
+								  <li class = "list-group-item">ICE 300 - Lecture 1</li>
+									<li class = "list-group-item active">CMS 167 - Lecture 1</li>
+									<li class = "list-group-item">CMS 167 - Lecture 2</li>
+									<li class = "list-group-item">CMS 167 - Lab 1</li>
+									<li class = "list-group-item">CMS 167 - Lab 2</li>
+									<li class = "list-group-item">CMS 230 - Lecture 1</li>
+									<li class = "list-group-item">CMS 230 - Lecture 2</li>
+								</ul>
+								
+								<!--
+								<div class = "course_entry active_course_entry active"> 
+									<p><a href=""> ICE 300 - Lecture 1</a></p>
+								</div>
+								<div class = "course_entry active_course_entry"> 
+									<p><a href=""> CMS 167 - Lecture 1</a></p>
+								</div>
+								<div class = "course_entry"> 
+									<p><a href=""> CMS 167 - Lecture 2</a></p>
+								</div>	
+								<div class = "course_entry"> 
+									<p><a href=""> CMS 167 - Lab 1</a></p>
+								</div>
+								<div class = "course_entry"> 
+									<p><a href=""> CMS 167 - Lab 2</a></p>
+								</div>	
+								<div class = "course_entry"> 
+									<p><a href=""> CMS 230 - Lecture 1</a></p>
+								</div>
+								<div class = "course_entry"> 
+									<p><a href=""> CMS 230 - Lecture 2</a></p>
+								</div>	
+							-->					
+								
+	            </div> <!-- course listing column -->
+
+							<div class = "col-lg-8">
+								<h3>Course Information for CMS 167 - Lecture 1</h3>
+								
+								<div class = "row course_info_item">
+									<div class = "col-lg-1"> 1. </div>
+									
+									<div class = "col-lg-11">
+					
+										<div class = "row instructor_select_row">
+											<div class = "col-lg-2">
+										    Instructor:
+											</div>
+											<div class = "col-lg-10">
+										    <select class = "form-control instructor_select_box">
+											    <option value = "Daniel Myers" selected>Daniel Myers</option>
+										    </select>
+											</div>
+										</div>
+										
+										<div class = "row">
+											<div class = "col-lg-2">
+											  Title:
+											</div>
+											<div class = "col-lg-10">
+											  <input type = "text" class = "form-control title_entry_box" value = "Introduction to Computer Science"></input>
+											</div>
+										</div>
+									</div> <!-- End of column with input boxes -->
+								</div> <!-- End instructor select and title input row -->
+								
+								<!--<div class = "row course_info_item">
+									<div class = "col-lg-1"> 2. </div>
+									<div class = "col-lg-11">
+									  <p> Check all that apply for this section.</p>
+											
+											<div class="checkbox">
+											  <label><input type="checkbox">RCC</label>
+											</div>
+											<div class="checkbox">
+											  <label><input type="checkbox" checked = "true">Neighborhood course</label>
+											</div>
+											<div class="checkbox">
+												<label><input type="checkbox" >This section is a lab</label>
+											</div>		
+									</div>
+								</div> <!-- End course attributes checkbox row -->
+								
+								<div class = "row course_info_item">
+									<div class = "col-lg-1"> 2. </div>
+									<div class = "col-lg-11">
+										<!--<p> Select a timeslot from the list below and click the Add button to add it to the list of acceptable timeslots. </p>
+										<p> Use the filter to narrow the list of timeslots.</p>-->
+										
+										<div class = "row timeslot_filter_row">
+										</label for = "timeslot_filter_box">Filter timeslots: </label>
+											<select class = "form-control" id = "timeslot_filter_box">
+												<option selected>MW for 75 minutes</option>
+											</select>										
+										</div> <!-- End timeslot filter row -->
+										
+										<div class = "row">
+										
+										  <div class = "col-lg-6">
+												<p style="text-align:center"><u>Timeslots</u></p>
+																							
+										    <ul class = "list-group filtered_timeslots_list">
+											    <li class = "list-group-item"> MW 8:30 - 9:45 </li>
+											    <li class = "list-group-item"> MW 10:00 - 11:15 </li>
+											    <li class = "list-group-item active"> MW 11:30 - 12:45 </li>
+											    <li class = "list-group-item"> MW 13:00 - 14:15 </li>
+											    <li class = "list-group-item"> MW 14:30 - 15:45 </li>
+										    </ul>
+												
+												<p style="text-align:center"><button class = "btn btn-primary">
+													Add Selected Timeslot to List of <br/> Acceptable Timeslots
+												</button></p>
+
+										  </div>
+										
+											
+											<div class = "col-lg-6">
+												<p style = "text-align:center"><u>Acceptable timeslots</u></p>
+																							
+												<ul class = "list-group filtered_timeslots_list">
+													<li class = "list-group-item"> MW 10:00 - 11:15 </li>
+													<li class = "list-group-item"> MW 11:30 - 12:45 </li>
+												</ul>
+												
+												<p style="text-align:center"><button class = "btn btn-danger">
+													Remove Selected Timeslot from List of <br/> Acceptable Timeslots
+												</button></p>
+
+											</div>
+										
+									  </div> <!-- End timeslot listing row -->
+
+											
+									</div>
+								</div> <!-- End suitable timeslots row -->
+								
+								<div class = "row course_info_item">
+									<div class = "col-lg-1"> 4. </div>
+									<div class = "col-lg-11">
+										<p>Select Acceptable Rooms</p>
+											
+									</div>
+								</div> <!-- End suitable rooms row -->
+							</div> <!-- End course information column -->		
+						</div> <!-- End row -->
+  				</div> <!-- End tab pane -->
+					
+					<div class = "tab-pane" id = "editing">
+						
+						<div class = "row">
+						  <div class = "col-lg-4">
+								
+								<h3>Courses</h3>
+								
+								<p> Select a course below to edit its scheduling information. </p>
+								
+								<div class = "row course_editing_filter_row">
+									<div class = "col-lg-5">
+										Filter by prefix:
+									</div>
+									<div class = "col-lg-7">
+										<select class = "form-control course_editing_filter_select">
+											<option value = "CMS" selected>CMS</option>
+										</select>
+									</div>
+								</div>
+															
+								<ul class = "list-group">
+									<li class = "list-group-item active">CMS 167 - Lecture 1</li>
+									<li class = "list-group-item">CMS 167 - Lecture 2</li>
+									<li class = "list-group-item">CMS 167 - Lab 1</li>
+									<li class = "list-group-item">CMS 167 - Lab 2</li>
+									<li class = "list-group-item">CMS 230 - Lecture 1</li>
+									<li class = "list-group-item">CMS 230 - Lecture 2</li>
+									<li class = "list-group-item">CMS 330 - Lecture 1</li>
+									<li class = "list-group-item">CMS 330 - Lecture 2</li>
+									<li class = "list-group-item">CMS 495 - Lecture 1</li>
+								</ul>
+					      
+						  </div> <!-- End of course listing column -->
+						
+						  <div class = "col-lg-8">
+								
+								<h3> Scheduled Course Information for CMS 167 - Lecture 1 </h3>
+			
+								<div class = "row course_info_item">
+									
+									<div class = "col-lg-4">
+										<h4> Current timeslot </h4>
+									</div>
+									
+									<div class = "col-lg-4">
+										MW 11:30 - 12:45
+									</div>
+									
+									<div class = "col-lg-4">
+										<button class = "btn btn-primary" data-toggle = "modal" data-target = "#timeslot_modal">
+											Alternate Timeslots
+										</button>
+									</div>
+								</div> <!-- End of timeslot row -->
+								
+								<div class = "row course_info_item">
+									
+									<div class = "col-lg-4">
+										<h4> Current room </h4>
+									</div>
+									
+									<div class = "col-lg-4">
+										BUSH 310
+									</div>
+									
+									<div class = "col-lg-4">
+										<button class = "btn btn-primary">Alternate Rooms</button>
+									</div>
+								</div> <!-- End of room row -->
+								
+								<div class = "row course_info_item">
+									<div class = "col-lg-12">
+										
+										<div class = "row">
+											<div class = "col-lg-4">
+												<h4> Heavy Conflicts </h4>
+											</div>
+											
+											<div class = "col-lg-8">
+												<ul class = "list-group">
+													<li class = "list-group-item"> None </li>
+												</ul>
+											</div>
+										</div>
+										
+										<div class = "row">
+											<div class = "col-lg-4">
+												<h4> Medium Conflicts </h4>
+											</div>
+											
+											<div class = "col-lg-8">
+												<ul class = "list-group">
+													<li class = "list-group-item"> MAT 210 - Lecture 1</li>
+												</ul>
+											</div>
+										</div>
+										
+										<div class = "row">
+											<div class = "col-lg-4">
+												<h4> Light Conflicts </h4>
+											</div>
+											
+											<div class = "col-lg-8">
+												<ul class = "list-group">
+													<li class = "list-group-item"> PHY 120 - Lab 1</li>
+													<li class = "list-group-item"> MAT 300 - Lecture 2</li>											
+												</ul>
+											</div>
+										</div>
+
+									</div>
+								</div> <!-- End of conflict row -->
+								
+						  </div> <!-- End of course editing column -->
+						</div> <!-- End row -->
+					</div> <!-- End tab pane -->
+			</div>
+			
+			<!-- Modal -->
+			<div id="timeslot_modal" class="modal fade" role="dialog">
+			  <div class="modal-dialog modal-lg">
+
+			    <!-- Modal content-->
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal">&times;</button>
+			        <h3 class="modal-title">Alternate Timeslots for CMS 167 - Lecture 1</h3>
+			      </div>
+			      <div class="modal-body">
+							
+							<div class = "row modal_row">
+								<div class = "col-lg-3">
+									<b>Current timeslot</b> <br/>
+									<b>Current room </b>
+								</div>
+								<div class = "col-lg-9">
+									 MW 11:30 - 12:45 <br/>
+									 BUSH 310
+								</div>
+							</div>
+							
+			        <div class = "row modal_row">
+								<div class = "col-lg-6">
+									<h4>Alternate Timeslots</h4>
+									
+									<ul class = "list-group">
+										<li class = "list-group-item"> MW 9:00 - 10:15  </li>
+										<li class = "list-group-item"> MW 10:30 - 11:15  </li>
+										<li class = "list-group-item active"> MW 13:00 - 14:15  </li>
+										<li class = "list-group-item"> MW 14:30 - 15:45  </li>
+									</ul>
+										
+										
+								</div>
+								
+								<div class = "col-lg-6">
+									<h4>Available rooms at selected alternate timeslot</h4>
+									<ul class = "list-group">
+											<li class = "list-group-item">BUSH 301</li>
+											<li class = "list-group-item">BUSH 201</li>
+									</ul>
+									
+								</div>
+							
+							</div>
+							
+							<div class = "row modal-row">
+								
+								<div class = "col-lg-12">
+													
+									<div class = "row">
+										<div class = "col-lg-6"> 
+											<h4> Conflicts under current timeslot </h4>
+										</div>
+										<div class = "col-lg-6"> 
+											<h4> Conflicts under alternate timeslot </h4>
+										</div>
+									</div>
+									
+									<div class = "row">
+										<div class = "col-lg-6">
+											Heavy conflicts 
+											<ul class = "list-group">
+												<li class = "list-group-item"> None </li>
+											</ul>
+										</div>
+										
+										<div class = "col-lg-6">
+											Heavy conflicts
+											<ul class = "list-group">
+												<li class = "list-group-item"> CMS 167 - Lecture 2 </li>
+											</ul>
+										</div>
+								  </div>
+									
+									<div class = "row">
+										<div class = "col-lg-6">
+											Medium conflicts
+											<ul class = "list-group">
+												<li class = "list-group-item"> MAT 210 - Lecture 1</li>
+											</ul>
+										</div>
+										
+										<div class = "col-lg-6">
+											Medium conflicts
+											<ul class = "list-group">
+												<li class = "list-group-item"> MAT 140 - Lecture 2  </li>
+											</ul>
+										</div>
+									</div>
+								 
+								  <div class = "row">
+									  <div class = "col-lg-6">
+										  Light conflicts
+										  <ul class = "list-group">	
+												<li class = "list-group-item"> PHY 120 - Lab 1</li>
+												<li class = "list-group-item"> MAT 300 - Lecture 2</li>									
+										  </ul>
+									  </div>
+									 
+									  <div class = "col-lg-6">
+										  Light conflicts
+										  <ul class = "list-group">
+												<li class = "list-group-item"> MAT 210 - Lecture 3 </li>
+										  </ul>
+									  </div>
+								  </div>
+							  </div>
+						 </div>
+						
+			      <div class="modal-footer">
+							<button type="button" class="btn btn-primary" data-dismiss="modal">Switch to Selected Timeslot</button>
+			        <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+			      </div>
+			    </div>
+
+			  </div>
+			</div>
+
+		</div> <!-- container -->
+
+		<!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    	
+    <!-- Bootstrap -->
+    <script src="./bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+
+  </body>
+
+</html>

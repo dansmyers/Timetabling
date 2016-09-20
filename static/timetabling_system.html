@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="./static/css/bootstrap.min.css" rel="stylesheet">
+  <title>Course Timetabling System</title>
+
+  <style>
+    body {
+      font-size: 14pt;
+    }
+    
+    .btn {
+      font-size: 14pt;
+    }
+    
+    .section_info_item {
+      padding-bottom: 3rem;
+      margin-bottom: 3rem;
+      border-bottom: solid #111111;
+      border-width: 1px;
+    }
+    
+    .room_filter_row {
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+    }
+    
+    .timeslot_filter_row {
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+    }
+    
+    .conflict_list_row {
+      margin-bottom: 2rem;
+    }
+    
+    .modal_row {
+			margin-bottom: 2rem;
+		}
+    
+    .start_time_form {
+      margin-left: 20px;
+      display: table;
+      width: 60%;
+      table-layout: fixed;
+    }
+    
+    .start_time_form span {
+      display: table-cell;
+    }
+    
+    .end_time_form {
+      margin-bottom: 25px;
+      margin-left: 20px;
+      display: table;
+      width: 60%;
+      table-layout: fixed;
+    }
+    
+    .end_time_form span {
+      display: table-cell;
+    }
+    
+    .time_label {
+      margin-right: 25px;
+    }
+    
+    .custom_timeslot_button_row {
+      margin-top: 3rem;
+    }
+    
+    #create_course_button {
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+    }
+    
+    #section_info_pane_header {
+      margin-bottom: 2rem;
+    }
+    
+    #save_delete_button_row {
+      margin-bottom: 3rem;
+    }
+    
+    #title_entry_box {
+      margin-bottom: 2rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Container for all page contents -->
+  <div class='container'>
+    <h1>Course Timetabling System</h1>
+
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+      <li class = "active"><a href="#course_creation" role="tab" data-toggle="tab">Create Courses</a></li>
+      <li><a href="#course_input" role="tab" data-toggle="tab">Section Details</a></li>
+      <li><a href="#scheduling_and_editing" id="scheduling_tab_link" role="tab" data-toggle="tab">Scheduling and Editing</a></li>
+      <!--<li><a href="#timeslots" role="tab" data-toggle="tab">Timeslots</a></li>
+      <li><a href="#rooms" role="tab" data-toggle="tab">Rooms</a></li>
+      <li><a href="#instructors" role="tab" data-toggle="tab">Instructors</a></li>-->
+    </ul>
+
+    <div class="tab-content">
+
+      <!-- Course creation tab pane -->
+      <div class="tab-pane active" id="course_creation">
+        <div class="row">
+          <!-- Left hand column listing sections -->
+          <div class="col-lg-5">
+            <h3> Course List </h3>
+
+            <p>Click the button below to create a new course. You will be prompted to enter the title, the number of lecture sections, and the number of lab sections. <br/>
+              <br/> Once a course has been created, click on its name to review the information you entered. You can delete selected courses if necessary.
+            </p>
+
+            <br/>
+
+            <button class="btn btn-primary" data-toggle="modal" data-target="#create_course_modal" id="create_course_button">
+                  Click to Create a New Course
+              </button>
+
+            <div class="list-group" id="list_of_created_courses">
+            </div>
+          </div>
+          <!-- End of left hand column listing courses -->
+
+          <!-- Right hand column listing information on each created course -->
+          <div class="col-lg-7 hidden" id="course_info_column">
+            <h3><span id = "course_name_in_info_panel"></span></h3>
+            <form>
+              <div class="form-group row">
+                <label class="col-sm-3 col-form-label">Title</label>
+                <div class="col-sm-9">
+                  <p class="form-control-static" id="course_title_in_info_panel"></p>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label class="col-sm-3 col-form-label">Number of Lectures</label>
+                <div class="col-sm-9">
+                  <p class="form-control-static" id="num_lectures_in_info_panel"></p>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label class="col-sm-3 col-form-label">Number of Labs</label>
+                <div class="col-sm-9">
+                  <p class="form-control-static" id="num_labs_in_info_panel"></p>
+                </div>
+              </div>
+            </form>
+          </div>
+          <!-- End of right-hand course information column -->
+        </div>
+        <!-- End of main row -->
+      </div>
+      <!-- End of course creation tab pane -->
+
+
+
+
+      <!-- Course input tab pane -->
+      <div class="tab-pane" id="course_input">
+        <div class="row">
+
+          <!-- Left hand column listing sections -->
+          <div class="col-lg-3">
+            <h3> Course Sections </h3>
+
+            <div class="row prefix_filter_row">
+              <div class="col-lg-12">
+                Filter by prefix:
+                <select class="form-control" id="prefix_filter_box">
+                  <option value = "-- Select --" selected>-- Select --</option>
+                </select>
+              </div>
+            </div>
+            <!-- End prefix filter row -->
+
+            <div class="list-group" id="list_of_created_sections">
+            </div>
+          </div>
+          <!-- End of left hand column listing courses -->
+
+          <!-- Right hand column listing information for a selected section -->
+          <!-- Column is initially hidden and appears when a section in the left-hand column is clicked -->
+          <div class="col-lg-9 hidden" id="section_info_input_column">
+            <h3 id="section_info_pane_header">
+              <span>Information for <span id = "section_name_in_input_panel"> SECTION NAME </span></span>
+            </h3>
+
+            <div class="row" id="save_delete_button_row">
+              <div class="col-lg-12">
+                <button class="btn btn-primary pull-left" id="save_section_button">Save All Section Information</button>
+                <button class="btn btn-danger pull-right" data-toggle="modal" data-target=#delete_warning_modal id="delete_section_button">Delete Section</button>
+              </div>
+            </div>
+
+            <div class="row section_info_item">
+              <div class="col-lg-1"> 1. </div>
+
+              <div class="col-lg-11">
+
+                <div class="row instructor_select_row">
+                  <div class="col-lg-2">
+                    Instructor:
+                  </div>
+                  <div class="col-lg-10">
+                    <select class="form-control" id="instructor_select_box">
+                        <option value = "-- Select --" selected>-- Select --</option>
+                      </select>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-lg-2">
+                    Title:
+                  </div>
+                  <div class="col-lg-10">
+                    <input type="text" class="form-control" id="title_entry_box"></input>
+                  </div>
+                </div>
+              </div>
+              <!-- End of column with input boxes -->
+            </div>
+            <!-- End instructor select and title input row -->
+
+            <!-- Suitable room selection -->
+            <div class="row section_info_item">
+              <div class="col-lg-1"> 2. </div>
+              <div class="col-lg-11">
+                <p> Select a room from the list below and click the Add button to add it to the list of acceptable rooms. </p>
+                <p> Use the filter to list all rooms in a particular building.</p>
+
+                <div class="row room_filter_row">
+                  <div class="col-lg-12">
+                    Filter by building:
+                    <select class="form-control" id="building_filter_box">
+                        <option value = "-- Select --" selected>-- Select --</option>
+                      </select>
+                  </div>
+                </div>
+                <!-- End room filter row -->
+
+                <div class="row">
+                  <div class="col-lg-6">
+                    <p style="text-align:center"><u>Available Rooms</u></p>
+
+                    <div class="list-group" id="available_rooms_list">
+                    </div>
+
+                    <p style="text-align:center"><button class="btn btn-primary" id="add_selected_room_button">
+                        Add Selected Room
+                      </button></p>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <p style="text-align:center"><u>Acceptable Rooms</u></p>
+
+                    <div class="list-group" id="acceptable_rooms_list">
+                    </div>
+
+                    <p style="text-align:center"><button class="btn btn-danger" id="remove_selected_room_button">
+                        Remove Selected Room
+                      </button></p>
+                  </div>
+
+                </div>
+                <!-- End timeslot listing row -->
+              </div>
+              <!-- End col-lg-11 -->
+            </div>
+            <!-- End suitable rooms row -->
+
+
+            <!-- Suitable timeslot selection -->
+            <div class="row section_info_item">
+              <div class="col-lg-1"> 3. </div>
+              <div class="col-lg-11">
+                <p> Select a timeslot from the list below and click the Add button to add it to the list of acceptable timeslots. </p>
+                <p> Use the filter to narrow the list of timeslots.</p>
+
+                <div class="row timeslot_filter_row">
+                  <div class="col-lg-12">
+                    </label for="timeslot_filter_box">Filter timeslots: </label>
+                    <select class="form-control" id="timeslot_filter_box">
+                        <option value = "-- Select --" selected>-- Select --</option>
+                        <option>MWF for 50 minutes</option>
+                        <option>TR for 75 minutes</option>
+                        <option>MW for 75 minutes</option>
+                      </select>
+                  </div>
+                </div>
+                <!-- End timeslot filter row -->
+
+                <div class="row">
+
+                  <div class="col-lg-6">
+                    <p style="text-align:center"><u>Available Timeslots</u></p>
+
+                    <div class="list-group" id="available_timeslots_list">
+                    </div>
+
+                    <p style="text-align:center"><button class="btn btn-primary" id="add_selected_timeslot_button">
+                        Add Selected Timeslot
+                      </button></p>
+
+                  </div>
+
+                  <div class="col-lg-6">
+                    <p style="text-align:center"><u>Acceptable Timeslots</u></p>
+
+                    <div class="list-group" id="acceptable_timeslots_list">
+                    </div>
+
+                    <p style="text-align:center"><button class="btn btn-danger" id="remove_selected_timeslot_button">
+                        Remove Selected Timeslot
+                      </button></p>
+
+                  </div>
+
+                </div>
+                <!-- End timeslot listing row -->
+
+                <!-- Custom timeslot button row -->
+                <div class="row custom_timeslot_button_row">
+                  <div class="col-lg-12">
+                    <button class="btn btn-primary center-block" data-target=#create_custom_timeslot_modal data-toggle="modal">
+                        Create Custom Timeslot
+                      </button>
+                  </div>
+                </div>
+                <!-- End custom timeslot button row -->
+
+              </div>
+            </div>
+            <!-- End suitable timeslots row -->
+
+            <!-- Conflicts selection -->
+            <div class="row section_info_item">
+              <div class="col-lg-1"> 4. </div>
+              <div class="col-lg-11">
+                <p> Select courses from the list below to add to this course's list of possible conflicts </p>
+                <p> For each possibly conflicting course, select the level of conflict</p>
+                <p> Use the filter to narrow the list of courses by prefix.</p>
+
+                <div class="row course_filter_row">
+                  <div class="col-lg-12">
+                    </label for="course_filter_box">Filter by prefix: </label>
+                    <select class="form-control" id="course_filter_box">
+                        <option value = "-- Select --" selected>-- Select --</option>
+                        <option value = "Test value">Test Value</option>
+                      </select>
+                  </div>
+                </div>
+                <!-- End course filter row -->
+
+                <div class="row">
+
+                  <div class="col-lg-6">
+                    <p style="text-align:center"><u>Courses</u></p>
+
+                    <div class="list-group" id="conflict_courses_list">
+                    </div>
+
+                    <p style="text-align:center"><button class="btn btn-primary" id="add_selected_course_button">
+                        Add Selected Course
+                      </button></p>
+
+                  </div>
+
+                  <div class="col-lg-6">
+                    <p style="text-align:center"><u>Conflicting Courses</u></p>
+
+                    <div class="list-group" id="conflicting_courses_list">
+                    </div>
+
+                    <p style="text-align:center"><button class="btn btn-danger" id="remove_selected_course_button">
+                        Remove Selected Conflicting Course
+                      </button></p>
+
+                  </div>
+
+                </div>
+                <!-- End course listing row -->
+
+              </div>
+              <!-- End of right hand section information column -->
+
+            </div>
+            <!-- End course input row -->
+
+          </div>
+          <!-- End of entire right-hand column -->
+
+        </div>
+        <!-- End of the row containing all tab content -->
+
+      </div>
+      <!-- End course input tab pane -->
+
+
+      <!-- Scheduling and Editing tab pane -->
+      <div class="tab-pane" id="scheduling_and_editing">
+        <div class="row">
+
+          <!-- Left hand column listing sections -->
+          <div class="col-lg-3">
+            <h3> Course Sections </h3>
+
+            <div class="row prefix_filter_row">
+              <div class="col-lg-12">
+                Filter by prefix:
+                <select class="form-control" id="scheduling_prefix_filter_box">
+                  <option value = "-- Select --" selected>-- Select --</option>
+                </select>
+              </div>
+            </div>
+            <!-- End prefix filter row -->
+
+            <div class="list-group" id="list_of_scheduled_sections">
+            </div>
+          </div>
+          <!-- End of left hand column listing courses -->
+
+          <!-- Right-hand column listing information on a selected section -->
+          <div class='col-lg-9 hidden' id = "scheduled_info_column">
+            <h3 id="section_info_pane_header">
+              <span>Information for <span id = "section_name_in_schedule_panel"> SECTION NAME </span></span>
+            </h3>
+
+            <!-- The scheduled timeslot with a button to change it -->
+            <div class="row section_info_item">
+
+              <div class="col-lg-4">
+                Current timeslot <br/><br/>
+                Current room
+              </div>
+
+              <div class="col-lg-4">
+                <span id="assigned_timeslot_span"></span> <br/><br/>
+                <span id="assigned_room_span"></span>
+
+              </div>
+
+              <div class="col-lg-4">
+                <button class="btn btn-primary" data-toggle="modal" data-target="#alternate_timeslot_modal" id="alternate_timeslot_button">
+										 View alternate rooms<br/>
+										 and timeslots
+								</button>
+              </div>
+            </div>
+            <!-- End of timeslot row -->
+
+            
+            <!-- Conflicts -->
+            <div class="row section_info_item">
+              <div class = "col-lg-12">
+										
+								<div class = "row conflict_list_row">
+									<div class = "col-lg-4">
+										Heavy Conflicts
+									</div>
+											
+									<div class = "col-lg-8">
+                    <div class="list-group" id="heavy_conflicts_list"></div>
+									</div>
+								</div>
+										
+								<div class = "row conflict_list_row">
+									<div class = "col-lg-4">
+									  Medium Conflicts
+									</div>
+											
+							  	<div class = "col-lg-8">
+                    <div class="list-group" id="medium_conflicts_list"></div>
+									</div>
+								</div>
+										
+								<div class = "row conflict_list_row">
+									<div class = "col-lg-4">
+										Light Conflicts 
+									</div>
+										
+									<div class = "col-lg-8">
+                    <div class="list-group" id="light_conflicts_list"></div>
+									</div>
+								</div>
+
+							</div>
+            </div>
+            <!-- End of room row -->
+
+          </div>
+          <!-- End right-hand column listing information on a selected section -->
+        </div>
+        <!-- End of row containing all tab content -->
+
+      </div>
+      <!-- End scheduling and editing tab pane -->
+
+    </div>
+    <!-- End all tab content -->
+
+  </div>
+  <!-- End container -->
+
+
+
+
+
+  <!-- Add course modal dialog -- appears when Add Course button is clicked -->
+  <div class="modal fade" id="create_course_modal" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Header -->
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h3 class="modal-title">Create Sections of a New Course</h3>
+        </div>
+        <!-- End modal header -->
+
+
+        <!-- Body -->
+        <div class="modal-body">
+          <div class="form-group">
+            <label for="dialog_course_prefix">Course prefix</label>
+            <input type="text" class="form-control" id="dialog_course_prefix">
+          </div>
+
+          <div class="form-group">
+            <label for="dialog_course_number">Course number</label>
+            <input type="text" class="form-control" id="dialog_course_number">
+          </div>
+
+          <div class="form-group">
+            <label for="as_radio">Program</label> </br>
+            <label class="radio-inline"><input type="radio" value="" checked = "" name = 'as_or_holt' id = "as_radio">Arts & Sciences</label>
+            <label class="radio-inline"><input type="radio" value="" name = 'as_or_holt' id = "holt_radio">Holt</label>
+
+            <div class="checkbox" id="crosslisted_checkbox_div">
+              <label><input type = "checkbox" value = "" id = "crosslisted_checkbox">Crosslisted</label>
+            </div>
+
+          </div>
+
+          <div class="form-group">
+            <label for="dialog_course_number">Course title</label>
+            <input type="text" class="form-control" id="dialog_course_title">
+          </div>
+
+          <div class="form-group">
+            <label for "dialog_num_lectures">Number of lecture sections</label>
+            <select class="form-control" id="dialog_num_lectures">
+                <option>0</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+          </div>
+
+          <div class="form-group">
+            <label for "dialog_num_labs">Number of lab sections</label>
+            <select class="form-control" id="dialog_num_labs">
+                <option>0</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+          </div>
+
+        </div>
+
+        <!-- Footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="createNewSections()">Create New Course Sections</button>
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+        </div>
+
+      </div>
+      <!-- End modal content -->
+    </div>
+    <!-- End modal dialog -->
+  </div>
+  <!-- End modal fade -->
+  
+  
+  <!-- Delete section modal dialog -- appears when Delete Section button is clicked -->
+  <div id="delete_warning_modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <div class="modal-content">
+
+        <!-- Header -->
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Delete Section</h4>
+        </div>
+
+        <!-- Body -->
+        <div class="modal-body">
+          <p>Are you sure you want to delete this section? All of its information will be deleted.</p>
+        </div>
+
+        <!-- Footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger pull-left" data-dismiss="modal" id="confirm_delete_button">Delete</button>
+          <button type=b utton class="btn btn-primary pull-right" data-dismiss="modal">Cancel</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Create timeslot modal -- appears when Create Custom Timeslot button is clicked -->
+  <div id="create_custom_timeslot_modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <div class="modal-content">
+
+        <!-- Header -->
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Create Custom Timeslot</h4>
+        </div>
+
+        <!-- Body -->
+        <div class="modal-body">
+          <p>Check the box for each day the section meets and then enter the start and end times for each selected day.
+          </p>
+
+          <br/>
+
+          <div class="custom_timeslot_day">
+            <div class="checkbox" id="monday_time_checkbox">
+              <label><input type = "checkbox" value = "">Monday</label>
+            </div>
+
+            <form class="span-8 form-inline hidden start_time_form" id="monday_start_time_form">
+              <span class="time_label">Start time:</span>
+              <span>
+                  <select id = "monday_start_hour_select"></select> :
+                  <select id = "monday_start_minute_select"></select>
+                  <select id = "monday_start_am_pm_select"></select>
+                </span>
+            </form>
+
+
+            <form class="span-8 form-inline hidden end_time_form" id="monday_end_time_form">
+              <span class="time_label">End time:</span>
+              <span>
+                  <select id = "monday_end_hour_select"></select> :
+                  <select id = "monday_end_minute_select"></select>
+                  <select id = "monday_end_am_pm_select"> </select>
+                </span>
+            </form>
+          </div>
+
+          <div class="custom_timeslot_day">
+            <div class="checkbox" id="tuesday_time_checkbox">
+              <label><input type = "checkbox" value = "">Tuesday</label>
+            </div>
+
+            <form class="span-8 form-inline hidden start_time_form" id="tuesday_start_time_form">
+              <span class="time_label">Start time:</span>
+              <span>
+                  <select id = "tuesday_start_hour_select"></select>
+                  <select id = "tuesday_start_minute_select"></select>
+                  <select id = "tuesday_start_am_pm_select"> </select>
+                </span>
+            </form>
+
+            <form class="span-8 form-inline hidden end_time_form" id="tuesday_end_time_form">
+              <span class="time_label">End time:</span>
+              <span>
+                  <select id = "tuesday_end_hour_select"></select>
+                  <select id = "tuesday_end_minute_select"></select>
+                  <select id = "tuesday_end_am_pm_select"> </select>
+                </span>
+            </form>
+          </div>
+
+          <div class="custom_timeslot_day">
+            <div class="checkbox" id="wednesday_time_checkbox">
+              <label><input type = "checkbox" value = "">Wednesday</label>
+            </div>
+
+            <form class="span-8 form-inline hidden start_time_form" id="wednesday_start_time_form">
+              <span class="time_label">Start time:</span>
+              <span>
+                  <select id = "wednesday_start_hour_select"></select>
+                  <select id = "wednesday_start_minute_select"></select>
+                  <select id = "wednesday_start_am_pm_select"> </select>
+                </span>
+            </form>
+
+            <form class="span-8 form-inline hidden end_time_form" id="wednesday_end_time_form">
+              <span class="time_label">End time:</span>
+              <span>
+                  <select id = "wednesday_end_hour_select"></select>
+                  <select id = "wednesday_end_minute_select"></select>
+                  <select id = "wednesday_end_am_pm_select"> </select>
+                </span>
+            </form>
+          </div>
+
+          <div class="custom_timeslot_day">
+            <div class="checkbox" id="thursday_time_checkbox">
+              <label><input type = "checkbox" value = "">Thursday</label>
+            </div>
+
+            <form class="span-8 form-inline hidden start_time_form" id="thursday_start_time_form">
+              <span class="time_label">Start time:</span>
+              <span>
+                  <select id = "thursday_start_hour_select"></select>
+                  <select id = "thursday_start_minute_select"></select>
+                  <select id = "thursday_start_am_pm_select"> </select>
+                </span>
+            </form>
+
+            <form class="span-8 form-inline hidden end_time_form" id="thursday_end_time_form">
+              <span class="time_label">End time:</span>
+              <span>
+                  <select id = "thursday_end_hour_select"></select>
+                  <select id = "thursday_end_minute_select"></select>
+                  <select id = "thursday_end_am_pm_select"> </select>
+                </span>
+            </form>
+          </div>
+
+          <div class="custom_timeslot_day">
+            <div class="checkbox" id="friday_time_checkbox">
+              <label><input type = "checkbox" value = "">Friday</label>
+            </div>
+
+            <form class="span-8 form-inline hidden start_time_form" id="friday_start_time_form">
+              <span class="time_label">Start time:</span>
+              <span>
+                  <select id = "friday_start_hour_select"></select>
+                  <select id = "friday_start_minute_select"></select>
+                  <select id = "friday_start_am_pm_select"> </select>
+                </span>
+            </form>
+
+            <form class="span-8 form-inline hidden end_time_form" id="friday_end_time_form">
+              <span class="time_label">End time:</span>
+              <span>
+                  <select id = "friday_end_hour_select"></select>
+                  <select id = "friday_end_minute_select"></select>
+                  <select id = "friday_end_am_pm_select"> </select>
+                </span>
+            </form>
+          </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary pull-left" data-dismiss="modal" id="create_custom_timeslot_button">Create</button>
+          <button type=b utton class="btn btn-danger pull-right" data-dismiss="modal">Cancel</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  
+  
+    <!-- Alternate timeslot modal -->
+  <div id="alternate_timeslot_modal" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+
+      <div class="modal-content">
+
+        <!-- Header -->
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Select Alternate Timeslot for <span id="modal_section_name_span"></span></h4>
+        </div>
+
+        <!-- Body -->
+        <div class="modal-body">
+          <div class = "row modal_row">
+						<div class = "col-lg-3">
+							<b>Current timeslot</b> <br/>
+							<b>Current room</b> 
+						</div>
+						<div class = "col-lg-9">
+							<span id="modal_assigned_timeslot_span"></span> <br/>
+							<span id="modal_assigned_room_span"></span>
+						</div>
+				  </div>
+				  
+				  <div class = "row modal_row">
+						<div class = "col-lg-6">
+              <h4>Acceptable timeslots</h4>
+              <div class="list-group" id="modal_acceptable_timeslots_list"></div>
+						</div>
+						<div class = "col-lg-6">
+						  <h4>Available rooms at selected timeslot</h4>
+              <div class="list-group" id="modal_available_rooms_list"></div>
+						</div>
+				  </div>
+				  
+          <div class = "row modal_row">
+						<div class = "col-lg-6">
+              <h4>Conflicts under current timeslot</h4>
+              Heavy
+              <div class="list-group" id="modal_current_heavy_conflicts"></div>
+              
+              <br/>
+              
+              Medium
+              <div class="list-group" id="modal_current_medium_conflicts"></div>
+              
+              <br/>
+              
+              Light
+              <div class="list-group" id="modal_current_light_conflicts"></div>
+
+						</div>
+						<div class = "col-lg-6">
+						  <h4>Conflicts under alternate timeslot</h4>
+              Heavy
+              <div class="list-group" id="modal_alternate_heavy_conflicts"></div>
+              
+              <br/>
+              
+              Medium
+              <div class="list-group" id="modal_alternate_medium_conflicts"></div>
+              
+              <br/>
+              
+              Light
+              <div class="list-group" id="modal_alternate_light_conflicts"></div>
+						</div>
+        </div>
+        <!-- End body -->
+
+        <!-- Footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary pull-left" data-dismiss="modal" id="switch_timeslot_button">Switch to Selected Timeslot and Room</button>
+          <button type=button class="btn btn-danger pull-right" data-dismiss="modal">Cancel</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <!-- Bootstrap -->
+  <script src="./static/js/bootstrap.min.js"></script>
+
+  <!-- Application logic -->
+  <script src="./static/js/timetabling_system.js"></script>
+
+</body>
+
+</html>
