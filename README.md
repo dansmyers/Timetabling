@@ -29,4 +29,4 @@ prompt$ python create_tables.py
 prompt$ python timetabling_server.py
 ```
 
-Navigate to `http://workspacename-username.c9users.io`, where `workspacename` is the name of the workspace that you are using for the timetabling project and `username` is you Cloud9 username.
+Navigate to `http://workspacename-username.c9users.io`, where `workspacename` is the name of the workspace that you are using for the timetabling project and `username` is your Cloud9 username.
